@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004338001_Example02_Tale10.zmx
+Title:	Nikon AI Nikkor 180mm f/2.8 ED (US 4,338,001 Example 2)
+Date:	11/7/2025 4:17:58 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9284378
+       1.0820000      0.99459407       2.9363855
+       2.1640000      0.99123235       2.9413605
+       3.2460000      0.99018878       2.9429101
+       4.3280000      0.97724812       2.9623309
+       5.4100000      0.94342910       3.0149587
+       6.4920000      0.91450040       3.0622740
+       7.5740000      0.90220007       3.0830784
+       8.6560000      0.88500135       3.1128918
+       9.7380000      0.86690559       3.1452132
+       10.820000      0.84318110       3.1891545
+       11.902000      0.81762320       3.2386155
+       12.984000      0.80509571       3.2637151
+       14.066000      0.78743272       3.3001165
+       15.148000      0.76471794       3.3487703
+       16.230000      0.74420974       3.3945978
+       17.312000      0.71717443       3.4579889
+       18.394000      0.68556781       3.5368023
+       19.476000      0.66170038       3.6000232
+       20.558000      0.59939261       3.7825119
+       21.640000      0.56210914       3.9059409

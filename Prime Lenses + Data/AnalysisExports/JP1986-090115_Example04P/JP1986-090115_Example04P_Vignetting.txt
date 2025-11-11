@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1986-090115_Example04P.zmx
+Title:	JP 1994-029897 Example 4 (Nikon UV-Micro-Nikkor 105mm f/4.5)
+Date:	11/7/2025 4:07:54 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.7189690
+       1.0285750      0.99980712       4.7194242
+       2.0571500      0.99922880       4.7207897
+       3.0857250      0.99826595       4.7230658
+       4.1143000      0.99692010       4.7262529
+       5.1428750      0.99519337       4.7303513
+       6.1714500      0.98689934       4.7501869
+       7.2000250      0.98444802       4.7560973
+       8.2286000      0.98112523       4.7641443
+       9.2571750      0.97443524       4.7804705
+       10.285750      0.96488530       4.8040695
+       11.314325      0.94862348       4.8450715
+       12.342900      0.91497036       4.9333692
+       13.371475      0.90430249       4.9623828
+       14.400050      0.87932570       5.0323663
+       15.428625      0.86857881       5.0634032
+       16.457200      0.86202928       5.0826022
+       17.485775      0.83807596       5.1547242
+       18.514350      0.81139510       5.2387894
+       19.542925      0.77537755       5.3590834
+       20.571500      0.74426847       5.4699369

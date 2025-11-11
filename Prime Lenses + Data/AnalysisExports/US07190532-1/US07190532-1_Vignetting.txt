@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US07190532-1.ZMX
+Title:	Olympus cellphone 
+Date:	11/7/2025 4:24:02 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0503014
+       1.6500000      0.99801896       3.0533273
+       3.3000000      0.99209532       3.0624292
+       4.9500000      0.98229083       3.0776747
+       6.6000000      0.96871921       3.0991586
+       8.2500000      0.95156080       3.1269756
+       9.9000000      0.93107998       3.1611803
+       11.550000      0.90764234       3.2017350
+       13.200000      0.88172828       3.2484439
+       14.850000      0.85394188       3.3008714
+       16.500000      0.82501259       3.3582457
+       18.150000      0.79578715       3.4193558
+       19.800000      0.76720976       3.4824565
+       21.450000      0.74026949       3.5452579
+       23.100000      0.71118375       3.6170278
+       24.750000      0.68993683       3.6722995
+       26.400000      0.66844560       3.7308666
+       28.050000      0.63142106       3.8386917
+       29.700000      0.58596690       3.9847971
+       31.350000      0.51800341       4.2381512
+       33.000000      0.39773072       4.8366893

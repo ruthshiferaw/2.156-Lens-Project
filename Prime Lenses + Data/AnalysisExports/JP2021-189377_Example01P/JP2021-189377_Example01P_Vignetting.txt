@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2021-189377_Example01P.zmx
+Title:	JP 2021-189377 Example 1 (Nikon Nikkor Z 24-50mm f/4-6.3)
+Date:	11/7/2025 4:14:47 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.2542054
+       1.0850000      0.99824878       4.2579353
+       2.1700000      0.99301036       4.2691515
+       3.2550000      0.98433025       4.2879335
+       4.3400000      0.97228361       4.3144156
+       5.4250000      0.95697397       4.3487896
+       6.5100000      0.93853301       4.3913058
+       7.5950000      0.91711855       4.4422778
+       8.6800000      0.89291237       4.5020886
+       9.7650000      0.86611724       4.5711988
+       10.850000      0.83695453       4.6501560
+       11.935000      0.80566120       4.7396059
+       13.020000      0.77248678       4.8403072
+       14.105000      0.73769035       4.9531491
+       15.190000      0.69722223       5.0948669
+       16.275000      0.66016933       5.2358932
+       17.360000      0.61211708       5.4375242
+       18.445000      0.55358604       5.7177596
+       19.530000      0.48773871       6.0915083
+       20.615000      0.43223252       6.4708263
+       21.700000      0.31511997       7.5784519

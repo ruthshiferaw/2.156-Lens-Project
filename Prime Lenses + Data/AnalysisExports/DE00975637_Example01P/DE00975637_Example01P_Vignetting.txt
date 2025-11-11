@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE00975637_Example01P.zmx
+Title:	DE 975 637 C Example 1 (Schneider Super-Angulon 8 / 90)
+Date:	11/7/2025 4:06:49 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       8.3826398
+       5.3500000      0.99414596       8.4072842
+       10.700000      0.97688520       8.4812339
+       16.050000      0.94908768       8.6045396
+       21.400000      0.90684789       8.8026530
+       26.750000      0.85985776       9.0399806
+       32.100000      0.77953422       9.4943057
+       37.450000      0.70475292       9.9853286
+       42.800000      0.63988067       10.479277
+       48.150000      0.55487413       11.253395
+       53.500000      0.46213929       12.330888
+       58.850000      0.40827141       13.119169
+       64.200000      0.35267479       14.115413
+       69.550000      0.27001642       16.131907
+       74.900000      0.23331050       17.354562
+       80.250000      0.20315485       18.598041
+       85.600000      0.17001775       20.329827
+       90.950000      0.14293821       22.172090
+       96.300000      0.10656796       25.678372
+       101.65000     0.090772653       27.822957
+       107.00000     0.076173905       30.372301

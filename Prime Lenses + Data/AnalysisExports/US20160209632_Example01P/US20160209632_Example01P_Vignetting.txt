@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20160209632_Example01P.zmx
+Title:	US 2016/0209632 Example 1 (Leica APO-Vario-Elmarit-SL 90-280mm F2.8-4)
+Date:	11/7/2025 4:26:43 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0774834
+       1.0815000      0.99952053       3.0782215
+       2.1630000      0.99878241       3.0793587
+       3.2445000      0.99675090       3.0824952
+       4.3260000      0.99509538       3.0850582
+       5.4075000      0.98494803       3.1009093
+       6.4890000      0.97240826       3.1208393
+       7.5705000      0.94257143       3.1698491
+       8.6520000      0.92096109       3.2068237
+       9.7335000      0.90688817       3.2316093
+       10.815000      0.89931001       3.2451966
+       11.896500      0.88571647       3.2700046
+       12.978000      0.83906479       3.3596805
+       14.059500      0.79985095       3.4410516
+       15.141000      0.74066280       3.5759008
+       16.222500      0.68197468       3.7265898
+       17.304000      0.65360339       3.8066117
+       18.385500      0.61757289       3.9160805
+       19.467000      0.55165239       4.1434583
+       20.548500      0.52716486       4.2386006
+       21.630000      0.46084256       4.5333519

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003038380_Example01P.zmx
+Title:	US 3,038,380 Example 1 (Zeiss Distagon 4/35)
+Date:	11/7/2025 4:16:06 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       4.1953376
+       1.0815000      0.99922785       4.1969582
+       2.1630000      0.99691405       4.2018259
+       3.2445000      0.99306648       4.2099579
+       4.3260000      0.98769842       4.2213828
+       5.4075000      0.98082806       4.2361416
+       6.4890000      0.97247750       4.2542904
+       7.5705000      0.96267290       4.2759000
+       8.6520000      0.95144361       4.3010589
+       9.7335000      0.93882136       4.3298757
+       10.815000      0.92010750       4.3736863
+       11.896500      0.90497170       4.4101099
+       12.978000      0.87967130       4.4730804
+       14.059500      0.85733690       4.5309697
+       15.141000      0.82105564       4.6299960
+       16.222500      0.73996597       4.8770930
+       17.304000      0.70816052       4.9854120
+       18.385500      0.64544759       5.2219947
+       19.467000      0.57843046       5.5162169
+       20.548500      0.51953459       5.8204918
+       21.630000      0.43007268       6.3972892

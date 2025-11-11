@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20120307129_Example01P.zmx
+Title:	US 2012/0307129 Example 1 (Sony DT 16-50mm F2.8 SSM)
+Date:	11/7/2025 4:26:15 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0336904
+      0.72000000      0.99932675       3.0347121
+       1.4400000      0.99730738       3.0377829
+       2.1600000      0.99394303       3.0429198
+       2.8800000      0.98923646       3.0501500
+       3.6000000      0.98319140       3.0595124
+       4.3200000      0.97581300       3.0710576
+       5.0400000      0.96710924       3.0848460
+       5.7600000      0.95709198       3.1009475
+       6.4800000      0.94577954       3.1194376
+       7.2000000      0.93320020       3.1403919
+       7.9200000      0.91939695       3.1638780
+       8.6400000      0.90443314       3.1899437
+       9.3600000      0.88397869       3.2266389
+       10.080000      0.86704581       3.2579937
+       10.800000      0.81523966       3.3599174
+       11.520000      0.78353391       3.4272229
+       12.240000      0.72154021       3.5714205
+       12.960000      0.67183970       3.7011648
+       13.680000      0.61429875       3.8706280
+       14.400000      0.53540418       4.1460103

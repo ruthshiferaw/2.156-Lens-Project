@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US005579169_Example01P.zmx
+Title:	US 5,579,169 Example 1 (Nikon R-UW AF Fisheye-Nikkor 13mm f/2.8)
+Date:	11/7/2025 4:18:54 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0047700
+       1.0800000      0.99954917       3.0054475
+       2.1600000      0.99820001       3.0074779
+       3.2400000      0.99596246       3.0108544
+       4.3200000      0.99285302       3.0155654
+       5.4000000      0.98889464       3.0215948
+       6.4800000      0.98411650       3.0289212
+       7.5600000      0.97855390       3.0375180
+       8.6400000      0.97224798       3.0473526
+       9.7200000      0.95983989       3.0669863
+       10.800000      0.94956405       3.0835366
+       11.880000      0.93519777       3.1071306
+       12.960000      0.88731522       3.1898648
+       14.040000      0.87252014       3.2167959
+       15.120000      0.85249679       3.2543545
+       16.200000      0.80807219       3.3426134
+       17.280000      0.76960430       3.4251334
+       18.360000      0.74027746       3.4923195
+       19.440000      0.66742854       3.6779756
+       20.520000      0.55621663       4.0289256
+       21.600000      0.41701443       4.6530283

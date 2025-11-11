@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004806003_Example02P.zmx
+Title:	US 4,806,003 Example 2 (Konica Minolta AF 35mm F1.4)
+Date:	11/7/2025 5:00:17 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

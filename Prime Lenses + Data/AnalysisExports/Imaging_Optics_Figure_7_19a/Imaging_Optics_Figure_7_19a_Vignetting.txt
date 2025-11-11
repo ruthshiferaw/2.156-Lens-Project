@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\Imaging_Optics_Figure_7_19a.zmx
+Title:	Petzval portrait lens (present-day glasses); Imaging Optics  p. 449
+Date:	11/7/2025 4:07:31 PM
+
+0 message(s) in output.
+Wavelength: 0.550000 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.6120351
+       1.2000000      0.99975570       4.6125986
+       2.4000000      0.99902347       4.6142887
+       3.6000000      0.99780533       4.6171044
+       4.8000000      0.99610463       4.6210442
+       6.0000000      0.99392607       4.6261058
+       7.2000000      0.99127567       4.6322862
+       8.4000000      0.98816078       4.6395814
+       9.6000000      0.97842361       4.6626106
+       10.800000      0.97444247       4.6721255
+       12.000000      0.96684068       4.6904569
+       13.200000      0.94505954       4.7442003
+       14.400000      0.90192562       4.8563194
+       15.600000      0.89120368       4.8854449
+       16.800000      0.86366349       4.9627263
+       18.000000      0.84709109       5.0110363
+       19.200000      0.78971615       5.1898774
+       20.400000      0.76234618       5.2822201
+       21.600000      0.71464675       5.4556550
+       22.800000      0.69074611       5.5492384
+       24.000000      0.63259552       5.7986854

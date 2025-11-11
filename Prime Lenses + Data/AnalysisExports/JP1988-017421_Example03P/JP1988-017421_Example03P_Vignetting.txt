@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1988-017421_Example03P.zmx
+Title:	JP 1988-017421 Example 3 (Canon EF15mm f2.8 Fisheye)
+Date:	11/7/2025 4:07:58 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9268969
+       4.5007500      0.99452280       2.9349456
+       9.0015000      0.99276010       2.9375500
+       13.502250      0.98883467       2.9433749
+       18.003000      0.98641378       2.9469845
+       22.503750      0.96481084       2.9797946
+       27.004500      0.93958248       3.0195343
+       31.505250      0.90559731       3.0756709
+       36.006000      0.84616217       3.1818567
+       40.506750      0.82199772       3.2282868
+       45.007500      0.79307360       3.2866289
+       49.508250      0.74871071       3.3825981
+       54.009000      0.70445309       3.4872363
+       58.509750      0.66741498       3.5826918
+       63.010500      0.62205262       3.7110248
+       67.511250      0.54990379       3.9469722
+       72.012000      0.51204220       4.0902942
+       76.512750      0.45790058       4.3253557
+       81.013500      0.41872546       4.5231682
+       85.514250      0.31518980       5.2134035
+       90.015000      0.23402983       6.0502290

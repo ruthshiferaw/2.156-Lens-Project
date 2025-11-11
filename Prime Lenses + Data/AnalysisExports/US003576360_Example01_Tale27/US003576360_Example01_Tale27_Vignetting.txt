@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003576360_Example01_Tale27.zmx
+Title:	Nikon AI Nikkor 35mm f/1.4S (US 3,576,360 Example 1)
+Date:	11/7/2025 4:16:27 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.4589908
+       1.0800000      0.99958944       1.4592904
+       2.1600000      0.99408710       1.4633235
+       3.2400000      0.99197213       1.4648826
+       4.3200000      0.98406526       1.4707559
+       5.4000000      0.97869907       1.4747825
+       6.4800000      0.97237830       1.4795680
+       7.5600000      0.95182094       1.4954604
+       8.6400000      0.91493013       1.5253117
+       9.7200000      0.84741696       1.5849077
+       10.800000      0.82533500       1.6059700
+       11.880000      0.80077942       1.6304073
+       12.960000      0.75524681       1.6788354
+       14.040000      0.68059166       1.7685170
+       15.120000      0.62338269       1.8478861
+       16.200000      0.58787637       1.9028719
+       17.280000      0.50503190       2.0530199
+       18.360000      0.43653883       2.2082138
+       19.440000      0.38694310       2.3454653
+       20.520000      0.31296202       2.6079949
+       21.600000      0.23945174       2.9815600

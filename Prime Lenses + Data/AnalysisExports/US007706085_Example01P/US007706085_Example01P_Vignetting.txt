@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US007706085_Example01P.zmx
+Title:	US 7,706,085 Example 1 (Olympus Zuiko Digital 25mm F2.8)
+Date:	11/7/2025 4:19:14 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0491366
+      0.55750000      0.99950544       3.0498908
+       1.1150000      0.99802708       3.0521489
+       1.6725000      0.99557960       3.0558982
+       2.2300000      0.99218341       3.0611238
+       2.7875000      0.98785842       3.0678175
+       3.3450000      0.98261515       3.0759916
+       3.9025000      0.97644211       3.0856995
+       4.4600000      0.96391552       3.1056849
+       5.0175000      0.95590269       3.1186744
+       5.5750000      0.94424152       3.1378727
+       6.1325000      0.90700010       3.2016452
+       6.6900000      0.87599246       3.2578170
+       7.2475000      0.85399610       3.2995061
+       7.8050000      0.81010944       3.3877007
+       8.3625000      0.77075749       3.4731057
+       8.9200000      0.74153317       3.5408831
+       9.4775000      0.67794496       3.7032212
+       10.035000      0.66196184       3.7476618
+       10.592500      0.61279486       3.8951063
+       11.150000      0.56146704       4.0692534

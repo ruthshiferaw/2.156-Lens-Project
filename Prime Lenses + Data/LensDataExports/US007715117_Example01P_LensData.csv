@@ -1,0 +1,27 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,Inf,Inf,"",Inf,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Standard,,61.8800000000001,2.994,"1.83,42.7",28.34,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+2,Standard,,27.026,8.344,"",22.385,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+3,Standard,,71.7470000000002,3,"1.58,59.4",22.66,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+4,Even Asphere,,25.706,6.931,"",20.26,0,0,-5.5766e-06,-9.4059e-09,5.8455e-12,-3.1703e-14,0,0,0
+5,Standard,,92.7059999999997,4.947,"1.88,40.8",20.53,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+6,Standard,,-127.713,0.697,"",20.53,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+7,Standard,,-97.4669999999996,2.5,"1.50,81.5",19.93,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+8,Standard,,39.023,5.825,"1.83,42.7",18.4,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+9,Standard,,-1070.546,3.788,"",20.1,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+10,Standard,,46.333,5.979,"1.83,42.7",14.85,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+11,Standard,,-47.2480000000001,1.9,"1.55,45.8",14.85,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+12,Standard,,21.482,5.068,"",11.995,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+13,Standard,,-53.6870000000001,1.4,"1.65,39.7",11.995,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+14,Standard,,197.561,0.15,"",12.83,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+15,Standard,,29.239,6.73,"1.43,95.1",13.54,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+16,Standard,,-44.333,2.594,"",13.54,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+17,Standard,,Inf,7.213,"",12.106,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+18,Standard,,-17.904,3.777,"1.60,60.6",12.51,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+19,Standard,,-15.383,2.15,"1.81,25.4",13.27,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+20,Standard,,-48.206,0.25,"",15.29,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+21,Standard,,97.9219999999997,8.536,"1.62,63.3",17.39,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+22,Standard,,-29.308,0.25,"",17.39,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+23,Even Asphere,,-162.434,5.284,"1.80,46.6",18.04,0,0,-1.0998e-05,-1.4815e-09,-9.3621e-12,-5.3115e-15,0,0,0
+24,Standard,,-36.488,38.799,"",18.71,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+25,Standard,,Inf,Inf,"",21.64,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

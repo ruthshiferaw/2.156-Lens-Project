@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004154509_Example01P.zmx
+Title:	US 4,154,509 Example 1 (Ricoh smc Pentax-M 40mm F2.8)
+Date:	11/7/2025 4:58:21 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

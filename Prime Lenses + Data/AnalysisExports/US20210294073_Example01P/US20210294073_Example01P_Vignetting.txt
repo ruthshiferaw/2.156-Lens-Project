@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20210294073_Example01P.zmx
+Title:	US 2021/0294073 Example 1 (Fujifilm Fujinon GF80mm F1.7 R WR)
+Date:	11/7/2025 4:27:50 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.8411393
+       1.3675000      0.99928449       1.8417983
+       2.7350000      0.99714139       1.8437765
+       4.1025000      0.98780067       1.8524734
+       5.4700000      0.98257323       1.8573946
+       6.8375000      0.97316439       1.8663519
+       8.2050000      0.95985850       1.8792434
+       9.5725000      0.93914004       1.8998594
+       10.940000      0.88810902       1.9536803
+       12.307500      0.86651652       1.9778722
+       13.675000      0.84999727       1.9969992
+       15.042500      0.81413937       2.0405031
+       16.410000      0.76235210       2.1086711
+       17.777500      0.73049632       2.1541584
+       19.145000      0.68345967       2.2270512
+       20.512500      0.62569904       2.3275762
+       21.880000      0.55562961       2.4699830
+       23.247500      0.49808146       2.6087740
+       24.615000      0.47810228       2.6627245
+       25.982500      0.43404035       2.7946125
+       27.350000      0.34481455       3.1354065

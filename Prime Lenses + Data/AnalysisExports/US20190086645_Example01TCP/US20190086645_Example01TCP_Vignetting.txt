@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20190086645_Example01TCP.zmx
+Title:	US 2019/0086645 Example 1 TC (Fujifilm Fujinon GF1.4X TC WR)
+Date:	11/7/2025 4:27:16 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       52.123893
+       1.4325000      0.99954800       52.135677
+       2.8650000      0.99820184       52.170820
+       4.2975000      0.99599107       52.228689
+       5.7300000      0.99296520       52.308207
+       7.1625000      0.98919412       52.407818
+       8.5950000      0.98476873       52.525442
+       10.027500      0.97980190       52.658405
+       11.460000      0.97442977       52.803361
+       12.892500      0.96881364       52.956189
+       14.325000      0.96314255       53.111866
+       15.757500      0.95763685       53.264324
+       17.190000      0.95255316       53.406268
+       18.622500      0.94819114       53.528971
+       20.055000      0.94490300       53.622027
+       21.487500      0.94310678       53.673067
+       22.920000      0.94330508       53.667425
+       24.352500      0.94611206       53.587754
+       25.785000      0.95229285       53.413567
+       27.217500      0.96282264       53.120689
+       28.650000      0.77746939       59.114660

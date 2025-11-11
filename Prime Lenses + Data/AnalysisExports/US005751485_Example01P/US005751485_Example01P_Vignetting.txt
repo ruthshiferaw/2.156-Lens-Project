@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US005751485_Example01P.zmx
+Title:	US 5,751,485 Example 1 (Nikon AF Micro-Nikkor 60mm f/2.8D)
+Date:	11/7/2025 4:18:56 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99872337       5.3663296
+       1.0800000      0.99961764       5.3639287
+       2.1600000       1.0000000       5.3629031
+       3.2400000      0.99873322       5.3663031
+       4.3200000      0.98957952       5.3910654
+       5.4000000      0.98746098       5.3968454
+       6.4800000      0.98097505       5.4146572
+       7.5600000      0.97143680       5.4411748
+       8.6400000      0.95752028       5.4805729
+       9.7200000      0.94185778       5.5259543
+       10.800000      0.92149886       5.5866640
+       11.880000      0.90141393       5.6485609
+       12.960000      0.86140342       5.7782543
+       14.040000      0.82637875       5.8994345
+       15.120000      0.81214686       5.9509002
+       16.200000      0.79933296       5.9984092
+       17.280000      0.77182654       6.1043594
+       18.360000      0.73798937       6.2427350
+       19.440000      0.69920467       6.4135397
+       20.520000      0.63542890       6.7276977
+       21.600000      0.55332891       7.2095518

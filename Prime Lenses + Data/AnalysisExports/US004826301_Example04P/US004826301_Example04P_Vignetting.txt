@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004826301_Example04P.zmx
+Title:	US 4,826,301 Example 4 (Canon EF135mm f2.8 Soft Focus)
+Date:	11/7/2025 4:18:36 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       3.5619576
+       1.0800000      0.99978750       3.5623361
+       2.1600000      0.99915074       3.5634711
+       3.2400000      0.99809197       3.5653606
+       4.3200000      0.99661494       3.5680017
+       5.4000000      0.99472491       3.5713897
+       6.4800000      0.99242864       3.5755191
+       7.5600000      0.98973444       3.5803823
+       8.6400000      0.98086682       3.5965303
+       9.7200000      0.97743988       3.6028296
+       10.800000      0.97086221       3.6150137
+       11.880000      0.96043879       3.6345772
+       12.960000      0.94579939       3.6625978
+       14.040000      0.90699352       3.7401296
+       15.120000      0.84545871       3.8738477
+       16.200000      0.81433820       3.9471746
+       17.280000      0.75228259       4.1067497
+       18.360000      0.72081808       4.1954245
+       19.440000      0.67585771       4.3327248
+       20.520000      0.58308794       4.6646785
+       21.600000      0.54557375       4.8223864

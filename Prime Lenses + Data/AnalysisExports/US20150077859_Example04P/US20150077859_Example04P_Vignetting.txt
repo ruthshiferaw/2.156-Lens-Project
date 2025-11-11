@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20150077859_Example04P.zmx
+Title:	US 2015/0077859 Example 4 (Sony FE 28-70mm F3.5-5.6 OSS)
+Date:	11/7/2025 4:26:28 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       3.7607170
+       1.0815000      0.99871468       3.7631362
+       2.1630000      0.98987566       3.7799002
+       3.2445000      0.98358013       3.7919777
+       4.3260000      0.97460888       3.8093903
+       5.4075000      0.96313874       3.8320064
+       6.4890000      0.94775637       3.8629786
+       7.5705000      0.93221487       3.8950464
+       8.6520000      0.91461662       3.9323404
+       9.7335000      0.88477853       3.9980973
+       10.815000      0.86378002       4.0464024
+       11.896500      0.83238411       4.1220074
+       12.978000      0.79782313       4.2103417
+       14.059500      0.76572674       4.2976767
+       15.141000      0.73209979       4.3952695
+       16.222500      0.69502223       4.5109842
+       17.304000      0.66893100       4.5981167
+       18.385500      0.64064814       4.6985177
+       19.467000      0.61006193       4.8148603
+       20.548500      0.53836286       5.1254631
+       21.630000      0.48106076       5.4221395

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004266860_Example02P.zmx
+Title:	US 4,266,860 Example 2 (Nikon AI Zoom-Nikkor 35-70mm f/3.5)
+Date:	11/7/2025 4:17:47 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.6641724
+       1.0800000      0.99909605       3.6658297
+       2.1600000      0.99638831       3.6708073
+       3.2400000      0.99188918       3.6791231
+       4.3200000      0.98561918       3.6908069
+       5.4000000      0.97760698       3.7059005
+       6.4800000      0.96788964       3.7244571
+       7.5600000      0.95651161       3.7465435
+       8.6400000      0.94352594       3.7722371
+       9.7200000      0.92899068       3.8016333
+       10.800000      0.91297304       3.8348371
+       11.880000      0.89554643       3.8719688
+       12.960000      0.87679114       3.9131620
+       14.040000      0.85291650       3.9675521
+       15.120000      0.83064472       4.0203906
+       16.200000      0.79074939       4.1205621
+       17.280000      0.74989119       4.2313288
+       18.360000      0.71437705       4.3352301
+       19.440000      0.66251908       4.5017016
+       20.520000      0.61795214       4.6612080
+       21.600000      0.52229008       5.0701407

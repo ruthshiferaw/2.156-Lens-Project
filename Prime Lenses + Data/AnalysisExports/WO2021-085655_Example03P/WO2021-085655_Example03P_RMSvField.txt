@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2021-085655_Example03P.zmx
+Title:	WO 2021/085655 Example 3 (Samyang AF 85mm F1.4 FE/F/RF)
+Date:	11/7/2025 5:16:55 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

@@ -1,0 +1,34 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,Inf,Inf,"",0,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Standard,,Inf,8.460000000146,"",32,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+2,Even Asphere,,64.361,3,"E-LASFH2",25,0,0,-8.262e-06,1.472e-08,-1.057e-11,7.575e-15,-2.361e-18,0,0
+3,Even Asphere,,14.627,11.25,"",17,-0.983,0,-6.389e-06,-3.01e-08,8.699e-11,0,0,0,0
+4,Standard,,-118.914,1.55,"N-LASF31A",17,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+5,Standard,,261.338,2.85,"",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+6,Standard,,-57.268,1.5,"N-LASF31A",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+7,Standard,,52.742,0.4,"1.55,38.1",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+8,Even Asphere,,96.287,1.5,"",16,7.352,0,1.862e-05,1.672e-08,-3.678e-11,0,0,0,0
+9,Standard,,42.407,6.4,"J-SF15",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+10,Standard,,-65.202,11.94,"",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+11,Standard,,36.176,1.05,"N-SF57",12.2,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+12,Standard,,19.297,4.95,"E-F5",11.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+13,Standard,,-121.274,4.7,"",11.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+14,Standard,,65.31,3.1,"E-K3",11.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+15,Standard,,-65.31,6,"",11.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+16,Standard,,Inf,3.26,"",7.357110982396,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+17,Standard,,-137.621,2.1,"E-BASF7",8.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+18,Standard,,-31.799,1,"N-LASF31A",8.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+19,Standard,,35.395,2.9,"",8.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+20,Standard,,-24.463,0.8,"N-LASF31A",8.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+21,Standard,,-40.108,0.15,"",9.3,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+22,Standard,,75.282,2.7,"N-SF57",11,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+23,Standard,,-61.234,5.96,"",11,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+24,Standard,,29.863,8,"E-FKH1",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+25,Standard,,-43.301,1.1,"E-LASF010",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+26,Standard,,75.908,5.95,"E-FKH1",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+27,Standard,,-47.092,0.15,"",16,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+28,Standard,,39.817,1.1,"N-LASF31A",16.6,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+29,Standard,,20.5,12.15,"E-FK5",15.6,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+30,Standard,,-40.025,1.6,"M-NBFD13",16.6,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+31,Even Asphere,,-72.448,50.93,"",16.6,11.401,0,1.208e-05,1.539e-08,-2.918e-11,1.594e-13,4.038e-18,0,0
+32,Standard,,Inf,Inf,"",21.69161427521,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

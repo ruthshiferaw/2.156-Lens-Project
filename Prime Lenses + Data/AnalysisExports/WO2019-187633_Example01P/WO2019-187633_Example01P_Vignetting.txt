@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2019-187633_Example01P.zmx
+Title:	WO 2019/187633 Example 1 (Sony FE 135mm F1.8 GM)
+Date:	11/7/2025 4:28:04 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.9379071
+       1.0816500      0.99401805       1.9437295
+       2.1633000      0.99109401       1.9465947
+       3.2449500      0.97034342       1.9672983
+       4.3266000      0.95164040       1.9865364
+       5.4082500      0.91567367       2.0251752
+       6.4899000      0.89607331       2.0472043
+       7.5715500      0.87854893       2.0675212
+       8.6532000      0.85601131       2.0945619
+       9.7348500      0.83399598       2.1220273
+       10.816500      0.80244340       2.1633448
+       11.898150      0.76598637       2.2142285
+       12.979800      0.75097171       2.2362542
+       14.061450      0.70698909       2.3047647
+       15.143100      0.66614724       2.3743669
+       16.224750      0.61616235       2.4687970
+       17.306400      0.59372024       2.5150234
+       18.388050      0.55741244       2.5956410
+       19.469700      0.50862789       2.7172705
+       20.551350      0.48540836       2.7815017
+       21.633000      0.44834131       2.8942003

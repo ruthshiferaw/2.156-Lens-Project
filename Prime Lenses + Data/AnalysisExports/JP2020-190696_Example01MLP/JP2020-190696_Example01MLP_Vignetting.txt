@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2020-190696_Example01MLP.zmx
+Title:	JP 2020-190696 Example 1 ML (Canon EF17-40mm f4L USM)
+Date:	11/7/2025 4:14:37 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.3276854
+       1.0820000      0.99864800       4.3306139
+       2.1640000      0.99459725       4.3394237
+       3.2460000      0.98786586       4.3541832
+       4.3280000      0.97848208       4.3750119
+       5.4100000      0.96648677       4.4020779
+       6.4920000      0.95193465       4.4355973
+       7.5740000      0.93489611       4.4758343
+       8.6560000      0.91545926       4.5230998
+       9.7380000      0.89372811       4.5777595
+       10.820000      0.86982538       4.6402315
+       11.902000      0.84389671       4.7109776
+       12.984000      0.81611469       4.7904916
+       14.066000      0.78667943       4.8792917
+       15.148000      0.75320655       4.9865323
+       16.230000      0.71637365       5.1131188
+       17.312000      0.65610997       5.3427809
+       18.394000      0.57234969       5.7203810
+       19.476000      0.46344358       6.3570737
+       20.558000      0.37610007       7.0567376
+       21.640000      0.24110150       8.8136484

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2003-185916_Example01P.zmx
+Title:	JP 2003-185916 Example 1 (Phase One Schneider Kreuznach 120mm LS f4 Macro)
+Date:	11/7/2025 4:08:15 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.1871642
+       1.7425000      0.99964808       4.1879012
+       3.4850000      0.99859463       4.1901096
+       5.2275000      0.99086480       4.2064215
+       6.9700000      0.98849069       4.2114699
+       8.7125000      0.98453784       4.2199158
+       10.455000      0.97844934       4.2330249
+       12.197500      0.96819157       4.2553898
+       13.940000      0.95780819       4.2783934
+       15.682500      0.92880638       4.3446760
+       17.425000      0.89596093       4.4235960
+       19.167500      0.87941740       4.4650103
+       20.910000      0.87071803       4.4872599
+       22.652500      0.85895465       4.5178819
+       24.395000      0.82410353       4.6124227
+       26.137500      0.77695981       4.7502965
+       27.880000      0.73824589       4.8732588
+       29.622500      0.68940604       5.0429243
+       31.365000      0.67892210       5.0817117
+       33.107500      0.65743217       5.1640985
+       34.850000      0.62016223       5.3170083

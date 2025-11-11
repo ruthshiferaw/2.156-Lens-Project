@@ -1,0 +1,26 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,Inf,Inf,"",Inf,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Standard,,73.915,5.76,"1.52,64.1",25.14,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+2,Standard,,532.171,0.1,"",25.14,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+3,Standard,,89.3480000000003,1.6,"1.81,25.4",24.71,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+4,Standard,,54.347,1.23,"",23.86,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+5,Standard,,67.1319999999999,6.37,"1.52,64.1",23.86,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+6,Standard,,-2630.845,2.85,"",23.86,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+7,Standard,,-442.085,1.2,"1.73,51.5",12.485,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+8,Standard,,18.713,4.76,"1.81,25.4",12.485,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+9,Standard,,55.1490000000001,2.75,"",12.485,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+10,Standard,,-52.0659999999999,1,"1.81,40.9",11.95,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+11,Standard,,187.704,29.05,"",11.95,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+12,Standard,,Inf,0,"",12.4045,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+13,Standard,,34.305,4.75,"1.49,70.2",12.77,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+14,Standard,,-120.745,0.1,"",12.77,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+15,Standard,,28.015,5.29,"1.52,64.1",12.51,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+16,Standard,,-135.711,1.1,"1.81,25.4",12.51,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+17,Standard,,55.039,1.23,"",12.51,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+18,Standard,,65.753,2,"1.53,56.3",11.605,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+19,Even Asphere,,80.1109999999997,21.12,"",11.605,0,0,7.8128e-06,1.3296e-09,7.7529e-12,0,0,0,0
+20,Standard,,47.9260000000001,3.2,"1.65,33.8",9.18,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+21,Standard,,-47.9260000000001,4.64,"",9.18,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+22,Standard,,-25.014,1.1,"1.80,46.6",8.93,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+23,Standard,,252.943,58.29,"",8.93,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+24,Standard,,Inf,Inf,"",21.6,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

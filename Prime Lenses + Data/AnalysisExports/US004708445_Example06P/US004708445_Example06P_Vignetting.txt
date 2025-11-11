@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004708445_Example06P.zmx
+Title:	US 4,708,445 Example 6 (Olympus Zuiko Auto-Macro 50mm F2)
+Date:	11/7/2025 4:18:26 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.1590903
+       1.0800000      0.99947884       2.1596531
+       2.1600000      0.99234276       2.1674044
+       3.2400000      0.98310265       2.1775662
+       4.3200000      0.97718389       2.1841509
+       5.4000000      0.95785857       2.2060741
+       6.4800000      0.92079466       2.2500357
+       7.5600000      0.86866082       2.3165713
+       8.6400000      0.82578238       2.3759538
+       9.7200000      0.78427825       2.4380113
+       10.800000      0.74191401       2.5066518
+       11.880000      0.68247865       2.6135226
+       12.960000      0.64864947       2.6808083
+       14.040000      0.58228484       2.8294567
+       15.120000      0.54037398       2.9371328
+       16.200000      0.48920915       3.0869067
+       17.280000      0.44867766       3.2233211
+       18.360000      0.38529625       3.4783510
+       19.440000      0.30804686       3.8901147
+       20.520000      0.28553062       4.0405869
+       21.600000      0.25523646       4.2736549

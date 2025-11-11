@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2004-101880_Example02P.zmx
+Title:	JP 2004-101880 Example 2 (Cosina Voigtlander Nokton 35mm F1.2 Aspherical)
+Date:	11/7/2025 4:08:16 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.2990243
+       1.0820000      0.99864577       1.2999047
+       2.1640000      0.99461010       1.3025393
+       3.2460000      0.98796379       1.3069132
+       4.3280000      0.97878268       1.3130284
+       5.4100000      0.96110922       1.3250458
+       6.4920000      0.93734877       1.3417347
+       7.5740000      0.91611098       1.3571980
+       8.6560000      0.87461618       1.3890200
+       9.7380000      0.82373843       1.4312734
+       10.820000      0.76561003       1.4846137
+       11.902000      0.70940499       1.5423046
+       12.984000      0.63770072       1.6267050
+       14.066000      0.57977433       1.7060343
+       15.148000      0.50539251       1.8272706
+       16.230000      0.46321216       1.9086543
+       17.312000      0.39463484       2.0678525
+       18.394000      0.34464209       2.2127538
+       19.476000      0.28880548       2.4172109
+       20.558000      0.24815798       2.6076730
+       21.640000      0.19058660       2.9755762

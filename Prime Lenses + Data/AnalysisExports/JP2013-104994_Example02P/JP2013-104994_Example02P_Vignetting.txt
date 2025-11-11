@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2013-104994_Example02P.zmx
+Title:	JP 2013-104994 Example 2 (Sigma APO Macro 180mm F2.8 EX DG OS HSM)
+Date:	11/7/2025 4:08:29 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0581605
+       1.0815000      0.99981782       3.0584391
+       2.1630000      0.99354869       3.0680731
+       3.2445000      0.98586139       3.0800116
+       4.3260000      0.98206015       3.0859667
+       5.4075000      0.95409316       3.1308689
+       6.4890000      0.91048582       3.2049679
+       7.5705000      0.87710003       3.2653949
+       8.6520000      0.82339474       3.3702043
+       9.7335000      0.76153885       3.5044046
+       10.815000      0.72986629       3.5796340
+       11.896500      0.68942675       3.6831229
+       12.978000      0.66786479       3.7421053
+       14.059500      0.60468036       3.9327591
+       15.141000      0.54079911       4.1585535
+       16.222500      0.51174857       4.2749591
+       17.304000      0.45194308       4.5490259
+       18.385500      0.42986892       4.6643621
+       19.467000      0.40028364       4.8336629
+       20.548500      0.36841945       5.0383578
+       21.630000      0.27701887       5.8103942

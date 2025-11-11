@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE01241637_Example01P.zmx
+Title:	DE 1,241,637 Example 1 (Zeiss Hologon f8 15mm)
+Date:	11/7/2025 4:46:51 PM
+
+1 message(s) in output.
+Cannot compute when chief ray cannot be traced
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

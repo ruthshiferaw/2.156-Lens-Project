@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US07196855-1.ZMX
+Title:	Konica cellphone lens
+Date:	11/7/2025 4:24:03 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       2.9568153
+      0.10600000      0.99818814       2.9594976
+      0.21200000      0.99276565       2.9675690
+      0.31800000      0.98377493       2.9810985
+      0.42400000      0.97129667       3.0001865
+      0.53000000      0.95546234       3.0249445
+      0.63600000      0.93646726       3.0554691
+      0.74200000      0.91458057       3.0918130
+      0.84800000      0.89014899       3.1339557
+      0.95400000      0.86359367       3.1817751
+       1.0600000      0.83540338       3.2350134
+       1.1660000      0.80612626       3.2932346
+       1.2720000      0.77636659       3.3557591
+       1.3780000      0.74677097       3.4216098
+       1.4840000      0.71796190       3.4895827
+       1.5900000      0.69033720       3.5587179
+       1.6960000      0.66361578       3.6296592
+       1.8020000      0.63603441       3.7075233
+       1.9080000      0.60343090       3.8063650
+       2.0140000      0.55945403       3.9531382
+       2.1200000      0.49920244       4.1849074

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\FR1471493_Example01P.zmx
+Title:	FR 1.471.493 Example 1 (Leica Elmarit-R 35mm F2.8)
+Date:	11/7/2025 4:07:14 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9327913
+       1.0800000      0.99892923       2.9343627
+       2.1600000      0.99572531       2.9390798
+       3.2400000      0.99041305       2.9469514
+       4.3200000      0.98303271       2.9579932
+       5.4000000      0.97364082       2.9722256
+       6.4800000      0.95707626       2.9978361
+       7.5600000      0.94111568       3.0231497
+       8.6400000      0.91993219       3.0577590
+       9.7200000      0.88993672       3.1088630
+       10.800000      0.84120704       3.1976410
+       11.880000      0.81630840       3.2460412
+       12.960000      0.77148999       3.3389968
+       14.040000      0.71461070       3.4693363
+       15.120000      0.66497781       3.5964794
+       16.200000      0.61792917       3.7308845
+       17.280000      0.56925591       3.8871149
+       18.360000      0.51401011       4.0906783
+       19.440000      0.44813591       4.3810306
+       20.520000      0.40787614       4.5921599
+       21.600000      0.35292213       4.9367565

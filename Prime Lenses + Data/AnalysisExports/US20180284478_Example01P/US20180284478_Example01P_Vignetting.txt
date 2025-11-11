@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20180284478_Example01P.zmx
+Title:	US 2018/0284478 Example 1 (Panasonic Leica DG Vario-Elmar 100-400mm F4.0-6.3 Asph Power OIS)
+Date:	11/7/2025 4:27:12 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       4.3140300
+      0.54075000      0.99981804       4.3144225
+       1.0815000      0.99292395       4.3293746
+       1.6222500      0.98800624       4.3401358
+       2.1630000      0.98048066       4.3567601
+       2.7037500      0.96626431       4.3886929
+       3.2445000      0.92263594       4.4912577
+       3.7852500      0.89929591       4.5491667
+       4.3260000      0.89654254       4.5561468
+       4.8667500      0.85715975       4.6596390
+       5.4075000      0.81210225       4.7871585
+       5.9482500      0.78978253       4.8543311
+       6.4890000      0.77194259       4.9101036
+       7.0297500      0.73523327       5.0311884
+       7.5705000      0.70315427       5.1446739
+       8.1112500      0.67380792       5.2555129
+       8.6520000      0.61963792       5.4804241
+       9.1927500      0.59692186       5.5837301
+       9.7335000      0.53530344       5.8963485
+       10.274250      0.51187561       6.0297727
+       10.815000      0.44841580       6.4423261

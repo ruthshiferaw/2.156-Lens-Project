@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20150092100_Example01P.zmx
+Title:	US 2015/0092100 Example 1 (Sony Sonnar T* FE 55 mm F1.8 ZA)
+Date:	11/7/2025 4:26:29 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.9422421
+       1.0815000      0.99908271       1.9431336
+       2.1630000      0.99146116       1.9505879
+       3.2445000      0.98674203       1.9552467
+       4.3260000      0.98015995       1.9618008
+       5.4075000      0.97242549       1.9695872
+       6.4890000      0.95643051       1.9859882
+       7.5705000      0.94620040       1.9966954
+       8.6520000      0.93337701       2.0103646
+       9.7335000      0.91997853       2.0249510
+       10.815000      0.88926256       2.0596260
+       11.896500      0.83328406       2.1276826
+       12.978000      0.79173202       2.1828016
+       14.059500      0.74224001       2.2544011
+       15.141000      0.68842921       2.3408508
+       16.222500      0.64842990       2.4119698
+       17.304000      0.56792809       2.5772509
+       18.385500      0.53961349       2.6440032
+       19.467000      0.47875171       2.8070375
+       20.548500      0.40591494       3.0484976
+       21.630000      0.36964302       3.1945679

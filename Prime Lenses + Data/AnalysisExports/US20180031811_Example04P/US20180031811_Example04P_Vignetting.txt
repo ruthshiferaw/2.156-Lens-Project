@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20180031811_Example04P.zmx
+Title:	US 2018/0031811 Example 4 (Nikon AF-S Nikkor 600mm f/4E FL ED VR)
+Date:	11/7/2025 4:26:57 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.2739002
+       1.0800000      0.99312751       4.2886625
+       2.1600000      0.99057593       4.2941824
+       3.2400000      0.97050807       4.3383521
+       4.3200000      0.93966315       4.4089815
+       5.4000000      0.91147262       4.4766440
+       6.4800000      0.90070100       4.5033329
+       7.5600000      0.87403615       4.5715100
+       8.6400000      0.84944045       4.6372222
+       9.7200000      0.81138947       4.7447102
+       10.800000      0.80659985       4.7587765
+       11.880000      0.77873039       4.8431822
+       12.960000      0.76373669       4.8904919
+       14.040000      0.71035501       5.0709187
+       15.120000      0.65759693       5.2704110
+       16.200000      0.63784043       5.3514115
+       17.280000      0.60240142       5.5065728
+       18.360000      0.55240277       5.7503787
+       19.440000      0.52733816       5.8854514
+       20.520000      0.49254396       6.0897838
+       21.600000      0.44397547       6.4142352

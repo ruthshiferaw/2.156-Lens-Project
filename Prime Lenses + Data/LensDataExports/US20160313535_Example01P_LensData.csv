@@ -1,0 +1,27 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,Inf,Inf,"",Inf,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Standard,,-197.665,0.5,"1.58,59.5",5.9,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+2,Even Asphere,,8.00900000000003,3.03,"",5.37,0,0,-0.000176791,-2.65273e-06,7.81442e-09,-6.68614e-10,0,0,0
+3,Standard,,34.792,1.84,"1.81,25.4",5.2,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+4,Standard,,-34.792,2.55,"",5.2,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+5,Standard,,-39.3989999999999,1.22,"1.77,49.6",5.9,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+6,Standard,,-24.094,1.67,"",5.9,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+7,Standard,,-23.519,0.6,"1.95,32.3",5.86,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+8,Standard,,82.44,0.95,"",5.86,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+9,Standard,,Inf,1.9,"",5.68,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+10,Standard,,Inf,0.61,"",6.2885,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+11,Standard,,16.94,5.23,"1.52,58.9",7.54,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+12,Standard,,-16.94,2.75,"",7.54,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+13,Standard,,-12.932,0.65,"1.90,31.3",7.22,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+14,Standard,,-143.739,0.15,"",7.36,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+15,Standard,,26.215,4.23,"1.50,81.5",8.24,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+16,Standard,,-18.292,0.15,"",8.24,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+17,Even Asphere,,64.4319999999999,2.97,"1.58,59.5",7.75,0,0,-7.23379e-05,-1.23764e-08,-2.58452e-09,1.02225e-10,0,0,0
+18,Even Asphere,,-17.234,0.29,"",7.75,0,0,6.10927e-05,1.3072e-07,-2.33941e-09,1.12506e-10,0,0,0
+19,Standard,,Inf,0.94,"",7.52,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+20,Standard,,51.516,1.22,"1.96,17.5",7.08,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+21,Standard,,332.148,0.45,"1.83,42.7",7.08,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+22,Standard,,16.99,29.28,"",7.08,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+23,Standard,,Inf,1,"1.52,64.1",12.36,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+24,Standard,,Inf,12.28,"",12.36,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+25,Standard,,Inf,Inf,"",13.66,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US007161746_Example09P.zmx
+Title:	US 7,161,746 Example 9 (Nikon AF Fisheye-Nikkor 10.5mm f/2.8G ED)
+Date:	11/7/2025 4:19:08 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0143685
+       4.5000000      0.99473183       3.0223401
+       9.0000000      0.99386297       3.0236609
+       13.500000      0.99142601       3.0273747
+       18.000000      0.99111149       3.0278551
+       22.500000      0.97191746       3.0576069
+       27.000000      0.94585433       3.0994469
+       31.500000      0.90648566       3.1660361
+       36.000000      0.89152858       3.1924838
+       40.500000      0.87324195       3.2257376
+       45.000000      0.82348800       3.3217558
+       49.500000      0.79830164       3.3737494
+       54.000000      0.75446098       3.4703873
+       58.500000      0.73508951       3.5158167
+       63.000000      0.70870432       3.5806659
+       67.500000      0.65089403       3.7362953
+       72.000000      0.64162507       3.7631859
+       76.500000      0.61668926       3.8385141
+       81.000000      0.58740995       3.9330158
+       85.500000      0.54713826       4.0751893
+       90.000000      0.52769846       4.1495731

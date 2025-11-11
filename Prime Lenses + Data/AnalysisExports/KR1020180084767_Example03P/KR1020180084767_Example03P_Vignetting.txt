@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\KR1020180084767_Example03P.zmx
+Title:	KR 10-2018-0084767 Example 3 (Samyang XP 35mm F1.2)
+Date:	11/7/2025 4:14:56 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       1.3105620
+       1.0815000      0.99950956       1.3108835
+       2.1630000      0.98722290       1.3190157
+       3.2445000      0.98458181       1.3207836
+       4.3260000      0.97936959       1.3242936
+       5.4075000      0.96065029       1.3371340
+       6.4890000      0.92829320       1.3602383
+       7.5705000      0.87822047       1.3984785
+       8.6520000      0.86091436       1.4124647
+       9.7335000      0.82261203       1.4449741
+       10.815000      0.75732838       1.5059670
+       11.896500      0.71205769       1.5531020
+       12.978000      0.68285333       1.5859660
+       14.059500      0.64504853       1.6317792
+       15.141000      0.57122415       1.7340208
+       16.222500      0.51272485       1.8302710
+       17.304000      0.48375398       1.8842794
+       18.385500      0.44066387       1.9742578
+       19.467000      0.37930310       2.1279645
+       20.548500      0.31224658       2.3453558
+       21.630000      0.24831289       2.6300133

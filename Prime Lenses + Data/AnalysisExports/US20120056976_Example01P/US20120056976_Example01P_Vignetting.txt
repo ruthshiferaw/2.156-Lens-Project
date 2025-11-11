@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20120056976_Example01P.zmx
+Title:	US 2012/0056976 Example 1 (Samsung 20mm F2.8)
+Date:	11/7/2025 4:26:12 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9888784
+      0.71400000      0.99890022       2.9905233
+       1.4280000      0.99560724       2.9954648
+       2.1420000      0.99014348       3.0037182
+       2.8560000      0.98254762       3.0153063
+       3.5700000      0.97287386       3.0302606
+       4.2840000      0.95638063       3.0562780
+       4.9980000      0.94292562       3.0780065
+       5.7120000      0.92569493       3.1065211
+       6.4260000      0.90319536       3.1449765
+       7.1400000      0.86494088       3.2137718
+       7.8540000      0.82795103       3.2847772
+       8.5680000      0.80250058       3.3364573
+       9.2820000      0.76757376       3.4115221
+       9.9960000      0.73083048       3.4962294
+       10.710000      0.67675207       3.6332347
+       11.424000      0.63926392       3.7382483
+       12.138000      0.60868520       3.8309976
+       12.852000      0.53542713       4.0846802
+       13.566000      0.49489455       4.2486593
+       14.280000      0.45121557       4.4495512

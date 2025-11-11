@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004333714_Example01P.zmx
+Title:	US 4,333,714 Example 1 (Vivitar MC 28mm f2.8)
+Date:	11/7/2025 4:17:57 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       2.9336575
+       1.0800000      0.99348637       2.9432588
+       2.1600000      0.99034715       2.9479199
+       3.2400000      0.98435506       2.9568788
+       4.3200000      0.97157879       2.9762568
+       5.4000000      0.96025447       2.9937549
+       6.4800000      0.94888856       3.0116313
+       7.5600000      0.93369789       3.0360311
+       8.6400000      0.90737098       3.0797606
+       9.7200000      0.88044151       3.1265052
+       10.800000      0.84612961       3.1892676
+       11.880000      0.79462071       3.2910120
+       12.960000      0.74524771       3.3982794
+       14.040000      0.70848047       3.4853425
+       15.120000      0.67427007       3.5726664
+       16.200000      0.62125886       3.7219721
+       17.280000      0.57320385       3.8748497
+       18.360000      0.52541978       4.0472143
+       19.440000      0.46914184       4.2830912
+       20.520000      0.38465176       4.7301569
+       21.600000      0.29302668       5.4194576

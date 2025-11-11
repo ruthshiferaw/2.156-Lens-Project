@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003874771_Example05P.zmx
+Title:	US 3,874,771 Example 5 (Zeiss Planar T f1.4 50mm)
+Date:	11/7/2025 4:16:57 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.4845005
+       1.0800000      0.99940652       1.4849412
+       2.1600000      0.99763087       1.4862621
+       3.2400000      0.98172367       1.4982549
+       4.3200000      0.97721786       1.5017051
+       5.4000000      0.97107904       1.5064442
+       6.4800000      0.95943157       1.5155607
+       7.5600000      0.93180536       1.5378633
+       8.6400000      0.88775627       1.5755546
+       9.7200000      0.81578334       1.6435879
+       10.800000      0.79799949       1.6618011
+       11.880000      0.76522101       1.6970198
+       12.960000      0.70825466       1.7639474
+       14.040000      0.64139070       1.8536128
+       15.120000      0.58028359       1.9487683
+       16.200000      0.54845764       2.0045126
+       17.280000      0.49910180       2.1012889
+       18.360000      0.44130345       2.2346612
+       19.440000      0.37674871       2.4185466
+       20.520000      0.33292885       2.5727917
+       21.600000      0.26921620       2.8610783

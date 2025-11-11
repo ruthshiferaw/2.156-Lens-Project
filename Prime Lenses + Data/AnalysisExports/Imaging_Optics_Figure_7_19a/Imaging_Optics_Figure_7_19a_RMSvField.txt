@@ -1,0 +1,32 @@
+Results for:	RMS Wave Error vs. Field
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\Imaging_Optics_Figure_7_19a.zmx
+Title:	Petzval portrait lens (present-day glasses); Imaging Optics  p. 449
+Date:	11/7/2025 4:47:23 PM
+
+0 message(s) in output.
+RMS units are in waves.
+Reference: Centroid.
+Field units are in Millimeters.
+1 series table(s) in output.
+
+Table series: Field is oriented along the +y direction.
+           Field            Poly          0.5500
+  --------------  --------------  --------------
+      0.00000000      0.87642509      0.87642509
+       1.6000000      0.84617923      0.84617923
+       3.2000000      0.75619621      0.75619621
+       4.8000000      0.60926073      0.60926073
+       6.4000000      0.41371810      0.41371810
+       8.0000000      0.21633682      0.21633682
+       9.6000000      0.29459798      0.29459798
+       11.200000      0.62304047      0.62304047
+       12.800000       1.0250782       1.0250782
+       14.400000       1.4736078       1.4736078
+       16.000000       1.9593879       1.9593879
+       17.600000       2.4759396       2.4759396
+       19.200000       3.0176119       3.0176119
+       20.800000       3.5793003       3.5793003
+       22.400000       4.1565345       4.1565345
+       24.000000       4.7456879       4.7456879

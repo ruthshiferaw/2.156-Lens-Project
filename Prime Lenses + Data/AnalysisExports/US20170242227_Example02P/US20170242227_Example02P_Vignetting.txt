@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20170242227_Example02P.zmx
+Title:	US 2017/0242227 Example 2 (Panasonic Lumix G Vario 12-60mm F3.5-5.6 Asph Power OIS)
+Date:	11/7/2025 4:26:54 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.8030161
+      0.50000000      0.99914588       3.8046413
+       1.0000000      0.99658644       3.8095237
+       1.5000000      0.99233014       3.8176849
+       2.0000000      0.98639003       3.8291628
+       2.5000000      0.97878189       3.8440162
+       3.0000000      0.96952160       3.8623304
+       3.5000000      0.95862032       3.8842292
+       4.0000000      0.94607806       3.9098913
+       4.5000000      0.93187339       3.9395781
+       5.0000000      0.91595171       3.9736707
+       5.5000000      0.89406578       4.0220126
+       6.0000000      0.87533289       4.0648221
+       6.5000000      0.85365303       4.1161148
+       7.0000000      0.82661039       4.1829025
+       7.5000000      0.78449306       4.2937190
+       8.0000000      0.75153119       4.3868690
+       8.5000000      0.71863426       4.4861543
+       9.0000000      0.65680398       4.6925648
+       9.5000000      0.61729471       4.8404071
+       10.000000      0.51398805       5.3045880

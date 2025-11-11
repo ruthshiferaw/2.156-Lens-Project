@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2000-292689_Example02P.zmx
+Title:	JP 2000-292689 Example 2 (Nikon PC-E Micro-Nikkor 85mm f/2.8D)
+Date:	11/7/2025 4:08:12 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9800421
+       1.6655000      0.99939684       2.9809413
+       3.3310000      0.99759073       2.9836385
+       4.9965000      0.99459172       2.9881334
+       6.6620000      0.99041643       2.9944253
+       8.3275000      0.98508778       3.0025133
+       9.9930000      0.97231105       3.0221763
+       11.658500      0.95827278       3.0442326
+       13.324000      0.94950773       3.0582512
+       14.989500      0.93461745       3.0825169
+       16.655000      0.91893497       3.1087086
+       18.320500      0.88171347       3.1736474
+       19.986000      0.82981530       3.2713852
+       21.651500      0.78035106       3.3734742
+       23.317000      0.75816110       3.4224858
+       24.982500      0.72332074       3.5039423
+       26.648000      0.68029941       3.6130366
+       28.313500      0.62118949       3.7810320
+       29.979000      0.56856615       3.9521362
+       31.644500      0.53375211       4.0789896
+       33.310000      0.49728869       4.2258893

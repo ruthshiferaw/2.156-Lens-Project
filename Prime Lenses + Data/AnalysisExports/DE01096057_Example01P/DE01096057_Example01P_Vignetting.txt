@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE01096057_Example01P.zmx
+Title:	DE 1096057 Example 1 (Leica Telyt 200mm F4)
+Date:	11/7/2025 4:06:54 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.1705084
+       1.0800000      0.99988218       4.1707541
+       2.1600000      0.99952886       4.1714912
+       3.2400000      0.99894043       4.1727197
+       4.3200000      0.99811755       4.1744394
+       5.4000000      0.99706140       4.1766497
+       6.4800000      0.99577332       4.1793502
+       7.5600000      0.99425471       4.1825407
+       8.6400000      0.98813661       4.1954689
+       9.7200000      0.97992993       4.2130003
+       10.800000      0.97775200       4.2176899
+       11.880000      0.97355190       4.2267781
+       12.960000      0.96833337       4.2381522
+       14.040000      0.96548595       4.2443972
+       15.120000      0.95164170       4.2751590
+       16.200000      0.93901783       4.3038000
+       17.280000      0.92966575       4.3253931
+       18.360000      0.88025239       4.4451395
+       19.440000      0.86277277       4.4899426
+       20.520000      0.83633353       4.5603613
+       21.600000      0.81779194       4.6117695

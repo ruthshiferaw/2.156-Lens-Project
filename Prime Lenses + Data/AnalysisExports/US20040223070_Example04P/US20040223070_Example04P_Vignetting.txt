@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20040223070_Example04P.zmx
+Title:	US 2004/0223070 Example 4 (Canon EF28-105mm f4-5.6)
+Date:	11/7/2025 4:26:00 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.1412112
+       1.0820000      0.99274859       4.1563081
+       2.1640000      0.98815479       4.1659580
+       3.2460000      0.97954580       4.1842247
+       4.3280000      0.95953228       4.2276359
+       5.4100000      0.92010844       4.3172567
+       6.4920000      0.87894646       4.4171908
+       7.5740000      0.85329267       4.4830994
+       8.6560000      0.82421974       4.5614810
+       9.7380000      0.79324678       4.6496816
+       10.820000      0.73792899       4.8208108
+       11.902000      0.70696943       4.9252361
+       12.984000      0.67943377       5.0240483
+       14.066000      0.64314652       5.1638357
+       15.148000      0.60491122       5.3245334
+       16.230000      0.55679727       5.5498191
+       17.312000      0.48197519       5.9650630
+       18.394000      0.45317858       6.1516651
+       19.476000      0.37431756       6.7687313
+       20.558000      0.31248518       7.4081994
+       21.640000      0.24532659       8.3609392

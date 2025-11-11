@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20120063011_Example01P.zmx
+Title:	US 2012/0063011 Example 1 (Hasselblad HC 3.5 50-II)
+Date:	11/7/2025 4:26:13 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99392046       3.8252378
+       1.5350000       1.0000000       3.8135923
+       3.0700000      0.98929856       3.8341630
+       4.6050000      0.98581011       3.8409409
+       6.1400000      0.97073428       3.8706515
+       7.6750000      0.96485855       3.8824193
+       9.2100000      0.93204773       3.9501645
+       10.745000      0.90205555       4.0152965
+       12.280000      0.85722581       4.1189511
+       13.815000      0.81128919       4.2339567
+       15.350000      0.78546721       4.3029889
+       16.885000      0.75765000       4.3812693
+       18.420000      0.72912110       4.4661615
+       19.955000      0.69494587       4.5746595
+       21.490000      0.65620145       4.7077747
+       23.025000      0.60282545       4.9117751
+       24.560000      0.55470681       5.1203837
+       26.095000      0.52053104       5.2858026
+       27.630000      0.49244933       5.4344236
+       29.165000      0.43915123       5.7547599
+       30.700000      0.40790162       5.9711303

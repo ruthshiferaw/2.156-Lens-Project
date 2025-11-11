@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20130155294_Example01P.zmx
+Title:	US 2013/0155294 Example 1 (Sony DT 18-135mm F3.5-5.6 SAM)
+Date:	11/7/2025 4:26:19 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.7840230
+      0.71000000      0.99949751       3.7849741
+       1.4200000      0.99799043       3.7878309
+       2.1300000      0.99547995       3.7926041
+       2.8400000      0.99196817       3.7993115
+       3.5500000      0.98745817       3.8079778
+       4.2600000      0.98195431       3.8186348
+       4.9700000      0.97546258       3.8313203
+       5.6800000      0.96798948       3.8460812
+       6.3900000      0.95954195       3.8629740
+       7.1000000      0.95012717       3.8820658
+       7.8100000      0.93492417       3.9135021
+       8.5200000      0.92377904       3.9370390
+       9.2300000      0.90967494       3.9674426
+       9.9400000      0.89147535       4.0077359
+       10.650000      0.85768733       4.0859145
+       11.360000      0.82622779       4.1629756
+       12.070000      0.81204125       4.1991822
+       12.780000      0.77324527       4.3032357
+       13.490000      0.63486375       4.7491239
+       14.200000      0.52169008       5.2389889

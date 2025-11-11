@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN110161666_Example02P.zmx
+Title:	CN 110161666 Example 2 (Venus Laowa 65mm f2.8 2x Ultra Macro APO)
+Date:	11/7/2025 4:06:16 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0350927
+      0.71000000      0.99393097       3.0443448
+       1.4200000      0.99044425       3.0496987
+       2.1300000      0.98928860       3.0514795
+       2.8400000      0.96141948       3.0953908
+       3.5500000      0.91204289       3.1780763
+       4.2600000      0.89585063       3.2066691
+       4.9700000      0.88543016       3.2254833
+       5.6800000      0.85931784       3.2741234
+       6.3900000      0.82034878       3.3509865
+       7.1000000      0.80132625       3.3905275
+       7.8100000      0.73927975       3.5299418
+       8.5200000      0.71799741       3.5818757
+       9.2300000      0.65304336       3.7557869
+       9.9400000      0.63273041       3.8155979
+       10.650000      0.56507124       4.0375727
+       11.360000      0.54606957       4.1072200
+       12.070000      0.47997984       4.3808709
+       12.780000      0.45400462       4.5044505
+       13.490000      0.39581536       4.8242036
+       14.200000      0.37718886       4.9418838

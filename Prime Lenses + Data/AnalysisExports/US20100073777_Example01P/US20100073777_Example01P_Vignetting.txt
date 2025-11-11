@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20100073777_Example01P.zmx
+Title:	US 2010/0073777 Example 1 (Ricoh smc Pentax-DA 55mm F1.4 SDM)
+Date:	11/7/2025 4:26:06 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.4744710
+      0.71200000      0.99383157       1.4790397
+       1.4240000      0.98641021       1.4845932
+       2.1360000      0.98536448       1.4853807
+       2.8480000      0.98334630       1.4869042
+       3.5600000      0.97957076       1.4897669
+       4.2720000      0.96703395       1.4993927
+       4.9840000      0.95908630       1.5055923
+       5.6960000      0.91812087       1.5388146
+       6.4080000      0.90151966       1.5529184
+       7.1200000      0.86433831       1.5859678
+       7.8320000      0.84340421       1.6055297
+       8.5440000      0.81238604       1.6358935
+       9.2560000      0.78037454       1.6691090
+       9.9680000      0.76858639       1.6818602
+       10.680000      0.74861744       1.7041439
+       11.392000      0.69353312       1.7705273
+       12.104000      0.68351286       1.7834580
+       12.816000      0.66439701       1.8089327
+       13.528000      0.63564592       1.8493904
+       14.240000      0.60320721       1.8984667

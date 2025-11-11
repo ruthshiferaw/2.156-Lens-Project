@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2020-158622_Example03P.zmx
+Title:	WO 2020/158622 Example 3 (Panasonic Lumix S Pro 50mm F1.4)
+Date:	11/7/2025 4:28:08 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5312128
+       1.0815000      0.99990367       1.5312865
+       2.1630000      0.99961366       1.5315086
+       3.2445000      0.99590005       1.5343614
+       4.3260000      0.99530483       1.5348201
+       5.4075000      0.98844952       1.5401332
+       6.4890000      0.98740158       1.5409503
+       7.5705000      0.97654251       1.5494942
+       8.6520000      0.95557064       1.5664053
+       9.7335000      0.93098759       1.5869513
+       10.815000      0.91738616       1.5986723
+       11.896500      0.90904002       1.6059944
+       12.978000      0.87245851       1.6393178
+       14.059500      0.81762588       1.6933948
+       15.141000      0.77463882       1.7397462
+       16.222500      0.72117724       1.8030781
+       17.304000      0.67335117       1.8660133
+       18.385500      0.62175717       1.9418923
+       19.467000      0.52549107       2.1122867
+       20.548500      0.42386299       2.3519213
+       21.630000      0.35290581       2.5775443

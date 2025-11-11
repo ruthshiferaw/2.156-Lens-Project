@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\KR1020180084767_Example03P.zmx
+Title:	KR 10-2018-0084767 Example 3 (Samyang XP 35mm F1.2)
+Date:	11/7/2025 4:54:19 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

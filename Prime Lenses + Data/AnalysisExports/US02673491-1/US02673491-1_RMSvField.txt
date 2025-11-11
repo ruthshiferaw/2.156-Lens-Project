@@ -1,0 +1,32 @@
+Results for:	RMS Wave Error vs. Field
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US02673491-1.ZMX
+Title:	US Patent 2673491
+Date:	11/7/2025 5:04:56 PM
+
+0 message(s) in output.
+RMS units are in waves.
+Reference: Centroid.
+Field units are in degrees.
+1 series table(s) in output.
+
+Table series: Field is oriented along the +y direction.
+           Field            Poly          0.5500
+  --------------  --------------  --------------
+      0.00000000      0.54395030      0.54395030
+       1.3333333      0.59444131      0.59444131
+       2.6666667       1.1315441       1.1315441
+       4.0000000       2.3211415       2.3211415
+       5.3333333       4.0848562       4.0848562
+       6.6666667       6.4138292       6.4138292
+       8.0000000       9.3290434       9.3290434
+       9.3333333       12.865546       12.865546
+       10.666667       17.070005       17.070005
+       12.000000       22.002115       22.002115
+       13.333333       27.738745       27.738745
+       14.666667       34.382430       34.382430
+       16.000000       42.079370       42.079370
+       17.333333       51.061846       51.061846
+       18.666667       61.767370       61.767370
+       20.000000       75.293874       75.293874

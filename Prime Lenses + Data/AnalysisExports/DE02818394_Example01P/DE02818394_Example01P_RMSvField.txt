@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE02818394_Example01P.zmx
+Title:	DE 2818394 Example 1 (Rodenstock Geronar 210mm f6.8)
+Date:	11/7/2025 4:46:58 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

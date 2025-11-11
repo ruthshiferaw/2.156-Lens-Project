@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2015-041003_Example01MLP.zmx
+Title:	JP 2015-041003 Example 1 ML (Nikon AF-S Nikkor 50mm f/1.4G)
+Date:	11/7/2025 4:08:39 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5261105
+       1.0800000      0.99954598       1.5264570
+       2.1600000      0.99198834       1.5322608
+       3.2400000      0.98233632       1.5397701
+       4.3200000      0.97607590       1.5447001
+       5.4000000      0.97178752       1.5481046
+       6.4800000      0.93961006       1.5743894
+       7.5600000      0.89738263       1.6110059
+       8.6400000      0.86841212       1.6376573
+       9.7200000      0.84027057       1.6648549
+       10.800000      0.76303685       1.7470817
+       11.880000      0.69879345       1.8256249
+       12.960000      0.67982599       1.8509176
+       14.040000      0.63904199       1.9090675
+       15.120000      0.57312078       2.0158717
+       16.200000      0.53337394       2.0896333
+       17.280000      0.46407026       2.2402377
+       18.360000      0.40700749       2.3921300
+       19.440000      0.37269604       2.4998191
+       20.520000      0.32387060       2.6816383
+       21.600000      0.25692672       3.0107960

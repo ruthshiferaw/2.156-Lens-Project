@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1979-055423_Example01P.zmx
+Title:	JP 1979-055423 Example 1 (Konica Minolta Hexanon AR 135mm F3.5)
+Date:	11/7/2025 4:07:44 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.6640681
+       1.0800000      0.99380682       3.6754672
+       2.1600000      0.99356683       3.6759111
+       3.2400000      0.99211349       3.6786025
+       4.3200000      0.98906671       3.6842640
+       5.4000000      0.98831897       3.6856575
+       6.4800000      0.97570829       3.7093989
+       7.5600000      0.96436480       3.7311513
+       8.6400000      0.93311022       3.7931242
+       9.7200000      0.91415201       3.8322544
+       10.800000      0.89791340       3.8667519
+       11.880000      0.89719909       3.8682909
+       12.960000      0.88117131       3.9033129
+       14.040000      0.85939440       3.9524581
+       15.120000      0.84275710       3.9912812
+       16.200000      0.76412368       4.1916181
+       17.280000      0.74639649       4.2411023
+       18.360000      0.72894788       4.2915611
+       19.440000      0.65700935       4.5204093
+       20.520000      0.62765822       4.6248956
+       21.600000      0.56925618       4.8563465

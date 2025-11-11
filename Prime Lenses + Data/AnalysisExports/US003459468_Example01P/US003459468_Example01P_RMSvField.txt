@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003459468_Example01P.zmx
+Title:	US 3,459,468 Example 1 (Leica 50mm Noctilux f/1.2)
+Date:	11/7/2025 4:55:55 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

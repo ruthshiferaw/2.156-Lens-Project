@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004206971_ExampleMLP.zmx
+Title:	US 4,2069,71 Example ML (Nikon Nikkor 200mm f/2 IF-ED)
+Date:	11/7/2025 4:17:38 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.0951396
+       1.0800000      0.99428245       2.1011550
+       2.1600000      0.98794489       2.1078835
+       3.2400000      0.98518641       2.1108325
+       4.3200000      0.96536104       2.1323971
+       5.4000000      0.94332913       2.1571550
+       6.4800000      0.90695393       2.1999882
+       7.5600000      0.84673151       2.2768798
+       8.6400000      0.82973133       2.3000868
+       9.7200000      0.81153332       2.3257327
+       10.800000      0.77953036       2.3729930
+       11.880000      0.75652224       2.4088077
+       12.960000      0.72119132       2.4671055
+       14.040000      0.65141878       2.5958694
+       15.120000      0.62849520       2.6427860
+       16.200000      0.60588880       2.6916371
+       17.280000      0.58644469       2.7358951
+       18.360000      0.54237787       2.8448672
+       19.440000      0.48920922       2.9954747
+       20.520000      0.44650647       3.1354443
+       21.600000      0.42675663       3.2071763

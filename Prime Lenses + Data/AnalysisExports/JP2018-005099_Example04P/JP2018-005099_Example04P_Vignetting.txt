@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2018-005099_Example04P.zmx
+Title:	JP 2018-005099 Example 4 (Sigma 85mm F1.4 DG HSM A)
+Date:	11/7/2025 4:14:18 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       1.5302431
+       1.0815000      0.99953486       1.5305991
+       2.1630000      0.99814335       1.5316656
+       3.2445000      0.99583247       1.5334417
+       4.3260000      0.98739979       1.5399758
+       5.4075000      0.98119659       1.5448361
+       6.4890000      0.97616564       1.5488119
+       7.5705000      0.95944415       1.5622501
+       8.6520000      0.92129785       1.5942646
+       9.7335000      0.89008154       1.6219801
+       10.815000      0.87645204       1.6345430
+       11.896500      0.85790157       1.6521204
+       12.978000      0.82573484       1.6839924
+       14.059500      0.77997453       1.7326874
+       15.141000      0.75558507       1.7604299
+       16.222500      0.68295800       1.8516693
+       17.304000      0.66382312       1.8781671
+       18.385500      0.60419381       1.9686671
+       19.467000      0.58554967       1.9997631
+       20.548500      0.54419660       2.0743523
+       21.630000      0.51389609       2.1346308

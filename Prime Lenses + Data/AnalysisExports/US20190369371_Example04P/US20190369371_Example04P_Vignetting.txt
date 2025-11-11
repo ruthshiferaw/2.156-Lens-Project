@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20190369371_Example04P.zmx
+Title:	US 2019/0369371 Example 4 (Sony FE C 16-35mm T3.1)
+Date:	11/7/2025 4:27:24 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0101890
+       1.0815000      0.99817805       3.0129350
+       2.1630000      0.99272007       3.0212062
+       3.2445000      0.98365045       3.0351026
+       4.3260000      0.97101160       3.0547914
+       5.4075000      0.95486501       3.0805111
+       6.4890000      0.93529173       3.1125778
+       7.5705000      0.91239404       3.1513929
+       8.6520000      0.88630262       3.1974426
+       9.7335000      0.85718998       3.2512864
+       10.815000      0.82528685       3.3135330
+       11.896500      0.78617115       3.3949643
+       12.978000      0.74784092       3.4808808
+       14.059500      0.67813906       3.6553956
+       15.141000      0.62762430       3.7996526
+       16.222500      0.54819697       4.0656075
+       17.304000      0.50407705       4.2397994
+       18.385500      0.40543350       4.7275263
+       19.467000      0.33431162       5.2061663
+       20.548500      0.26174831       5.8837177
+       21.630000      0.19258154       6.8594050

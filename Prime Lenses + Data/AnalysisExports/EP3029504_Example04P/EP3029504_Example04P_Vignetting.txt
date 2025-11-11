@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\EP3029504_Example04P.zmx
+Title:	EP 3 029 504 A1 Example 4 (Leica Summilux-TL 35mm F1.4 Asph)
+Date:	11/7/2025 4:07:10 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5222321
+      0.71000000      0.98608655       1.5329336
+       1.4200000      0.97057282       1.5451363
+       2.1300000      0.95891600       1.5544995
+       2.8400000      0.93832894       1.5714599
+       3.5500000      0.89063282       1.6129894
+       4.2600000      0.86239788       1.6391814
+       4.9700000      0.84363636       1.6573080
+       5.6800000      0.80378258       1.6978979
+       6.3900000      0.72261299       1.7907212
+       7.1000000      0.70672144       1.8107427
+       7.8100000      0.67534310       1.8523312
+       8.5200000      0.64219370       1.8995374
+       9.2300000      0.58835716       1.9845422
+       9.9400000      0.55487381       2.0435429
+       10.650000      0.52279031       2.1053151
+       11.360000      0.48236819       2.1917526
+       12.070000      0.40784060       2.3836124
+       12.780000      0.38289776       2.4600246
+       13.490000      0.31067866       2.7310217
+       14.200000      0.28167604       2.8681768

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003994576_Example01P.zmx
+Title:	US 3,994,576 Example 1 (Zeiss Sonnar 40mm F2.8 Rollei)
+Date:	11/7/2025 4:17:10 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0362503
+       1.0800000      0.98563709       3.0582927
+       2.1600000      0.96828621       3.0855721
+       3.2400000      0.96192695       3.0957546
+       4.3200000      0.95160483       3.1124992
+       5.4000000      0.93461242       3.1406663
+       6.4800000      0.90168561       3.1974959
+       7.5600000      0.87186959       3.2517100
+       8.6400000      0.83556080       3.3216093
+       9.7200000      0.78948686       3.4171585
+       10.800000      0.73675679       3.5373294
+       11.880000      0.70470637       3.6168748
+       12.960000      0.66624530       3.7198077
+       14.040000      0.61806709       3.8620666
+       15.120000      0.53693607       4.1435853
+       16.200000      0.49581360       4.3119961
+       17.280000      0.45287655       4.5117773
+       18.360000      0.38941956       4.8655136
+       19.440000      0.33862974       5.2176510
+       20.520000      0.30441162       5.5030944
+       21.600000      0.26125008       5.9403133

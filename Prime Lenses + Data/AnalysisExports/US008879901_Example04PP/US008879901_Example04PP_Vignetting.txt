@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US008879901_Example04PP.zmx
+Title:	US 8,879,901 Example 4 (Nikon AI Nikkor 50mm f/1.2S with Metabones M43 Speed Booster 0.71x)
+Date:	11/7/2025 4:19:28 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000      0.90026188
+      0.54100000      0.99430833      0.90283487
+       1.0820000      0.99354201      0.90318298
+       1.6230000      0.98221501      0.90837585
+       2.1640000      0.96781702      0.91510775
+       2.7050000      0.94863498      0.92431350
+       3.2460000      0.89769835      0.95017511
+       3.7870000      0.87517273      0.96232545
+       4.3280000      0.84430735      0.97975746
+       4.8690000      0.79858454       1.0074150
+       5.4100000      0.72651956       1.0561977
+       5.9510000      0.70459269       1.0725062
+       6.4920000      0.66985167       1.0999667
+       7.0330000      0.60464460       1.1577606
+       7.5740000      0.57374628       1.1885266
+       8.1150000      0.53774186       1.2276708
+       8.6560000      0.44136798       1.3550910
+       9.1970000      0.41775862       1.3928558
+       9.7380000      0.35821702       1.5041659
+       10.279000      0.30561754       1.6284699
+       10.820000      0.26892913       1.7360009

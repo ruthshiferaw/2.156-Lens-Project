@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004621909_Example03_Tale16.zmx
+Title:	Nikon AI Nikkor 50mm f/1.2S (US 4,621,909 Example 3)
+Date:	11/7/2025 4:18:20 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.2708917
+       1.0800000      0.99956685       1.2711670
+       2.1600000      0.99827131       1.2719916
+       3.2400000      0.98365095       1.2814098
+       4.3200000      0.98055344       1.2834321
+       5.4000000      0.97065532       1.2899593
+       6.4800000      0.96347696       1.2947558
+       7.5600000      0.93368298       1.3152515
+       8.6400000      0.86151422       1.3692328
+       9.7200000      0.81240308       1.4100118
+       10.800000      0.78965193       1.4301800
+       11.880000      0.73236630       1.4850612
+       12.960000      0.68116245       1.5398669
+       14.040000      0.59916172       1.6418614
+       15.120000      0.56928513       1.6843937
+       16.200000      0.52021945       1.7620379
+       17.280000      0.44983491       1.8948811
+       18.360000      0.38933540       2.0367916
+       19.440000      0.30291492       2.3091290
+       20.520000      0.26929114       2.4490492
+       21.600000      0.20728874       2.7913910

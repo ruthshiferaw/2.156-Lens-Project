@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN207216120_Example01P.zmx
+Title:	CN 207216120 U Example 1 (Yongnuo YN40mm F2.8N)
+Date:	11/7/2025 4:06:22 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9704239
+       1.0800000      0.99869991       2.9723567
+       2.1600000      0.99216572       2.9821283
+       3.2400000      0.98639342       2.9908412
+       4.3200000      0.95804751       3.0347639
+       5.4000000      0.91319151       3.1084043
+       6.4800000      0.85874696       3.2054265
+       7.5600000      0.83261312       3.2553434
+       8.6400000      0.77037110       3.3842968
+       9.7200000      0.73115629       3.4738681
+       10.800000      0.67809031       3.6072369
+       11.880000      0.63243738       3.7351639
+       12.960000      0.56642990       3.9468021
+       14.040000      0.49777487       4.2101924
+       15.120000      0.45662373       4.3958128
+       16.200000      0.42154961       4.5750315
+       17.280000      0.34708943       5.0419408
+       18.360000      0.28291292       5.5845996
+       19.440000      0.25721066       5.8569828
+       20.520000      0.22570571       6.2524058
+       21.600000      0.14798199       7.7217192

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20170329112_Example01P.zmx
+Title:	US 2017/0329112 Example 1 (Ricoh HD Pentax-DA 55-300mm F4.5-6.3ED PLM WR RE)
+Date:	11/7/2025 4:26:55 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.8157849
+      0.71200000      0.99418084       4.8298583
+       1.4240000      0.99353582       4.8314259
+       2.1360000      0.99245626       4.8340529
+       2.8480000      0.99054133       4.8387233
+       3.5600000      0.98813941       4.8446005
+       4.2720000      0.98577145       4.8504158
+       4.9840000      0.98297612       4.8573075
+       5.6960000      0.97744963       4.8710198
+       6.4080000      0.97382140       4.8800855
+       7.1200000      0.96977605       4.8902533
+       7.8320000      0.94844696       4.9449347
+       8.5440000      0.93666360       4.9759415
+       9.2560000      0.93056214       4.9922278
+       9.9680000      0.87411965       5.1508825
+       10.680000      0.84775854       5.2303530
+       11.392000      0.76294189       5.5134235
+       12.104000      0.73114803       5.6320231
+       12.816000      0.66013533       5.9272139
+       13.528000      0.62227435       6.1048660
+       14.240000      0.53754507       6.5684007

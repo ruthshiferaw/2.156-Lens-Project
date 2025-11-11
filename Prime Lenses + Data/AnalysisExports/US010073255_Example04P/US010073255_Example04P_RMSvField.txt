@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US010073255_Example04P.zmx
+Title:	US 10,073,255 Example 4 (Olympus M.Zuiko ED 17mm F1.2 Pro)
+Date:	11/7/2025 5:01:56 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

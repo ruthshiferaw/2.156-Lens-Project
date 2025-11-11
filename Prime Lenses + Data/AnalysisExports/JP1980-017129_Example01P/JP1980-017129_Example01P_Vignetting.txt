@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1980-017129_Example01P.zmx
+Title:	JP 1980-017129 Example 1 (Konica Minolta Hexanon 21mm F2.8)
+Date:	11/7/2025 4:07:46 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9210386
+       1.0800000      0.99462888       2.9289150
+       2.1600000      0.99080690       2.9345586
+       3.2400000      0.98334626       2.9456698
+       4.3200000      0.96960798       2.9664648
+       5.4000000      0.95037412       2.9963324
+       6.4800000      0.91281142       3.0573613
+       7.5600000      0.86344416       3.1435485
+       8.6400000      0.82024122       3.2252731
+       9.7200000      0.76085869       3.3487698
+       10.800000      0.72441570       3.4319691
+       11.880000      0.66494302       3.5821608
+       12.960000      0.59001492       3.8028202
+       14.040000      0.54184637       3.9682517
+       15.120000      0.48435034       4.1971790
+       16.200000      0.42252966       4.4937478
+       17.280000      0.37952057       4.7415424
+       18.360000      0.33304732       5.0615592
+       19.440000      0.25921399       5.7373068
+       20.520000      0.22633533       6.1398974
+       21.600000      0.16723302       7.1429281

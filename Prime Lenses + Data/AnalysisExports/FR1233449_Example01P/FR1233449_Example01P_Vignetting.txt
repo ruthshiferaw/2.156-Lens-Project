@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\FR1233449_Example01P.zmx
+Title:	FR 1.233.449 Example 1 (Leica Summilux 35mm F1.4)
+Date:	11/7/2025 4:07:13 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.4844420
+       1.0800000      0.99191956       1.4904760
+       2.1600000      0.97859455       1.5005892
+       3.2400000      0.95478855       1.5191814
+       4.3200000      0.93170524       1.5378853
+       5.4000000      0.90243950       1.5626229
+       6.4800000      0.86241841       1.5984690
+       7.5600000      0.81346504       1.6458634
+       8.6400000      0.77187012       1.6896280
+       9.7200000      0.73678345       1.7293914
+       10.800000      0.68438982       1.7943677
+       11.880000      0.60355800       1.9107493
+       12.960000      0.56857354       1.9686563
+       14.040000      0.52825080       2.0424110
+       15.120000      0.47204965       2.1605752
+       16.200000      0.42426800       2.2789935
+       17.280000      0.38150117       2.4033404
+       18.360000      0.32163007       2.6174892
+       19.440000      0.23815154       3.0418411
+       20.520000      0.19981380       3.3208594
+       21.600000      0.11031348       4.4693970

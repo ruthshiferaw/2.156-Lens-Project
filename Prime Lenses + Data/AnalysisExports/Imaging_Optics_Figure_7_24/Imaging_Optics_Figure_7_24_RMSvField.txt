@@ -1,0 +1,32 @@
+Results for:	RMS Wave Error vs. Field
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\Imaging_Optics_Figure_7_24.zmx
+Title:	Triplet lens (SK16 - LF5 - SK16); Imaging Optics p.461.
+Date:	11/7/2025 4:47:25 PM
+
+0 message(s) in output.
+RMS units are in waves.
+Reference: Centroid.
+Field units are in degrees.
+1 series table(s) in output.
+
+Table series: Field is oriented along the +y direction.
+           Field            Poly          0.5500
+  --------------  --------------  --------------
+      0.00000000      0.42034659      0.42034659
+       1.7066667      0.41237945      0.41237945
+       3.4133333      0.39245679      0.39245679
+       5.1200000      0.37400191      0.37400191
+       6.8266667      0.38129301      0.38129301
+       8.5333333      0.43951750      0.43951750
+       10.240000      0.55528914      0.55528914
+       11.946667      0.71747265      0.71747265
+       13.653333      0.91050622      0.91050622
+       15.360000       1.1179538       1.1179538
+       17.066667       1.3189022       1.3189022
+       18.773333       1.4813723       1.4813723
+       20.480000       1.5531234       1.5531234
+       22.186667       1.4595361       1.4595361
+       23.893333       1.2659728       1.2659728
+       25.600000       2.4462012       2.4462012

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2019-116563_Example03P.zmx
+Title:	WO 2019/116563 Example 3 (Nikon AF-S Nikkor 105mm f/1.4E ED)
+Date:	11/7/2025 4:28:03 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5400338
+       1.0815000      0.99910112       1.5407264
+       2.1630000      0.99694549       1.5423912
+       3.2445000      0.98682890       1.5502770
+       4.3260000      0.96699635       1.5660940
+       5.4075000      0.91782638       1.6074963
+       6.4890000      0.90243554       1.6211461
+       7.5705000      0.87378248       1.6475120
+       8.6520000      0.84141568       1.6789004
+       9.7335000      0.81316803       1.7078121
+       10.815000      0.74619984       1.7828002
+       11.896500      0.71902034       1.8161832
+       12.978000      0.69273323       1.8503217
+       14.059500      0.63149231       1.9379663
+       15.141000      0.59762349       1.9921242
+       16.222500      0.56633303       2.0464178
+       17.304000      0.49597769       2.1867502
+       18.385500      0.44762859       2.3018199
+       19.467000      0.41975221       2.3770250
+       20.548500      0.38289973       2.4887869
+       21.630000      0.32452423       2.7033774

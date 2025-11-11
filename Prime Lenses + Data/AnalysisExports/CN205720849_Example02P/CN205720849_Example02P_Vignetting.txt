@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN205720849_Example02P.zmx
+Title:	CN 205720849 U Example 2 (Venus Laowa 12mm f2.8 Zero-D)
+Date:	11/7/2025 4:06:21 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0096764
+       1.0815000      0.99820857       3.0123759
+       2.1630000      0.99286286       3.0204745
+       3.2445000      0.98404544       3.0339766
+       4.3260000      0.96791985       3.0591453
+       5.4075000      0.95283604       3.0832640
+       6.4890000      0.93340768       3.1151870
+       7.5705000      0.90286415       3.1674415
+       8.6520000      0.86512106       3.2357977
+       9.7335000      0.82820108       3.3071349
+       10.815000      0.78312350       3.4009847
+       11.896500      0.75094957       3.4730770
+       12.978000      0.71128243       3.5686073
+       14.059500      0.66091601       3.7020874
+       15.141000      0.60824172       3.8590615
+       16.222500      0.56812801       3.9929760
+       17.304000      0.49470142       4.2790585
+       18.385500      0.40049923       4.7557494
+       19.467000      0.35549718       5.0477952
+       20.548500      0.28118270       5.6757793
+       21.630000      0.24731479       6.0519421

@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004904070_Example01P.zmx
+Title:	US 4,904,070 Example 1 (Ricoh smc PENTAX-FA 600mm F4ED[IF])
+Date:	11/7/2025 5:00:20 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

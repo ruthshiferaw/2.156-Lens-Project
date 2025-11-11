@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2016-012034_Example01P.zmx
+Title:	JP 2016-012034 Example 1 (Sigma 24mm F1.4 DG HSM Art)
+Date:	11/7/2025 4:48:44 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

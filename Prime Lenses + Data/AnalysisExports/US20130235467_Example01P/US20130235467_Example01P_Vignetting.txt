@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20130235467_Example01P.zmx
+Title:	US 2013/0235467 Example 1 (Samsung 10mm F3.5 Fisheye)
+Date:	11/7/2025 4:26:21 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       3.9615681
+       4.5000000      0.99943597       3.9626858
+       9.0000000      0.99775211       3.9660282
+       13.500000      0.99497340       3.9715624
+       18.000000      0.99114231       3.9792307
+       22.500000      0.98631996       3.9889465
+       27.000000      0.98058765       4.0005888
+       31.500000      0.97404841       4.0139952
+       36.000000      0.96682833       4.0289552
+       40.500000      0.95907724       4.0452031
+       45.000000      0.95096956       4.0624106
+       49.500000      0.94270252       4.0801844
+       54.000000      0.93449200       4.0980696
+       58.500000      0.92656613       4.1155598
+       63.000000      0.91509185       4.1412818
+       67.500000      0.90853304       4.1562031
+       72.000000      0.87891188       4.2256591
+       76.500000      0.80782774       4.4076565
+       81.000000      0.71696466       4.6786252
+       85.500000      0.59552460       5.1335438
+       90.000000      0.49995635       5.6027479

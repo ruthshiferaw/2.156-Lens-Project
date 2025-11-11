@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20150185495_Example01P.zmx
+Title:	US 2015/0185495 Example 1 (Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G VR II)
+Date:	11/7/2025 4:26:32 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.7935379
+      0.71250000      0.99954274       3.7944055
+       1.4250000      0.99817130       3.7970113
+       2.1375000      0.99588769       3.8013621
+       2.8500000      0.99269387       3.8074724
+       3.5625000      0.98859218       3.8153628
+       4.2750000      0.98358526       3.8250615
+       4.9875000      0.97767636       3.8366031
+       5.7000000      0.95877633       3.8742334
+       6.4125000      0.95121705       3.8895971
+       7.1250000      0.94113751       3.9103703
+       7.8375000      0.90754013       3.9820940
+       8.5500000      0.87433045       4.0570151
+       9.2625000      0.83982252       4.1395265
+       9.9750000      0.80113168       4.2383076
+       10.687500      0.72506778       4.4550761
+       11.400000      0.69635073       4.5460103
+       12.112500      0.64074926       4.7391491
+       12.825000      0.59359641       4.9237818
+       13.537500      0.55928213       5.0725806
+       14.250000      0.45212560       5.6417635

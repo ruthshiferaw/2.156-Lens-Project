@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US009063253_Example01P.zmx
+Title:	US 9,063,253 Example 1 (Tamron SP 90mm F/2.8 Di Macro 1:1 VC USD)
+Date:	11/7/2025 4:19:29 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99381361       3.4358890
+       1.0800000       1.0000000       3.4252447
+       2.1600000      0.99826060       3.4282275
+       3.2400000      0.99679414       3.4307483
+       4.3200000      0.99579290       3.4324727
+       5.4000000      0.98862729       3.4448896
+       6.4800000      0.98639628       3.4487831
+       7.5600000      0.97051690       3.4768828
+       8.6400000      0.95815597       3.4992381
+       9.7200000      0.91364567       3.5834611
+       10.800000      0.89105703       3.6285979
+       11.880000      0.87045297       3.6712921
+       12.960000      0.85146079       3.7120112
+       14.040000      0.79219644       3.8483553
+       15.120000      0.76168243       3.9246834
+       16.200000      0.74491414       3.9686106
+       17.280000      0.71934610       4.0385239
+       18.360000      0.67398014       4.1722282
+       19.440000      0.59217497       4.4510921
+       20.520000      0.56342954       4.5632241
+       21.600000      0.48699350       4.9082878

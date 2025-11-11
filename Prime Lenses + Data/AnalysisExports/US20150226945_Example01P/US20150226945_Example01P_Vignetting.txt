@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20150226945_Example01P.zmx
+Title:	US 2015/0226945 Example 1 (Sony FE 70-200mm F4 G OSS)
+Date:	11/7/2025 4:26:37 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       4.3454230
+       1.0815000      0.99965236       4.3461785
+       2.1630000      0.99303940       4.3606257
+       3.2445000      0.98479666       4.3788369
+       4.3260000      0.97995202       4.3896475
+       5.4075000      0.97459161       4.4017028
+       6.4890000      0.96057967       4.4336904
+       7.5705000      0.94284884       4.4751852
+       8.6520000      0.91386095       4.5456081
+       9.7335000      0.87184192       4.6538586
+       10.815000      0.82790699       4.7757467
+       11.896500      0.81031687       4.8273036
+       12.978000      0.79213014       4.8824048
+       14.059500      0.75537055       4.9997931
+       15.141000      0.72399655       5.1069759
+       16.222500      0.68646643       5.2447212
+       17.304000      0.61949510       5.5209411
+       18.385500      0.59669707       5.6254219
+       19.467000      0.52922107       5.9732885
+       20.548500      0.45778157       6.4224821
+       21.630000      0.42398895       6.6735172

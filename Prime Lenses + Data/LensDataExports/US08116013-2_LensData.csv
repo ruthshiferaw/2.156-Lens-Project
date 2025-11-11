@@ -1,0 +1,15 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,Inf,Inf,,Inf,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Even Asphere,,19.231,1,PMMA,5.12089828274431,-1050,0,0.000116,1.35e-07,0,0,0,0,0
+2,Even Asphere,,3.203,3.752,,2.88217053691768,-1.51,0,0.0026,0.000548,6.5e-06,-9.26e-08,0,0,0
+3,Even Asphere,,-161.902,1,E48R,1.7,0,0,-0.0196,-0.000519,0,0,0,0,0
+4,Even Asphere,,1.866,0.765,,1.41,-1.36,0,0.00308,-0.000821,-0.000616,0,0,0,0
+5,Standard,,7.24,1.805,LASFN14,1.7,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+6,Standard,,-3.899,0.365,,1.7,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+7,Standard,,Inf,0.5,,1.05809584428708,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+8,Standard,,8.247,1,H-ZF72,1.8,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+9,Standard,,1.917,2.307,P-LASF47,1.8,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+10,Standard,,-4.713,1.285,,1.8,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+11,Standard,,Inf,1,IRG15,2,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+12,Standard,,Inf,0.975,,2,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+13,Standard,,Inf,Inf,,1.70317543787611,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

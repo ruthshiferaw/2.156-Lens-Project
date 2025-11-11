@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE01170157_Example01P.zmx
+Title:	DE 1,170,157 Example 1 (Zeiss Planar f1.4 55mm)
+Date:	11/7/2025 4:46:47 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20140204265_Example04P.zmx
+Title:	US 2014/0204265 Example 4 (Sony E 20mm F2.8)
+Date:	11/7/2025 4:26:24 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.2554370
+      0.71000000      0.99851915       3.2578500
+       1.4200000      0.99408583       3.2651065
+       2.1300000      0.98672651       3.2772599
+       2.8400000      0.97648159       3.2944070
+       3.5500000      0.96340078       3.3166970
+       4.2600000      0.94753845       3.3443434
+       4.9700000      0.92895159       3.3776352
+       5.6800000      0.90769663       3.4169524
+       6.3900000      0.88383618       3.4627681
+       7.1000000      0.85188425       3.5271099
+       7.8100000      0.82326587       3.5878909
+       8.5200000      0.79235742       3.6572001
+       9.2300000      0.75633087       3.7432891
+       9.9400000      0.70703918       3.8715739
+       10.650000      0.65109763       4.0344676
+       11.360000      0.60819761       4.1743315
+       12.070000      0.56125961       4.3453763
+       12.780000      0.51627923       4.5307173
+       13.490000      0.46887921       4.7542148
+       14.200000      0.40909357       5.0897677

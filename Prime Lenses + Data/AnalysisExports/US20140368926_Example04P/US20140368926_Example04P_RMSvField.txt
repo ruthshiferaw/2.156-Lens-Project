@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20140368926_Example04P.zmx
+Title:	US 2014/0368926 Example 4 (Fujifilm Fujinon XF23mm F1.4 R)
+Date:	11/7/2025 5:13:45 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

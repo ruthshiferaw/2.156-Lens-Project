@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\GB0673358_Example01P.zmx
+Title:	GB 673,358 Example 1 (Angenieux 35mm f2.5 R1)
+Date:	11/7/2025 4:07:15 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.6517164
+       1.0800000      0.99907845       2.6529391
+       2.1600000      0.99608833       2.6569180
+       3.2400000      0.99111815       2.6635715
+       4.3200000      0.98393512       2.6732763
+       5.4000000      0.97522454       2.6851885
+       6.4800000      0.96485067       2.6995851
+       7.5600000      0.94705165       2.7248352
+       8.6400000      0.91932463       2.7656208
+       9.7200000      0.87750285       2.8307585
+       10.800000      0.85077846       2.8748741
+       11.880000      0.82628824       2.9171670
+       12.960000      0.78349804       2.9957676
+       14.040000      0.71872661       3.1278450
+       15.120000      0.67172353       3.2354284
+       16.200000      0.63265591       3.3338288
+       17.280000      0.58381309       3.4704850
+       18.360000      0.53919313       3.6112280
+       19.440000      0.49931475       3.7526658
+       20.520000      0.44842270       3.9598915
+       21.600000      0.38108395       4.2955299

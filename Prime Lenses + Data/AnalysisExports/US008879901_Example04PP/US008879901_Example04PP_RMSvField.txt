@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US008879901_Example04PP.zmx
+Title:	US 8,879,901 Example 4 (Nikon AI Nikkor 50mm f/1.2S with Metabones M43 Speed Booster 0.71x)
+Date:	11/7/2025 5:01:50 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

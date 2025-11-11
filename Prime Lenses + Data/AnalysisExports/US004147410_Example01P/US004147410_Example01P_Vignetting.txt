@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004147410_Example01P.zmx
+Title:	US 4,147,410 Example 1 (Konica Minolta 24-50mm F4 MD Zoom)
+Date:	11/7/2025 4:17:25 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99599987       4.1015922
+       1.0800000       1.0000000       4.0933806
+       2.1600000      0.99833659       4.0967893
+       3.2400000      0.99142921       4.1110359
+       4.3200000      0.98124706       4.1323104
+       5.4000000      0.95912197       4.1797009
+       6.4800000      0.92774231       4.2497995
+       7.5600000      0.90018224       4.3143652
+       8.6400000      0.88810820       4.3435936
+       9.7200000      0.86907461       4.3909005
+       10.800000      0.82856622       4.4969547
+       11.880000      0.79078740       4.6031195
+       12.960000      0.77112499       4.6614361
+       14.040000      0.75081007       4.7240782
+       15.120000      0.72092108       4.8210125
+       16.200000      0.68861371       4.9328089
+       17.280000      0.65519071       5.0570618
+       18.360000      0.63104426       5.1529059
+       19.440000      0.60296419       5.2715261
+       20.520000      0.57500241       5.3981791
+       21.600000      0.53385975       5.6023280

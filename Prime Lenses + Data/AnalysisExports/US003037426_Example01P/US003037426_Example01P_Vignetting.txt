@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003037426_Example01P.zmx
+Title:	US 3,037,426 Example 1 (Kinoptik Tegea 5.7mm f/1.8)
+Date:	11/7/2025 4:16:00 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       1.9046557
+      0.37000000      0.99124119       1.9130521
+      0.74000000      0.97621095       1.9277230
+       1.1100000      0.96883113       1.9350511
+       1.4800000      0.95531998       1.9486868
+       1.8500000      0.92729836       1.9779109
+       2.2200000      0.89898109       2.0088208
+       2.5900000      0.89057900       2.0182746
+       2.9600000      0.85854304       2.0555850
+       3.3300000      0.82945905       2.0913128
+       3.7000000      0.81485888       2.1099651
+       4.0700000      0.79067728       2.1419871
+       4.4400000      0.75682674       2.1893654
+       4.8100000      0.72617965       2.2350870
+       5.1800000      0.70792899       2.2637144
+       5.5500000      0.68954511       2.2936922
+       5.9200000      0.67107725       2.3250389
+       6.2900000      0.63249539       2.3949023
+       6.6600000      0.59561085       2.4679433
+       7.0300000      0.53755591       2.5977937
+       7.4000000      0.46449085       2.7946530

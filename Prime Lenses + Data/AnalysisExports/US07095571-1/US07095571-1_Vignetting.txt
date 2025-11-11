@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US07095571-1.ZMX
+Title:	Techwin cellphone camera
+Date:	11/7/2025 4:23:58 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.1682778
+       1.2500000      0.99861658       3.1704717
+       2.5000000      0.99447373       3.1770687
+       3.7500000      0.98759748       3.1881098
+       5.0000000      0.97804343       3.2036436
+       6.2500000      0.96591435       3.2236950
+       7.5000000      0.95138309       3.2482208
+       8.7500000      0.93472224       3.2770417
+       10.000000      0.91630911       3.3098039
+       11.250000      0.89665371       3.3458840
+       12.500000      0.87633982       3.3844413
+       13.750000      0.85591898       3.4245770
+       15.000000      0.83570801       3.4657400
+       16.250000      0.81023484       3.5197985
+       17.500000      0.78957604       3.5655479
+       18.750000      0.76747764       3.6165160
+       20.000000      0.74285785       3.6759568
+       21.250000      0.71489738       3.7471528
+       22.500000      0.68227391       3.8356933
+       23.750000      0.64335553       3.9500059
+       25.000000      0.57353804       4.1835228

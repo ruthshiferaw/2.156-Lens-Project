@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US008879901_Example04P.zmx
+Title:	US 8,879,901 Example 4 (Metabones M43 Speed Booster 0.71x)
+Date:	11/7/2025 4:19:27 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.8042642
+      0.54100000      0.97832444       1.8241422
+       1.0820000      0.83076165       1.9795292
+       1.6230000      0.84333932       1.9647123
+       2.1640000      0.84162548       1.9667117
+       2.7050000      0.84773838       1.9596081
+       3.2460000      0.84606327       1.9615470
+       3.7870000      0.84323332       1.9648358
+       4.3280000      0.83935685       1.9693678
+       4.8690000      0.82995961       1.9804855
+       5.4100000      0.81921353       1.9934327
+       5.9510000      0.80253561       2.0140395
+       6.4920000      0.78799525       2.0325364
+       7.0330000      0.91408579       1.8871510
+       7.5740000      0.89125055       1.9111740
+       8.1150000      0.76605695       2.0614349
+       8.6560000      0.77116179       2.0546005
+       9.1970000      0.76689337       2.0603104
+       9.7380000      0.76135977       2.0677840
+       10.279000      0.75033544       2.0829192
+       10.820000      0.73912145       2.0986607

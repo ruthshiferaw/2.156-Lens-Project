@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN106249387_Example02P.zmx
+Title:	CN 106249387 Example 2 (Yongnuo YN 50mm f/1.4)
+Date:	11/7/2025 4:46:06 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

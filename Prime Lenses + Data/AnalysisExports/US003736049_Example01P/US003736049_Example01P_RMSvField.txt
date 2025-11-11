@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003736049_Example01P.zmx
+Title:	US 3,736,049 Example 1 (Nikon Nikkor-N Auto 28mm f/2)
+Date:	11/7/2025 4:56:39 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

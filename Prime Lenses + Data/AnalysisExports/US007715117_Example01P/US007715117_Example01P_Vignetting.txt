@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US007715117_Example01P.zmx
+Title:	US 7,715,117 Example 1 (Canon EF24mm f1.4L II USM)
+Date:	11/7/2025 4:19:16 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5184071
+       1.0820000      0.99917963       1.5190303
+       2.1640000      0.99016132       1.5259323
+       3.2460000      0.98517115       1.5297920
+       4.3280000      0.97052546       1.5412914
+       5.4100000      0.95226056       1.5560027
+       6.4920000      0.92247790       1.5809213
+       7.5740000      0.88167041       1.6170934
+       8.6560000      0.84570642       1.6511192
+       9.7380000      0.81579082       1.6811204
+       10.820000      0.74901672       1.7544560
+       11.902000      0.67324039       1.8505599
+       12.984000      0.64182712       1.8953054
+       14.066000      0.58762737       1.9807845
+       15.148000      0.52087317       2.1038862
+       16.230000      0.48557558       2.1790130
+       17.312000      0.41954293       2.3442290
+       18.394000      0.35488428       2.5488534
+       19.476000      0.32664720       2.6567382
+       20.558000      0.28618555       2.8383398
+       21.640000      0.20016964       3.3938226

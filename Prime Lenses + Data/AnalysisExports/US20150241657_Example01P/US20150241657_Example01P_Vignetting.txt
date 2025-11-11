@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20150241657_Example01P.zmx
+Title:	US 2015/0241657 Example 1 (Ricoh smc Pentax-Q 06 Telephoto Zoom 15-45mm F2.8)
+Date:	11/7/2025 4:26:39 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0392626
+      0.23500000      0.99362235       3.0490009
+      0.47000000      0.98934824       3.0555798
+      0.70500000      0.98250821       3.0661976
+      0.94000000      0.95885328       3.1037887
+       1.1750000      0.92397516       3.1618268
+       1.4100000      0.89354582       3.2152135
+       1.6450000      0.87658338       3.2461726
+       1.8800000      0.84346726       3.3092846
+       2.1150000      0.81190855       3.3729870
+       2.3500000      0.79537766       3.4078584
+       2.5850000      0.77878025       3.4439812
+       2.8200000      0.75244821       3.5037243
+       3.0550000      0.70777552       3.6126049
+       3.2900000      0.70049140       3.6313393
+       3.5250000      0.67195198       3.7076532
+       3.7600000      0.65594735       3.7526127
+       3.9950000      0.60075787       3.9211955
+       4.2300000      0.58036963       3.9894763
+       4.4650000      0.56232601       4.0529771
+       4.7000000      0.49312314       4.3280328

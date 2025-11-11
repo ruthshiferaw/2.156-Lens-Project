@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20140071331_Example04P.zmx
+Title:	US 2014/0071331 Example 4 (Sony Planar T* 50mm F1.4 ZA SSM)
+Date:	11/7/2025 4:26:23 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5249910
+       1.0815000      0.99321999       1.5301871
+       2.1630000      0.98432825       1.5370829
+       3.2445000      0.97900259       1.5412580
+       4.3260000      0.96198635       1.5548296
+       5.4075000      0.92047413       1.5895035
+       6.4890000      0.88082479       1.6248845
+       7.5705000      0.86021804       1.6442316
+       8.6520000      0.83163435       1.6722494
+       9.7335000      0.77858957       1.7282755
+       10.815000      0.73674910       1.7766728
+       11.896500      0.69367809       1.8309997
+       12.978000      0.64994388       1.8916001
+       14.059500      0.61427538       1.9457441
+       15.141000      0.54463878       2.0663933
+       16.222500      0.49047718       2.1774985
+       17.304000      0.45281278       2.2662506
+       18.385500      0.38119430       2.4699836
+       19.467000      0.30837638       2.7461656
+       20.548500      0.28203355       2.8715533
+       21.630000      0.23708274       3.1319679

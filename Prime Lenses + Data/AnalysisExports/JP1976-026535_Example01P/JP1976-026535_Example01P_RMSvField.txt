@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1976-026535_Example01P.zmx
+Title:	JP 1976-026535 Example 1 (Konica Minolta UC Hexanon AR 28mm F1.8)
+Date:	11/7/2025 4:47:32 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

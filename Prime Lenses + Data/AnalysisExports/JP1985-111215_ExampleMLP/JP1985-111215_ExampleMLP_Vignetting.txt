@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1985-111215_ExampleMLP.zmx
+Title:	JP 1985-111215 Example ML (Konica Minolta 50mm F1.7 MD)
+Date:	11/7/2025 4:07:54 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       1.8181683
+       1.0800000      0.99939853       1.8187153
+       2.1600000      0.99125593       1.8261699
+       3.2400000      0.98091285       1.8357725
+       4.3200000      0.97385905       1.8424089
+       5.4000000      0.96829952       1.8476904
+       6.4800000      0.94542483       1.8699094
+       7.5600000      0.90278662       1.9135575
+       8.6400000      0.84996896       1.9721164
+       9.7200000      0.79423629       2.0401364
+       10.800000      0.76108640       2.0840930
+       11.880000      0.72299148       2.1382943
+       12.960000      0.65510012       2.2463645
+       14.040000      0.59678225       2.3535646
+       15.120000      0.56479252       2.4192993
+       16.200000      0.52753502       2.5032742
+       17.280000      0.45391722       2.6986449
+       18.360000      0.40123320       2.8703552
+       19.440000      0.36852069       2.9950435
+       20.520000      0.31901303       3.2190658
+       21.600000      0.25786068       3.5804821

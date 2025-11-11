@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2019-220618_Example09P.zmx
+Title:	WO 2019/220618 Example 9 (Nikon Nikkor Z 50mm f/1.8 S)
+Date:	11/7/2025 4:28:05 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       1.9374742
+       1.0850000      0.99903442       1.9384102
+       2.1700000      0.99614733       1.9412172
+       3.2550000      0.98605987       1.9511213
+       4.3400000      0.97936967       1.9577742
+       5.4250000      0.96883222       1.9683922
+       6.5100000      0.94275673       1.9954282
+       7.5950000      0.91879120       2.0212848
+       8.6800000      0.87641775       2.0695710
+       9.7650000      0.84721639       2.1049353
+       10.850000      0.81454449       2.1467354
+       11.935000      0.74848651       2.2394632
+       13.020000      0.71746514       2.2873653
+       14.105000      0.65873593       2.3871530
+       15.190000      0.61533171       2.4699108
+       16.275000      0.56715830       2.5726682
+       17.360000      0.51374161       2.7031090
+       18.445000      0.47873843       2.8001853
+       19.530000      0.42919061       2.9574051
+       20.615000      0.36376403       3.2123736
+       21.700000      0.33742111       3.3354144

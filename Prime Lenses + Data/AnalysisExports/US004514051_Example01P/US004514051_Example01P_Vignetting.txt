@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004514051_Example01P.zmx
+Title:	US 4,514,051 Example 1 (Nikon TC-14A)
+Date:	11/7/2025 4:18:14 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99155020       2.5770085
+      0.75000000      1.00000000       2.5660978
+       1.5000000      0.98874277       2.5806645
+       2.2500000      0.97692309       2.5962291
+       3.0000000      0.94533592       2.6392476
+       3.7500000      0.92256264       2.6716236
+       4.5000000      0.91118336       2.6882541
+       5.2500000      0.89871567       2.7068367
+       6.0000000      0.87594065       2.7418006
+       6.7500000      0.85050056       2.7825047
+       7.5000000      0.81906669       2.8353951
+       8.2500000      0.81224558       2.8472758
+       9.0000000      0.78919368       2.8885601
+       9.7500000      0.77257925       2.9194543
+       10.500000      0.76080609       2.9419563
+       11.250000      0.71452237       3.0357450
+       12.000000      0.69911207       3.0690206
+       12.750000      0.68153204       3.1083511
+       13.500000      0.67051873       3.1337746
+       14.250000      0.65109538       3.1801741
+       15.000000      0.60144284       3.3088420

@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US007715117_Example01P.zmx
+Title:	US 7,715,117 Example 1 (Canon EF24mm f1.4L II USM)
+Date:	11/7/2025 5:01:29 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

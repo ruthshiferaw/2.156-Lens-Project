@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2005-107261_Example05P.zmx
+Title:	JP 2005-107261 Example 5 (Nikon AF-S Teleconverter TC-17E II)
+Date:	11/7/2025 4:08:19 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       49.864093
+       1.0820000      0.99957382       49.874722
+       2.1640000      0.99829897       49.906557
+       3.2460000      0.99618654       49.959443
+       4.3280000      0.99325498       50.033116
+       5.4100000      0.98953009       50.127197
+       6.4920000      0.98504499       50.241187
+       7.5740000      0.97984011       50.374450
+       8.6560000      0.97396313       50.526203
+       9.7380000      0.96746904       50.695497
+       10.820000      0.96042015       50.881194
+       11.902000      0.95288618       51.081943
+       12.984000      0.94494444       51.296152
+       14.066000      0.93668002       51.521950
+       15.148000      0.92818627       51.757150
+       16.230000      0.91956525       51.999198
+       17.312000      0.91092853       52.245125
+       18.394000      0.90239823       52.491478
+       19.476000      0.89410838       52.734258
+       20.558000      0.88620680       52.968830
+       21.640000      0.87885761       53.189838

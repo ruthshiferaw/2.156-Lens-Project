@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2011-248340_Example01P.zmx
+Title:	JP 2011-248340 Example 1 (Nikon 1 Nikkor 10mm f/2.8)
+Date:	11/7/2025 4:08:23 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0571283
+      0.41000000      0.99930186       3.0581961
+      0.82000000      0.99720833       3.0614045
+       1.2300000      0.99372534       3.0667649
+       1.6400000      0.98886413       3.0742937
+       2.0500000      0.98264158       3.0840123
+       2.4600000      0.97508112       3.0959454
+       2.8700000      0.96621340       3.1101200
+       3.2800000      0.95607666       3.1265639
+       3.6900000      0.94471667       3.1453058
+       4.1000000      0.93218505       3.1663769
+       4.5100000      0.91853626       3.1898152
+       4.9200000      0.90382374       3.2156724
+       5.3300000      0.88809273       3.2440274
+       5.7400000      0.87137008       3.2750079
+       6.1500000      0.85366531       3.3087950
+       6.5600000      0.83492371       3.3457252
+       6.9700000      0.81502010       3.3863318
+       7.3800000      0.78432969       3.4519488
+       7.7900000      0.71815083       3.6074958
+       8.2000000      0.59975982       3.9475259

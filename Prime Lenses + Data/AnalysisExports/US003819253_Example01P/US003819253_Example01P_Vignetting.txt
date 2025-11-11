@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003819253_Example01P.zmx
+Title:	US 3,819,253 Example 1 (Olympus 300mm f4.5 F Zuiko Auto-T)
+Date:	11/7/2025 4:16:47 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.7096936
+       1.0800000      0.99987379       4.7099909
+       2.1600000      0.99949528       4.7108826
+       3.2400000      0.99886485       4.7123690
+       4.3200000      0.99798311       4.7144503
+       5.4000000      0.99685094       4.7171268
+       6.4800000      0.99020487       4.7329305
+       7.5600000      0.98862469       4.7367115
+       8.6400000      0.98655735       4.7416718
+       9.7200000      0.98449835       4.7466276
+       10.800000      0.97975936       4.7580932
+       11.880000      0.97725751       4.7641799
+       12.960000      0.97451868       4.7708699
+       14.040000      0.96573528       4.7925164
+       15.120000      0.95227632       4.8262650
+       16.200000      0.94107717       4.8548972
+       17.280000      0.91898572       4.9129040
+       18.360000      0.88274135       5.0127486
+       19.440000      0.83835058       5.1437496
+       20.520000      0.82747648       5.1774371
+       21.600000      0.81856950       5.2055291

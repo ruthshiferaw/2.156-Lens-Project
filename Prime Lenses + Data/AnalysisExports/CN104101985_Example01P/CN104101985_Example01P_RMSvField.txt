@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN104101985_Example01P.zmx
+Title:	CN 104101985 Example 1 (Zhong Yi Creator 35mm F2)
+Date:	11/7/2025 4:46:05 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2017-227799_Example01P.zmx
+Title:	JP 2017-227799 Example 1 (Nikon AF-S Nikkor 28mm f/1.4E ED)
+Date:	11/7/2025 4:14:17 PM
+
+1 message(s) in output.
+Cannot compute relative illumination...
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

@@ -1,0 +1,32 @@
+Results for:	RMS Wave Error vs. Field
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US11163141_lens system 610_folded.zmx
+Title:	
+Date:	11/7/2025 5:12:46 PM
+
+0 message(s) in output.
+RMS units are in waves.
+Reference: Centroid.
+Field units are in degrees.
+1 series table(s) in output.
+
+Table series: Field is oriented along the +y direction.
+           Field            Poly          0.5500
+  --------------  --------------  --------------
+      0.00000000      0.10491232      0.10491232
+      0.93333333      0.10474367      0.10474367
+       1.8666667      0.10444105      0.10444105
+       2.8000000      0.10448926      0.10448926
+       3.7333333      0.10528971      0.10528971
+       4.6666667      0.10667759      0.10667759
+       5.6000000      0.10763644      0.10763644
+       6.5333333      0.10651281      0.10651281
+       7.4666667      0.10172449      0.10172449
+       8.4000000     0.092673252     0.092673252
+       9.3333333     0.080448528     0.080448528
+       10.266667     0.067921835     0.067921835
+       11.200000     0.059479166     0.059479166
+       12.133333     0.060898825     0.060898825
+       13.066667     0.081483148     0.081483148
+       14.000000      0.14395007      0.14395007

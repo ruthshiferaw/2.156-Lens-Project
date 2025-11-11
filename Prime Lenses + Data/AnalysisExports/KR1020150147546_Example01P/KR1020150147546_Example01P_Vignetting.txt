@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\KR1020150147546_Example01P.zmx
+Title:	KR 10-2015-0147546 Example 1 (Samyang AF 50mm F1.4 FE)
+Date:	11/7/2025 4:14:50 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.4995625
+       1.0850000      0.99576079       1.5027511
+       2.1700000      0.99335255       1.5045716
+       3.2550000      0.98956026       1.5074518
+       4.3400000      0.98284983       1.5125892
+       5.4250000      0.97179287       1.5211699
+       6.5100000      0.96362795       1.5276008
+       7.5950000      0.94748340       1.5405605
+       8.6800000      0.90838215       1.5733678
+       9.7650000      0.86328795       1.6139375
+       10.850000      0.81760726       1.6584111
+       11.935000      0.77901167       1.6989969
+       13.020000      0.70768966       1.7825558
+       14.105000      0.67713392       1.8223311
+       15.190000      0.63254249       1.8854704
+       16.275000      0.56773638       1.9901747
+       17.360000      0.50700882       2.1059924
+       18.445000      0.46962623       2.1882069
+       19.530000      0.40390411       2.3595296
+       20.615000      0.36730459       2.4742945
+       21.700000      0.32578792       2.6272239

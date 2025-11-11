@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE01241637_Example01P.zmx
+Title:	DE 1,241,637 Example 1 (Zeiss Hologon f8 15mm)
+Date:	11/7/2025 4:06:59 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       8.3880450
+       3.0000000      0.99554977       8.4067718
+       6.0000000      0.98229704       8.4632921
+       9.0000000      0.96053253       8.5586391
+       12.000000      0.93073065       8.6945827
+       15.000000      0.89353471       8.8737060
+       18.000000      0.84973708       9.0995196
+       21.000000      0.80025515       9.3766242
+       24.000000      0.74610397       9.7109356
+       27.000000      0.68836681       10.109991
+       30.000000      0.62816455       10.583371
+       33.000000      0.56662515       11.143274
+       36.000000      0.50485564       11.805303
+       39.000000      0.44390899       12.589654
+       42.000000      0.38476817       13.522631
+       45.000000      0.32831913       14.639042
+       48.000000      0.27533359       15.985681
+       51.000000      0.00000000      0.00000000
+       54.000000      0.00000000      0.00000000
+       57.000000      0.00000000      0.00000000
+       60.000000      0.00000000      0.00000000

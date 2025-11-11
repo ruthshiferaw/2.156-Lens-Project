@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US008879901_Example03P.zmx
+Title:	US 8,879,901 Example 3 (Metabones Canon EF Lens to Sony E Mount T Speed Booster Ultra 0.71x)
+Date:	11/7/2025 5:01:47 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

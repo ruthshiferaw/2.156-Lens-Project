@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20200271904_Example03P.zmx
+Title:	US 2020/0271904 Example 3 (Canon Extender RF1.4X)
+Date:	11/7/2025 4:27:37 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.98848342       4.3408109
+       1.0820000      0.98855325       4.3406576
+       2.1640000      0.98876286       4.3401975
+       3.2460000      0.98911264       4.3394300
+       4.3280000      0.98960312       4.3383545
+       5.4100000      0.99023475       4.3369706
+       6.4920000      0.99100766       4.3352791
+       7.5740000      0.99192118       4.3332823
+       8.6560000      0.99297328       4.3309860
+       9.7380000      0.99415971       4.3284010
+       10.820000      0.99547271       4.3255455
+       11.902000      0.99689933       4.3224493
+       12.984000      0.99841899       4.3191585
+       14.066000       1.0000000       4.3157429
+       15.148000      0.99515725       4.3262310
+       16.230000      0.94998413       4.4278957
+       17.312000      0.88253704       4.5939799
+       18.394000      0.84083211       4.7065309
+       19.476000      0.77004539       4.9181005
+       20.558000      0.68623533       5.2097757
+       21.640000      0.59703443       5.5854205

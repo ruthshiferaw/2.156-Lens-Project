@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE03026282_Example01P.zmx
+Title:	DE 3026282 Example 1 (Rodenstock Geronar-WA 90mm f8)
+Date:	11/7/2025 4:07:09 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       8.3924384
+       3.8750000      0.99646525       8.4073105
+       7.7500000      0.98596969       8.4519395
+       11.625000      0.96883198       8.5263652
+       15.500000      0.94555928       8.6306555
+       19.375000      0.91681427       8.7649104
+       23.250000      0.88337414       8.9292673
+       27.125000      0.84608581       9.1239093
+       31.000000      0.80582139       9.3490777
+       34.875000      0.76343739       9.6050902
+       38.750000      0.71974036       9.8923674
+       42.625000      0.67546024       10.211470
+       46.500000      0.63123216       10.563154
+       50.375000      0.58758604       10.948445
+       54.250000      0.54494316       11.368746
+       58.125000      0.50361840       11.825986
+       62.000000      0.46126027       12.357060
+       65.875000      0.42237710       12.913322
+       69.750000      0.36698904       13.853567
+       73.625000      0.31254562       15.011755
+       77.500000      0.23666626       17.251227

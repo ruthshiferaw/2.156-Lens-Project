@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2020-158622_Example03P.zmx
+Title:	WO 2020/158622 Example 3 (Panasonic Lumix S Pro 50mm F1.4)
+Date:	11/7/2025 5:16:48 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

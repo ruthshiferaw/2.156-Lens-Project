@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20160103303_Example01P.zmx
+Title:	US 2016/0103303 Example 1 (Ricoh HD Pentax-D FA 70-200mm F2.8ED DC AW)
+Date:	11/7/2025 4:26:42 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0386121
+       1.0820000      0.99979299       3.0389267
+       2.1640000      0.99917238       3.0398703
+       3.2460000      0.99235499       3.0502942
+       4.3280000      0.98436547       3.0626480
+       5.4100000      0.98229599       3.0658724
+       6.4920000      0.97779965       3.0729134
+       7.5740000      0.97519554       3.0770136
+       8.6560000      0.96164178       3.0986220
+       9.7380000      0.93100891       3.1491862
+       10.820000      0.90930791       3.1865430
+       11.902000      0.89084839       3.2193883
+       12.984000      0.88127042       3.2368358
+       14.066000      0.86053518       3.2756007
+       15.148000      0.81144970       3.3732184
+       16.230000      0.79011358       3.4184600
+       17.312000      0.72606219       3.5660576
+       18.394000      0.70008651       3.6316117
+       19.476000      0.61326586       3.8801710
+       20.558000      0.55698159       4.0715038
+       21.640000      0.46801000       4.4416844

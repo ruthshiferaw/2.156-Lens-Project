@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2016-184136_Example07P.zmx
+Title:	JP 2016-184136 Example 7 (Olympus M.Zuiko ED 8mm F1.8 Fisheye)
+Date:	11/7/2025 4:08:55 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.9702283
+       4.9000000      0.99985666       1.9703695
+       9.8000000      0.99943035       1.9707897
+       14.700000      0.99873137       1.9714792
+       19.600000      0.99777809       1.9724208
+       24.500000      0.99659931       1.9735869
+       29.400000      0.99523730       1.9749369
+       34.300000      0.98175346       1.9884530
+       39.200000      0.98033483       1.9898912
+       44.100000      0.97587295       1.9944351
+       49.000000      0.96141448       2.0093760
+       53.900000      0.91318505       2.0617555
+       58.800000      0.90691285       2.0688727
+       63.700000      0.86759347       2.1152340
+       68.600000      0.83657026       2.1540974
+       73.500000      0.80203869       2.1999808
+       78.400000      0.78146705       2.2287493
+       83.300000      0.76189074       2.2572008
+       88.200000      0.74904671       2.2764709
+       93.100000      0.75512249       2.2672940
+       98.000000      0.76986195       2.2454848

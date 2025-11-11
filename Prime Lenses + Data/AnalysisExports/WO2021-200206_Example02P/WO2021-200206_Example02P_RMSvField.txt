@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2021-200206_Example02P.zmx
+Title:	WO 2021/200206 Example 2 (Sony FE 12-24mm F2.8 GM)
+Date:	11/7/2025 5:16:57 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

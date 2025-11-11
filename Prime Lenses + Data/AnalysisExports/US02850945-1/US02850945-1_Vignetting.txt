@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US02850945-1.zmx
+Title:	
+Date:	11/7/2025 4:21:56 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       5.2336159
+      0.30000000      0.99994828       5.2337513
+      0.60000000      0.99979312       5.2341574
+      0.90000000      0.99953458       5.2348343
+       1.2000000      0.99917272       5.2357821
+       1.5000000      0.99870765       5.2370010
+       1.8000000      0.99813950       5.2384913
+       2.1000000      0.99746844       5.2402531
+       2.4000000      0.99669465       5.2422869
+       2.7000000      0.99581836       5.2445929
+       3.0000000      0.99483983       5.2471716
+       3.3000000      0.99375931       5.2500234
+       3.6000000      0.99257714       5.2531489
+       3.9000000      0.99129364       5.2565486
+       4.2000000      0.98990918       5.2602232
+       4.5000000      0.98842415       5.2641732
+       4.8000000      0.98683899       5.2683995
+       5.1000000      0.98515414       5.2729027
+       5.4000000      0.98337007       5.2776836
+       5.7000000      0.98148731       5.2827432
+       6.0000000      0.97950639       5.2880824

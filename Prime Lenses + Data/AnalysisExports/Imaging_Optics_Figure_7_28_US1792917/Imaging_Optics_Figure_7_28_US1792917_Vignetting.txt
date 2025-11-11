@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\Imaging_Optics_Figure_7_28_US1792917.zmx
+Title:	Double Gauss lens, US patent 1792917 (Carl Zeiss, Jena); Imaging Optics p. 462-466.
+Date:	11/7/2025 4:07:34 PM
+
+0 message(s) in output.
+Wavelength: 0.550000 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.7120046
+       3.1000000      0.99808569       4.7165212
+       6.2000000      0.98611308       4.7450670
+       9.3000000      0.97676655       4.7677153
+       12.400000      0.96342002       4.8006260
+       15.500000      0.94404884       4.8496285
+       18.600000      0.92492186       4.8995160
+       21.700000      0.89751111       4.9737710
+       24.800000      0.86210429       5.0748803
+       27.900000      0.81985673       5.2039932
+       31.000000      0.77111352       5.3659491
+       34.100000      0.72297514       5.5417129
+       37.200000      0.67602904       5.7309026
+       40.300000      0.61938936       5.9872009
+       43.400000      0.56945147       6.2442078
+       46.500000      0.50967417       6.6002349
+       49.600000      0.44616309       7.0543806
+       52.700000      0.40804384       7.3765331
+       55.800000      0.36449807       7.8047337
+       58.900000      0.32306437       8.2901268
+       62.000000      0.25801541       9.2764729

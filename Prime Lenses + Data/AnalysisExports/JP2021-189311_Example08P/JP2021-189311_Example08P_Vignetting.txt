@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2021-189311_Example08P.zmx
+Title:	JP 2021-189311 Example 8 (Nikon Nikkor Z TC-2.0x)
+Date:	11/7/2025 4:14:45 PM
+
+1 message(s) in output.
+Cannot compute relative illumination...
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

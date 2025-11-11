@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US008879901_Example04P.zmx
+Title:	US 8,879,901 Example 4 (Metabones M43 Speed Booster 0.71x)
+Date:	11/7/2025 5:01:48 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

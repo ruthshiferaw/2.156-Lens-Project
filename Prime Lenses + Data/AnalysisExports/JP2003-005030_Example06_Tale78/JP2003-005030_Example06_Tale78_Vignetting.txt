@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2003-005030_Example06_Tale78.zmx
+Title:	Nikon AI Nikkor 45mm f/2.8P (JP 2003-005030 Example 6)
+Date:	11/7/2025 4:08:14 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       3.0357609
+       1.0800000      0.99909023       3.0371427
+       2.1600000      0.99636729       3.0412900
+       3.2400000      0.99185012       3.0482076
+       4.3200000      0.98557002       3.0579038
+       5.4000000      0.97757008       3.0703905
+       6.4800000      0.96287397       3.0937331
+       7.5600000      0.95172730       3.1117973
+       8.6400000      0.93689488       3.1363327
+       9.7200000      0.91708393       3.1700274
+       10.800000      0.87832591       3.2392145
+       11.880000      0.83971609       3.3128466
+       12.960000      0.80585882       3.3817234
+       14.040000      0.77818695       3.4413242
+       15.120000      0.72379697       3.5682821
+       16.200000      0.68797561       3.6599996
+       17.280000      0.66406463       3.7253097
+       18.360000      0.61193118       3.8807554
+       19.440000      0.56803783       4.0279023
+       20.520000      0.52799819       4.1778356
+       21.600000      0.48191717       4.3730190

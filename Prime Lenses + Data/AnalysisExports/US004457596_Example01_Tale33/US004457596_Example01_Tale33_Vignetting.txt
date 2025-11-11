@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004457596_Example01_Tale33.zmx
+Title:	Nikon "Pikaichi" L35AF 35mm f/2.8 (US 4,457,596 Example 1)
+Date:	11/7/2025 4:18:07 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9232243
+       1.0500000      0.99690208       2.9277629
+       2.1000000      0.98248497       2.9491658
+       3.1500000      0.96536404       2.9752029
+       4.2000000      0.93994382       3.0151658
+       5.2500000      0.90407569       3.0743956
+       6.3000000      0.84701786       3.1762587
+       7.3500000      0.80423689       3.2596438
+       8.4000000      0.76645736       3.3390133
+       9.4500000      0.72192221       3.4404634
+       10.500000      0.65668384       3.6073143
+       11.550000      0.60970353       3.7437151
+       12.600000      0.56913852       3.8748345
+       13.650000      0.52580061       4.0313602
+       14.700000      0.48398551       4.2019025
+       15.750000      0.44119744       4.4009421
+       16.800000      0.39852874       4.6305473
+       17.850000      0.36874075       4.8139501
+       18.900000      0.33414002       5.0570576
+       19.950000      0.30601879       5.2843078
+       21.000000      0.27710444       5.5531628

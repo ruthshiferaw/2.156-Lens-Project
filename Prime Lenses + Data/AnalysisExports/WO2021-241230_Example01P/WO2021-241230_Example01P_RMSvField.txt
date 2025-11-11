@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2021-241230_Example01P.zmx
+Title:	WO 2021/241230 Example 1 (Nikon Nikkor Z 50mm f/1.2 S)
+Date:	11/7/2025 5:16:59 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

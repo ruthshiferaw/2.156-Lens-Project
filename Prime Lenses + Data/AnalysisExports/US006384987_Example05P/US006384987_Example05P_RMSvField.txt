@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US006384987_Example05P.zmx
+Title:	US 6,384,987 Example 5 (Ricoh smc Pentax-FA 35mm F2 AL)
+Date:	11/7/2025 5:01:12 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

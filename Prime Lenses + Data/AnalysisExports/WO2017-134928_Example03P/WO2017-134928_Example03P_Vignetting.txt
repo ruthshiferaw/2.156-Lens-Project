@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2017-134928_Example03P.zmx
+Title:	WO 2017/134928 Example 3 (Sony 2x Teleconverter Lens (SEL))
+Date:	11/7/2025 4:27:57 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99126378       6.1636296
+       1.0815000      0.99137648       6.1632792
+       2.1630000      0.99171390       6.1622307
+       3.2445000      0.99227389       6.1604916
+       4.3260000      0.99305286       6.1580749
+       5.4075000      0.99404571       6.1549988
+       6.4890000      0.99524576       6.1512869
+       7.5705000      0.99664483       6.1469678
+       8.6520000      0.99823324       6.1420753
+       9.7335000       1.0000000       6.1366471
+       10.815000      0.99566392       6.1499950
+       11.896500      0.95154372       6.2909579
+       12.978000      0.93424605       6.3489297
+       14.059500      0.87272780       6.5688863
+       15.141000      0.79517833       6.8817498
+       16.222500      0.70555595       7.3057604
+       17.304000      0.65146493       7.6030112
+       18.385500      0.56555126       8.1600940
+       19.467000      0.48077881       8.8503102
+       20.548500      0.39208678       9.8003154
+       21.630000      0.30401388       11.129725

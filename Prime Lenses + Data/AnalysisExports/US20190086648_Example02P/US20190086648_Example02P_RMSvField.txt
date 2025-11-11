@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20190086648_Example02P.zmx
+Title:	US 2019/0086648 Example 2 (TH Swiss Irix 11mm f/4.0)
+Date:	11/7/2025 5:15:18 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

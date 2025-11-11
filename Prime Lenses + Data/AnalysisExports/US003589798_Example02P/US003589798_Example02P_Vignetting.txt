@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003589798_Example02P.zmx
+Title:	US 3,589,798 Example 2 (Konica Minolta AF 16mm F2.8 FishEye)
+Date:	11/7/2025 4:16:30 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9259806
+       4.5000000      0.99955625       2.9266300
+       9.0000000      0.99822856       2.9285756
+       13.500000      0.99602740       2.9318098
+       18.000000      0.99296989       2.9363201
+       22.500000      0.98376328       2.9500280
+       27.000000      0.97916984       2.9569394
+       31.500000      0.97357171       2.9654286
+       36.000000      0.96510198       2.9784124
+       40.500000      0.95847441       2.9886921
+       45.000000      0.94560811       3.0089561
+       49.500000      0.90314669       3.0788767
+       54.000000      0.88328121       3.1133070
+       58.500000      0.81280191       3.2454811
+       63.000000      0.71460658       3.4612896
+       67.500000      0.62936328       3.6882533
+       72.000000      0.55303297       3.9345578
+       76.500000      0.45585071       4.3337128
+       81.000000      0.40666670       4.5883035
+       85.500000      0.30118874       5.3315326
+       90.000000      0.27195786       5.6107463

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1987-244010_Example01P.zmx
+Title:	JP 1987-244010 Example 1 (Konica Minolta AF 85mm F1.4)
+Date:	11/7/2025 4:07:55 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.4709212
+       1.0800000      0.98637193       1.4810477
+       2.1600000      0.98479240       1.4822350
+       3.2400000      0.98060216       1.4853985
+       4.3200000      0.95779366       1.5029808
+       5.4000000      0.94126957       1.5161159
+       6.4800000      0.91009967       1.5418599
+       7.5600000      0.86204452       1.5842531
+       8.6400000      0.83805799       1.6067650
+       9.7200000      0.80343719       1.6410184
+       10.800000      0.77425507       1.6716578
+       11.880000      0.74996011       1.6985187
+       12.960000      0.68700948       1.7746309
+       14.040000      0.66008152       1.8104670
+       15.120000      0.63168537       1.8507127
+       16.200000      0.58652695       1.9206376
+       17.280000      0.55161329       1.9804872
+       18.360000      0.49600663       2.0885538
+       19.440000      0.47496344       2.1343189
+       20.520000      0.44406691       2.2073195
+       21.600000      0.37179519       2.4123345

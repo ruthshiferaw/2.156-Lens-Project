@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20200301101_Example03P.zmx
+Title:	US 2020/0301101 Example 3 (Ricoh HD Pentax-D FA 85mmF1.4ED SDM AW)
+Date:	11/7/2025 5:15:58 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

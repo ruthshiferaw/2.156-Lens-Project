@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004123144_Example08P.zmx
+Title:	US 4,123,144 Example 8 (Leica Summicron R 50mm f/2)
+Date:	11/7/2025 4:17:22 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.1011273
+       1.0800000      0.98522396       2.1168246
+       2.1600000      0.96816739       2.1353896
+       3.2400000      0.96270747       2.1414364
+       4.3200000      0.94881667       2.1570549
+       5.4000000      0.90718477       2.2059948
+       6.4800000      0.86348512       2.2611269
+       7.5600000      0.82700766       2.3104554
+       8.6400000      0.77948341       2.3798463
+       9.7200000      0.75358051       2.4204021
+       10.800000      0.72390030       2.4695225
+       11.880000      0.66029732       2.5857265
+       12.960000      0.62620043       2.6551904
+       14.040000      0.58233093       2.7533881
+       15.120000      0.52979322       2.8866834
+       16.200000      0.47080214       3.0621971
+       17.280000      0.44420731       3.1525320
+       18.360000      0.40410375       3.3052622
+       19.440000      0.33631434       3.6230945
+       20.520000      0.28066930       3.9660200
+       21.600000      0.25505963       4.1603655

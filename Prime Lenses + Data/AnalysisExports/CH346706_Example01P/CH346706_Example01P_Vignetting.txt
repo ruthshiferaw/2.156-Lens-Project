@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CH346706_Example01P.zmx
+Title:	CH 346706 Example 1 (Schneider Xenon 1.9 / 50)
+Date:	11/7/2025 4:06:10 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.1056026
+       1.0800000      0.99925703       2.1063852
+       2.1600000      0.99703385       2.1087323
+       3.2400000      0.99334751       2.1126415
+       4.3200000      0.98224752       2.1245450
+       5.4000000      0.96874705       2.1392976
+       6.4800000      0.96035947       2.1486194
+       7.5600000      0.94847839       2.1620348
+       8.6400000      0.92491708       2.1893995
+       9.7200000      0.88781248       2.2346823
+       10.800000      0.84450724       2.2912618
+       11.880000      0.80190948       2.3513308
+       12.960000      0.75479083       2.4236120
+       14.040000      0.71481272       2.4904640
+       15.120000      0.65451171       2.6026615
+       16.200000      0.61469193       2.6856391
+       17.280000      0.54258371       2.8585318
+       18.360000      0.50521098       2.9623749
+       19.440000      0.44128096       3.1697047
+       20.520000      0.37655616       3.4313224
+       21.600000      0.34543463       3.5825600

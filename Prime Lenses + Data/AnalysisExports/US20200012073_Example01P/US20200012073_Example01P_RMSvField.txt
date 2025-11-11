@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20200012073_Example01P.zmx
+Title:	US 2020/0012073 Example 1 (Canon RF85mm F1.2 L USM (DS))
+Date:	11/7/2025 5:15:31 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

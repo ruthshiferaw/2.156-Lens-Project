@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN211955966_Example01P.zmx
+Title:	CN 211955966 U Example 1 (Viltrox AF 50mm F1.8 FE)
+Date:	11/7/2025 4:06:44 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.9240953
+       1.0800000      0.99926103       1.9248066
+       2.1600000      0.99628770       1.9276767
+       3.2400000      0.99014885       1.9336432
+       4.3200000      0.96776285       1.9558795
+       5.4000000      0.94622745       1.9780114
+       6.4800000      0.88363521       2.0468691
+       7.5600000      0.82134744       2.1230642
+       8.6400000      0.80462694       2.1450098
+       9.7200000      0.76543988       2.1992319
+       10.800000      0.71792216       2.2708471
+       11.880000      0.64269782       2.4000659
+       12.960000      0.60212887       2.4796013
+       14.040000      0.57177416       2.5445694
+       15.120000      0.52627757       2.6522786
+       16.200000      0.47873737       2.7808522
+       17.280000      0.39960411       3.0437684
+       18.360000      0.37443818       3.1443907
+       19.440000      0.34258979       3.2873002
+       20.520000      0.29827092       3.5230687
+       21.600000      0.22165408       4.0868501

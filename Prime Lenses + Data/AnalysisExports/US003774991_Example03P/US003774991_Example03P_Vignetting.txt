@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003774991_Example03P.zmx
+Title:	US 3,774,991 Example 3 (Nikon pre-AI 800mm f/8 ED)
+Date:	11/7/2025 4:16:44 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       8.3933548
+       2.1725000      0.99996082       8.3935193
+       4.3450000      0.99984329       8.3940126
+       6.5175000      0.99964745       8.3948348
+       8.6900000      0.99937339       8.3959858
+       10.862500      0.99287141       8.4234321
+       13.035000      0.99245392       8.4252036
+       15.207500      0.99149124       8.4292929
+       17.380000      0.98775935       8.4452014
+       19.552500      0.98101141       8.4741970
+       21.725000      0.95516301       8.5880949
+       23.897500      0.89821895       8.8561401
+       26.070000      0.87470811       8.9743708
+       28.242500      0.78811240       9.4545640
+       30.415000      0.74822280       9.7033147
+       32.587500      0.68203830       10.163217
+       34.760000      0.64989118       10.411547
+       36.932500      0.57072097       11.110246
+       39.105000      0.54016511       11.420163
+       41.277500      0.45438999       12.451487
+       43.450000      0.42991303       12.801041

@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\WO2018-052113_Example01P.zmx
+Title:	WO 2018/052113 Example 1 (Hasselblad XCD 3.5 30)
+Date:	11/7/2025 5:16:36 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

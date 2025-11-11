@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003536379_Example01P.zmx
+Title:	US 3,536,379 Example 1 (Leica Telyt-S 800mm f/6.3)
+Date:	11/7/2025 4:16:22 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       6.2376209
+       1.0800000      0.99374675       6.2572155
+       2.1600000      0.99317535       6.2590152
+       3.2400000      0.98972275       6.2699228
+       4.3200000      0.97764674       6.3085274
+       5.4000000      0.94444343       6.4184624
+       6.4800000      0.92076214       6.5004773
+       7.5600000      0.90823800       6.5451430
+       8.6400000      0.88642227       6.6251947
+       9.7200000      0.86536279       6.7053255
+       10.800000      0.82935106       6.8493565
+       11.880000      0.80975674       6.9317308
+       12.960000      0.79494036       6.9960306
+       14.040000      0.77526947       7.0842297
+       15.120000      0.75316075       7.1874549
+       16.200000      0.72215600       7.3401251
+       17.280000      0.71732755       7.3647874
+       18.360000      0.69059926       7.5059544
+       19.440000      0.67696775       7.5811481
+       20.520000      0.63461713       7.8300237
+       21.600000      0.62624253       7.8822044

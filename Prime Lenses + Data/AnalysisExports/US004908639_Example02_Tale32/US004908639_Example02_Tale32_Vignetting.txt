@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004908639_Example02_Tale32.zmx
+Title:	Nikon AI AF DC Nikkor 135mm F2S (US 4,908,639 Example 2)
+Date:	11/7/2025 4:18:38 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.0951402
+       1.0800000      0.99389804       2.1015618
+       2.1600000      0.98101942       2.1153112
+       3.2400000      0.97903463       2.1174543
+       4.3200000      0.97780075       2.1187899
+       5.4000000      0.97741909       2.1192035
+       6.4800000      0.96260947       2.1354432
+       7.5600000      0.96195313       2.1361715
+       8.6400000      0.94650753       2.1535306
+       9.7200000      0.91679485       2.1881495
+       10.800000      0.87326402       2.2420242
+       11.880000      0.83192328       2.2970553
+       12.960000      0.81178754       2.3253691
+       14.040000      0.74881978       2.4211652
+       15.120000      0.72362667       2.4629511
+       16.200000      0.69650101       2.5104536
+       17.280000      0.65579720       2.5871899
+       18.360000      0.60013804       2.7045032
+       19.440000      0.57869844       2.7541458
+       20.520000      0.54081397       2.8489782
+       21.600000      0.46306370       3.0788796

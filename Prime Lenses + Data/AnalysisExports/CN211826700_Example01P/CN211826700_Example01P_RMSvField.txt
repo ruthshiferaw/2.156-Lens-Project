@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN211826700_Example01P.zmx
+Title:	CN 211826700 U Example 1 (Viltrox AF 23mm F1.4 E)
+Date:	11/7/2025 4:46:25 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

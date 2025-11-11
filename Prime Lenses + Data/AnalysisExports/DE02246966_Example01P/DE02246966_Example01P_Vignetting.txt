@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\DE02246966_Example01P.zmx
+Title:	DE 2246966 Example 1 (Leica Macro-Elmar-M 90mm F4)
+Date:	11/7/2025 4:07:03 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      1.00000000       4.1937498
+       1.0800000      0.99290753       4.2087014
+       2.1600000      0.98851939       4.2180325
+       3.2400000      0.96633042       4.2661851
+       4.3200000      0.95572734       4.2897849
+       5.4000000      0.91656412       4.3804738
+       6.4800000      0.89414190       4.4350579
+       7.5600000      0.88442598       4.4593522
+       8.6400000      0.86413938       4.5113926
+       9.7200000      0.83767474       4.5821026
+       10.800000      0.79594331       4.7006883
+       11.880000      0.77549570       4.7622569
+       12.960000      0.76392276       4.7981939
+       14.040000      0.73817606       4.8811543
+       15.120000      0.71231020       4.9689879
+       16.200000      0.67390736       5.1086061
+       17.280000      0.64771355       5.2108795
+       18.360000      0.62408094       5.3086251
+       19.440000      0.55388256       5.6349968
+       20.520000      0.50493182       5.9018226
+       21.600000      0.47329728       6.0958674

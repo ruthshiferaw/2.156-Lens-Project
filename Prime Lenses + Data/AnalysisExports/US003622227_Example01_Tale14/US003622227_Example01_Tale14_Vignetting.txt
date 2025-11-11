@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003622227_Example01_Tale14.zmx
+Title:	Nikon Nikkor-N Auto 24mm f/2.8 (US 3,622,227 Example 1 scaled)
+Date:	11/7/2025 4:16:32 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9304871
+       1.0800000      0.99910823       2.9317946
+       2.1600000      0.99643805       2.9357202
+       3.2400000      0.99200163       2.9422774
+       4.3200000      0.98042477       2.9595977
+       5.4000000      0.97196135       2.9724552
+       6.4800000      0.95901074       2.9924581
+       7.5600000      0.94732566       3.0108572
+       8.6400000      0.92074006       3.0540159
+       9.7200000      0.89281476       3.1014096
+       10.800000      0.84760350       3.1830499
+       11.880000      0.81881355       3.2385254
+       12.960000      0.78334110       3.3110395
+       14.040000      0.75089160       3.3818255
+       15.120000      0.71023086       3.4772831
+       16.200000      0.66032006       3.6063060
+       17.280000      0.59945600       3.7849588
+       18.360000      0.55727270       3.9255990
+       19.440000      0.45838150       4.3283889
+       20.520000      0.41618688       4.5425072
+       21.600000      0.31053656       5.2587611

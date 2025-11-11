@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US07154681-1.ZMX
+Title:	Samsung cellphone
+Date:	11/7/2025 4:23:59 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in degrees
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9014437
+       1.5000000      0.99914706       2.9026819
+       3.0000000      0.99639176       2.9066925
+       4.5000000      0.99123077       2.9142497
+       6.0000000      0.98307252       2.9263170
+       7.5000000      0.97148785       2.9437130
+       9.0000000      0.95639066       2.9668562
+       10.500000      0.93808802       2.9956589
+       12.000000      0.91720737       3.0295658
+       13.500000      0.89454550       3.0677003
+       15.000000      0.87088707       3.1090895
+       16.500000      0.84682540       3.1529509
+       18.000000      0.82259768       3.1990455
+       19.500000      0.79799801       3.2479793
+       21.000000      0.77241802       3.3013225
+       22.500000      0.74518817       3.3610980
+       24.000000      0.71633272       3.4281258
+       25.500000      0.68730336       3.4997733
+       27.000000      0.65871585       3.5749099
+       28.500000      0.61363695       3.7038927
+       30.000000      0.48726327       4.1565433

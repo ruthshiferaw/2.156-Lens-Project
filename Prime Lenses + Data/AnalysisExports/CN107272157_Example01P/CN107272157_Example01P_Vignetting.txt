@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CN107272157_Example01P.zmx
+Title:	CN 107272157 Example 1 (Zhong Yi SpeedMaster 25mm F0.95)
+Date:	11/7/2025 4:06:15 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000      0.99859811       1.0144700
+      0.54200000       1.0000000       1.0137587
+       1.0840000      0.99621253       1.0156840
+       1.6260000      0.99370192       1.0169662
+       2.1680000      0.97554521       1.0263864
+       2.7100000      0.94407286       1.0433544
+       3.2520000      0.88729466       1.0762190
+       3.7940000      0.83863501       1.1070012
+       4.3360000      0.81610515       1.1221774
+       4.8780000      0.76969060       1.1555174
+       5.4200000      0.73192447       1.1849539
+       5.9620000      0.64949691       1.2578998
+       6.5040000      0.61683446       1.2907742
+       7.0460000      0.57322703       1.3389713
+       7.5880000      0.50398305       1.4279948
+       8.1300000      0.43383943       1.5391115
+       8.6720000      0.38449786       1.6348866
+       9.2140000      0.31844276       1.7964656
+       9.7560000      0.27749530       1.9244507
+       10.298000      0.18273945       2.3714744
+       10.840000      0.13448756       2.7643532

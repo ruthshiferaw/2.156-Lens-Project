@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2000-028919_Example01P.zmx
+Title:	JP 2000-028919 Example 1 (Mamiya 210mm f8)
+Date:	11/7/2025 4:08:10 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       8.5451115
+       2.2400000      0.99960894       8.5467828
+       4.4800000      0.99843820       8.5517922
+       6.7200000      0.99649505       8.5601261
+       8.9600000      0.99379156       8.5717616
+       11.200000      0.99034449       8.5866664
+       13.440000      0.98617523       8.6047982
+       15.680000      0.97567913       8.6509585
+       17.920000      0.97023196       8.6752090
+       20.160000      0.96155840       8.7142477
+       22.400000      0.93044796       8.8587346
+       24.640000      0.89781705       9.0182820
+       26.880000      0.87911338       9.1137118
+       29.120000      0.85569340       9.2375892
+       31.360000      0.80488174       9.5247086
+       33.600000      0.79234360       9.5997729
+       35.840000      0.76140246       9.7928837
+       38.080000      0.73851120       9.9434981
+       40.320000      0.69577102       10.244354
+       42.560000      0.66251878       10.498292
+       44.800000      0.58474075       11.174705

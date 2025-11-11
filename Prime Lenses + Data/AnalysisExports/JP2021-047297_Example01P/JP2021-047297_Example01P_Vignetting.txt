@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP2021-047297_Example01P.zmx
+Title:	JP 2021-047297 Example 1 (Canon RF100mm F2.8 L Macro IS USM)
+Date:	11/7/2025 4:14:39 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       3.0950045
+       1.0820000      0.99953557       3.0957234
+       2.1640000      0.99821488       3.0977707
+       3.2460000      0.99557272       3.1018785
+       4.3280000      0.99180986       3.1077571
+       5.4100000      0.96910388       3.1439535
+       6.4920000      0.91705569       3.2319410
+       7.5740000      0.88605862       3.2879867
+       8.6560000      0.86326395       3.3311139
+       9.7380000      0.82403351       3.4094855
+       10.820000      0.75071194       3.5721083
+       11.902000      0.73575403       3.6082362
+       12.984000      0.70406611       3.6885405
+       14.066000      0.63720708       3.8772248
+       15.148000      0.62234816       3.9232373
+       16.230000      0.59372587       4.0166898
+       17.312000      0.54787190       4.1814005
+       18.394000      0.49945635       4.3793788
+       19.476000      0.46837909       4.5223329
+       20.558000      0.41108741       4.8271878
+       21.640000      0.35447692       5.1983713

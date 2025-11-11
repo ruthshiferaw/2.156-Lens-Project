@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20090190220_Example05P.zmx
+Title:	US 2009/0190220 Example 5 (Nikon AF-S DX Micro Nikkor 85mm f/3.5G ED VR)
+Date:	11/7/2025 4:26:03 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.3464974
+      0.71250000      0.99970022       4.3471491
+       1.4250000      0.99916885       4.3483048
+       2.1375000      0.99763488       4.3516465
+       2.8500000      0.99601471       4.3551844
+       3.5625000      0.98708449       4.3748409
+       4.2750000      0.96780714       4.4181964
+       4.9875000      0.92190306       4.5268572
+       5.7000000      0.89989359       4.5818814
+       6.4125000      0.88473691       4.6209615
+       7.1250000      0.86302424       4.6787294
+       7.8375000      0.80452889       4.8458348
+       8.5500000      0.76611102       4.9658497
+       9.2625000      0.75434838       5.0044164
+       9.9750000      0.72952772       5.0888368
+       10.687500      0.71289678       5.1478525
+       11.400000      0.67797514       5.2787676
+       12.112500      0.64574227       5.4089108
+       12.825000      0.61626884       5.5367424
+       13.537500      0.59056374       5.6559562
+       14.250000      0.55938360       5.8114507

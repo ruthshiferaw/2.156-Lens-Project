@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20130222925_Example04P.zmx
+Title:	US 2013/0222925 Example 4 (Ricoh HD Pentax-D FA645 90mm F2.8 ED AW SR Macro)
+Date:	11/7/2025 4:26:20 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9833115
+       1.7425000      0.99397658       2.9923372
+       3.4850000      0.99167229       2.9958117
+       5.2275000      0.98160941       3.0111282
+       6.9700000      0.97835635       3.0161301
+       8.7125000      0.95540664       3.0521402
+       10.455000      0.93614486       3.0833802
+       12.197500      0.91183920       3.1242046
+       13.940000      0.88009463       3.1800498
+       15.682500      0.85051951       3.2348672
+       17.425000      0.81819672       3.2981449
+       19.167500      0.78003345       3.3778627
+       20.910000      0.74857791       3.4481019
+       22.652500      0.72744766       3.4978222
+       24.395000      0.66860157       3.6485046
+       26.137500      0.64141037       3.7250372
+       27.880000      0.60362441       3.8398583
+       29.622500      0.54097081       4.0561283
+       31.365000      0.49588198       4.2365217
+       33.107500      0.46308463       4.3839785
+       34.850000      0.39767037       4.7308261

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US005233474_Example01P.zmx
+Title:	US 5,233,474 Example 1 (Ricoh smc Pentax-FA 28mm F2.8 AL)
+Date:	11/7/2025 4:18:46 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9264145
+       1.0800000      0.99861883       2.9284375
+       2.1600000      0.98389759       2.9502641
+       3.2400000      0.97698772       2.9606787
+       4.3200000      0.96365990       2.9810821
+       5.4000000      0.95176871       2.9996468
+       6.4800000      0.92552026       3.0418856
+       7.5600000      0.88093053       3.1179203
+       8.6400000      0.83837496       3.1960730
+       9.7200000      0.78901607       3.2945258
+       10.800000      0.74052904       3.4006723
+       11.880000      0.71309160       3.4654782
+       12.960000      0.67472879       3.5626341
+       14.040000      0.63464544       3.6734172
+       15.120000      0.59148931       3.8050677
+       16.200000      0.56536829       3.8919756
+       17.280000      0.50746251       4.1080323
+       18.360000      0.47460823       4.2478405
+       19.440000      0.42156143       4.5071852
+       20.520000      0.39214261       4.6731941
+       21.600000      0.32899457       5.1020119

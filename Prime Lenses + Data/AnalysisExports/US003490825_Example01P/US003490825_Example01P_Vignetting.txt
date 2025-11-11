@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003490825_Example01P.zmx
+Title:	US 3,490,825 Example 1 (Ricoh Pentax Ultra-Achromatic-Takumar 85mm F4.5)
+Date:	11/7/2025 4:16:12 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.7010798
+       1.0820000      0.99431742       4.7144941
+       2.1640000      0.98716880       4.7315334
+       3.2460000      0.98544980       4.7356584
+       4.3280000      0.98114212       4.7460429
+       5.4100000      0.97840298       4.7526818
+       6.4920000      0.96059655       4.7965294
+       7.5740000      0.94548473       4.8347093
+       8.6560000      0.91689889       4.9094959
+       9.7380000      0.85352145       5.0885073
+       10.820000      0.81781257       5.1984124
+       11.902000      0.80449915       5.2412494
+       12.984000      0.78414474       5.3088384
+       14.066000      0.74923891       5.4310958
+       15.148000      0.70156776       5.6125835
+       16.230000      0.67014811       5.7426484
+       17.312000      0.65008736       5.8305800
+       18.394000      0.61343601       6.0022349
+       19.476000      0.56887597       6.2328809
+       20.558000      0.52223461       6.5052621
+       21.640000      0.49995309       6.6486427

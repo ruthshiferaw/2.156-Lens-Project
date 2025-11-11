@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004170403_Example01P.zmx
+Title:	US 4,170,403 Example 1 (Konica Minolta Hexanon 35mm F2.8)
+Date:	11/7/2025 4:17:33 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9293516
+       1.0800000      0.99371416       2.9386019
+       2.1600000      0.99053140       2.9433193
+       3.2400000      0.98521934       2.9512434
+       4.3200000      0.97632450       2.9646566
+       5.4000000      0.96766120       2.9778981
+       6.4800000      0.93858794       3.0236674
+       7.5600000      0.91652288       3.0598479
+       8.6400000      0.89445533       3.0973634
+       9.7200000      0.83247439       3.2105989
+       10.800000      0.79574080       3.2838679
+       11.880000      0.75057908       3.3812187
+       12.960000      0.71866409       3.4554811
+       14.040000      0.67819330       3.5570891
+       15.120000      0.64982325       3.6339075
+       16.200000      0.59824141       3.7873310
+       17.280000      0.54385898       3.9721747
+       18.360000      0.49377512       4.1687600
+       19.440000      0.46642078       4.2892618
+       20.520000      0.42340913       4.5018538
+       21.600000      0.39725548       4.6476835

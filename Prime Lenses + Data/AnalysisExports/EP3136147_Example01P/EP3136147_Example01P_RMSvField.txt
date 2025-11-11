@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\EP3136147_Example01P.zmx
+Title:	EP 3 136 147 Example 1 (Leica Summilux-SL 50 f/1.4 ASPH)
+Date:	11/7/2025 4:47:01 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

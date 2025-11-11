@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\JP1998-206729_Example01P.zmx
+Title:	JP 1998-206729 Example 1 (Mamiya AF APO 300mm f4.5 IF)
+Date:	11/7/2025 4:08:07 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       4.8464465
+       1.7500000      0.99394489       4.8611863
+       3.5000000      0.99058496       4.8694236
+       5.2500000      0.98366320       4.8865259
+       7.0000000      0.94085497       4.9964561
+       8.7500000      0.90768802       5.0869225
+       10.500000      0.89254904       5.1298820
+       12.250000      0.87600525       5.1780956
+       14.000000      0.84966227       5.2577539
+       15.750000      0.80596779       5.3983940
+       17.500000      0.79908127       5.4216059
+       19.250000      0.77010514       5.5226613
+       21.000000      0.75754875       5.5682424
+       22.750000      0.69923039       5.7957984
+       24.500000      0.64763090       6.0222619
+       26.250000      0.62366801       6.1368666
+       28.000000      0.57363957       6.3988786
+       29.750000      0.47913739       7.0015371
+       31.500000      0.44907134       7.2321221
+       33.250000      0.41389261       7.5332015
+       35.000000      0.34188570       8.2886338

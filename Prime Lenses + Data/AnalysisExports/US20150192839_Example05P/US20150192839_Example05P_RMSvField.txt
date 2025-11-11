@@ -1,0 +1,12 @@
+Results for:	
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20150192839_Example05P.zmx
+Title:	US 2015/0192839 Example 5 (Panasonic Leica DG Nocticron 42.5mm F1.2 Asph Power OIS)
+Date:	11/7/2025 5:13:57 PM
+
+1 message(s) in output.
+Computation aborted; invalid results!
+1 series table(s) in output.
+
+Table series: 
+
+  --------------

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CH321571_Example01P.zmx
+Title:	CH 321571 Example 1 (Zeiss Distagon 60mm F5.6)
+Date:	11/7/2025 4:06:10 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       5.8737904
+       1.0800000      0.99962808       5.8748830
+       2.1600000      0.99851367       5.8781605
+       3.2400000      0.99666077       5.8836220
+       4.3200000      0.99407606       5.8912661
+       5.4000000      0.99076879       5.9010907
+       6.4800000      0.98104497       5.9302634
+       7.5600000      0.96958004       5.9652220
+       8.6400000      0.96411588       5.9821022
+       9.7200000      0.95587321       6.0078392
+       10.800000      0.94930356       6.0285919
+       11.880000      0.93630506       6.0702945
+       12.960000      0.92400104       6.1105769
+       14.040000      0.89478843       6.2095234
+       15.120000      0.86575103       6.3127986
+       16.200000      0.85405516       6.3558770
+       17.280000      0.83386021       6.4323819
+       18.360000      0.80946876       6.5285750
+       19.440000      0.79958087       6.5688183
+       20.520000      0.76741639       6.7050637
+       21.600000      0.73285744       6.8613361

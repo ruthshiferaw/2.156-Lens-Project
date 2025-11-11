@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US20110286116_Example01P.zmx
+Title:	US 2011/0286116 Example 1 (Tamron SP AF60mm F/2 Di II LD [IF] Macro 1:1)
+Date:	11/7/2025 4:26:10 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.1546897
+      0.72500000      0.99467757       2.1604468
+       1.4500000      0.98675607       2.1691013
+       2.1750000      0.98632856       2.1695713
+       2.9000000      0.97244298       2.1850061
+       3.6250000      0.93879152       2.2238227
+       4.3500000      0.90848350       2.2606129
+       5.0750000      0.89306289       2.2800465
+       5.8000000      0.88193076       2.2943913
+       6.5250000      0.85328218       2.3325899
+       7.2500000      0.81361814       2.3887705
+       7.9750000      0.75645196       2.4773881
+       8.7000000      0.74346836       2.4989265
+       9.4250000      0.71843935       2.5420827
+       10.150000      0.69011720       2.5937213
+       10.875000      0.64068657       2.6919186
+       11.600000      0.61830384       2.7402095
+       12.325000      0.58879831       2.8080281
+       13.050000      0.54334630       2.9231182
+       13.775000      0.47484649       3.1268577
+       14.500000      0.45522840       3.1935231

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US002645973_Example01P.zmx
+Title:	US 2,645,973 Example 1 (Canon Serenar 85mm f1.5)
+Date:	11/7/2025 4:15:48 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       1.5772597
+       1.0800000      0.98645156       1.5880543
+       2.1600000      0.98520828       1.5890560
+       3.2400000      0.97149744       1.6002299
+       4.3200000      0.96864996       1.6025802
+       5.4000000      0.96452993       1.6059993
+       6.4800000      0.96116840       1.6088053
+       7.5600000      0.94353671       1.6237674
+       8.6400000      0.93262045       1.6332428
+       9.7200000      0.90310085       1.6597210
+       10.800000      0.86236245       1.6984716
+       11.880000      0.81400014       1.7481994
+       12.960000      0.79227237       1.7720092
+       14.040000      0.76465989       1.8037198
+       15.120000      0.74017551       1.8333098
+       16.200000      0.68770484       1.9019635
+       17.280000      0.65953994       1.9421495
+       18.360000      0.60224588       2.0324333
+       19.440000      0.57243442       2.0846846
+       20.520000      0.53817447       2.1500159
+       21.600000      0.49805548       2.2349322

@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US004303314_Example03_Tale76.zmx
+Title:	Nikon Series E 135mm f/2.8 (US 4,303,314 Example 3)
+Date:	11/7/2025 4:17:53 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       2.9300806
+       1.0800000      0.99384802       2.9391353
+       2.1600000      0.99215476       2.9416423
+       3.2400000      0.98851616       2.9470512
+       4.3200000      0.98672334       2.9497273
+       5.4000000      0.97280856       2.9707484
+       6.4800000      0.95975750       2.9908788
+       7.5600000      0.91506318       3.0630496
+       8.6400000      0.90209975       3.0849795
+       9.7200000      0.88845719       3.1085748
+       10.800000      0.87441490       3.1334357
+       11.880000      0.86065468       3.1583852
+       12.960000      0.82667381       3.2226451
+       14.040000      0.78918173       3.2983068
+       15.120000      0.77557569       3.3271124
+       16.200000      0.71316031       3.4696525
+       17.280000      0.69503820       3.5145945
+       18.360000      0.65571145       3.6184551
+       19.440000      0.58171146       3.8417204
+       20.520000      0.53474850       4.0068656
+       21.600000      0.49554915       4.1623270

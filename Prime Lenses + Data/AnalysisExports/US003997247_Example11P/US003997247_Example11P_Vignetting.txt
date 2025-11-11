@@ -1,0 +1,37 @@
+Results for:	Relative Illumination Data
+
+
+File:	C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\US003997247_Example11P.zmx
+Title:	US 3,997,247 Example 11 (Zeiss S-Biogon f5.6 40mm)
+Date:	11/7/2025 4:17:11 PM
+
+0 message(s) in output.
+Wavelength: 0.587562 µm
+Field values are in Millimeters
+Relative Illumination values are dimensionless.
+1 series table(s) in output.
+
+Table series: See program documentation for a discussion of Effective F/#.
+         Y Field        Rel. Ill   Effective F/#
+  --------------  --------------  --------------
+      0.00000000       1.0000000       5.8750146
+       1.2350000      0.99214441       5.8982273
+       2.4700000      0.98750338       5.9120712
+       3.7050000      0.97985111       5.9351118
+       4.9400000      0.96932031       5.9672646
+       6.1750000      0.95552862       6.0101748
+       7.4100000      0.93899064       6.0628709
+       8.6450000      0.92084863       6.1223031
+       9.8800000      0.90061324       6.1907004
+       11.115000      0.87606508       6.2768358
+       12.350000      0.85246671       6.3631218
+       13.585000      0.82755812       6.4581734
+       14.820000      0.80159934       6.5619101
+       16.055000      0.77484207       6.6742482
+       17.290000      0.74752539       6.7951020
+       18.525000      0.71987241       6.9243847
+       19.760000      0.65637302       7.2515958
+       20.995000      0.63000450       7.4017962
+       22.230000      0.59597482       7.6101811
+       23.465000      0.55919397       7.8564746
+       24.700000      0.50799855       8.2428560
