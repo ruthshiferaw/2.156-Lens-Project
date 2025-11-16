@@ -9,7 +9,7 @@ import pandas as pd
 # Define paths
 base_folder = r"C:\Users\Ruth\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\CSVExports"
 input_folder = os.path.join(base_folder, "Vignetting")
-output_lenses = os.path.join(base_folder, "Lenses.csv")
+output_lenses = os.path.join(base_folder, "Lenses_Vignetting.csv")
 
 # Get all CSV files in the folder
 csv_files = [f for f in os.listdir(input_folder) if f.endswith(".csv")]
