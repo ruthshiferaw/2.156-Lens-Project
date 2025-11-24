@@ -13,8 +13,8 @@ def read_text_auto(filepath):
             return f.readlines()
 
 # ---------------- Paths ----------------
-root_dir = r"C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\AnalysisExports"
-output_dir = r"C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CSVExports\Vignetting"
+root_dir = r"Prime Lenses\AnalysisExports"
+output_dir = r"Prime Lenses\CSVExports\Vignetting"
 os.makedirs(output_dir, exist_ok=True)
 
 # ---------------- File Matching ----------------

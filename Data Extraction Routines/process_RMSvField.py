@@ -14,10 +14,10 @@ def read_text_auto(path):
             return f.readlines()
 
 # Root folder containing the AnalysisExports folders
-root_dir = r"C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\AnalysisExports"
+root_dir = r"Prime Lenses\AnalysisExports"
 
 # Where to save CSVs
-output_dir = r"C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses\CSVExports\RMSvField"
+output_dir = r"Prime Lenses\CSVExports\RMSvField"
 os.makedirs(output_dir, exist_ok=True)
 
 # File matching rule

@@ -2,7 +2,7 @@ import os
 import csv
 
 # Define paths
-base_folder = r"C:\Users\Ruth\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\CSVExports"
+base_folder = r"Prime Lenses + Data\CSVExports"
 
 # 0 = FieldCurvature, 1 = Longitudinal, 2 = RMSvField, 3 = Vignetting
 name = 2

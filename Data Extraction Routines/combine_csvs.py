@@ -1,7 +1,7 @@
 import os
 
 # Define paths
-base_folder = r"C:\Users\Ruth\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\CSVExports"
+base_folder = r"Prime Lenses + Data\CSVExports"
 name = 0
 if name == 0:
     input_folder = os.path.join(base_folder, "FieldCurvature")

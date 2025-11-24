@@ -7,7 +7,7 @@ import os
 import pandas as pd
 
 # Define paths
-base_folder = r"C:\Users\Ruth\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\CSVExports"
+base_folder = r"Prime Lenses + Data\CSVExports"
 input_folder = os.path.join(base_folder, "Vignetting")
 output_lenses = os.path.join(base_folder, "Lenses_Vignetting.csv")
 

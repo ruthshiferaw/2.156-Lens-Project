@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 # CONFIGURATION
 # ============================================================
 
-ROOT_DIR = r"C:\Users\Ruth\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\LensDataExports"
+ROOT_DIR = r"Prime Lenses + Data\LensDataExports"
 
 # Folder where summary CSVs and plots will be written
 OUTPUT_DIR = os.path.join(
-    r"C:\Users\Ruth\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\CSVExports",
+    r"Prime Lenses + Data\CSVExports",
     "LensDataAnalysis"
 )
 os.makedirs(OUTPUT_DIR, exist_ok=True)

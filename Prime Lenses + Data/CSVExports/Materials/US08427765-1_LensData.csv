@@ -1,0 +1,14 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,inf,inf,,inf,0.0,,,,,,,,
+1,Standard,,12.875,3.34,J-LAK14,7.6,0.0,,,,,,,,
+2,Standard,,35.4,0.29,J-LAK14,6.88,0.0,,,,,,,,
+3,Standard,,13.83,1.85,L-TIM28_MOLD,6.48,0.0,,,,,,,,
+4,Even Asphere,,8.946,4.25,L-TIM28_MOLD,5.58,0.02,0.0,1.10721e-05,1.837e-07,0.0,0.0,0.0,0.0,0.0
+5,Standard,,inf,5.4,L-TIM28_MOLD,5.2,0.0,,,,,,,,
+6,Standard,,-8.3,0.65,SF11,5.77,0.0,,,,,,,,
+7,Standard,,-53.59,0.22,SF11,7.0,0.0,,,,,,,,
+8,Standard,,-37.47,3.62,TAF3,7.53,0.0,,,,,,,,
+9,Standard,,-11.763,0.12,TAF3,8.3,0.0,,,,,,,,
+10,Standard,,206.3,3.5,TAFD30,10.8,0.0,,,,,,,,
+11,Standard,,-26.52,21.2541778277688,TAFD30,11.0,0.0,,,,,,,,
+12,Standard,,inf,inf,TAFD30,13.9336728943626,0.0,,,,,,,,

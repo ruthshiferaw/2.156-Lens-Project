@@ -1,0 +1,71 @@
+import os
+import pandas as pd
+
+# Folders (relative paths based on your repo structure)
+input_folder = r"Prime Lenses + Data\LensDataExports"
+output_folder = r"Prime Lenses + Data\CSVExports\Materials"
+
+# Create output directory if missing
+os.makedirs(output_folder, exist_ok=True)
+
+def fix_material_column(df):
+    """
+    Fix material propagation, including touching-lens cases.
+    """
+    materials = df["Material"].tolist()
+    fixed = []
+    current = ""
+
+    for i in range(len(materials)):
+        mat = str(materials[i]).strip()
+
+        # Normalize empties
+        if mat in ["", "nan", "NaN", "None"]:
+            mat = ""
+
+        # Case 1: No material listed → inherit
+        if mat == "":
+            fixed.append(current)
+            continue
+
+        # Case 2: Material is listed → need to check "back-to-back" conflict
+        if i > 0:
+            prev_mat = str(materials[i-1]).strip()
+            if prev_mat not in ["", "nan", "NaN", "None"]:
+
+                # Back-to-back material listing → touching lenses
+                # RULE: repeat previous material instead of switching immediately
+                fixed.append(fixed[-1])         # repeat previous material
+                current = mat                  # update current material AFTER assigning
+                continue
+
+        # Normal case: materials appear every other surface
+        current = mat
+        fixed.append(mat)
+
+    df["Material"] = fixed
+    return df
+
+
+def process_all_csvs():
+    csv_files = [f for f in os.listdir(input_folder) if f.endswith(".csv")]
+
+    if not csv_files:
+        print("⚠️ No CSV files found.")
+        return
+
+    for csv_name in csv_files:
+        in_path = os.path.join(input_folder, csv_name)
+        out_path = os.path.join(output_folder, csv_name)
+
+        df = pd.read_csv(in_path)
+        df_fixed = fix_material_column(df)
+
+        df_fixed.to_csv(out_path, index=False)
+        print(f"✅ Fixed: {csv_name} → saved to Materials")
+
+    print("\n🎉 All materials corrected and saved!")
+
+
+# Run processing
+process_all_csvs()
