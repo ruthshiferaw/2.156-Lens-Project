@@ -240,3 +240,30 @@ else:
 print("\n✅ Done. All summaries and plots written to:")
 print(f"  {OUTPUT_DIR}")
 print(f"  {PLOTS_DIR}")
+
+# ============================================================
+# ADD-ON: HISTOGRAM OF SURFACE COUNTS PER LENS
+# ============================================================
+
+# Compute number of surfaces per file = number of rows minus 1 header row
+surfaces_per_lens = pd.DataFrame(row_counts)
+surfaces_per_lens["n_surfaces"] = surfaces_per_lens["n_rows"] - 1
+
+# Save CSV
+surface_csv_path = os.path.join(OUTPUT_DIR, "surfaces_per_lens.csv")
+surfaces_per_lens.to_csv(surface_csv_path, index=False)
+print(f"\nSaved surfaces-per-lens table to:\n  {surface_csv_path}")
+
+# Plot histogram
+plt.figure()
+surfaces_per_lens["n_surfaces"].hist(bins=30)
+plt.xlabel("Number of Surfaces per Lens (row_count - 1)")
+plt.ylabel("Count of Lens Designs")
+plt.title("Distribution of Surface Counts Across All Lenses")
+plt.tight_layout()
+
+hist_path = os.path.join(PLOTS_DIR, "surfaces_per_lens_histogram.png")
+plt.savefig(hist_path, dpi=200)
+plt.close()
+
+print(f"Saved surfaces-per-lens histogram to:\n  {hist_path}")

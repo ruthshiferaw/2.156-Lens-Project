@@ -1,0 +1,12 @@
+Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
+0,Standard,,Inf,Inf,,Inf,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Standard,,12.9130655886,1.27,LAK6,6.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+2,Standard,,54.6119114262,0.0889,,6.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+3,Standard,,7.6783555094,1.6764,LAK6,5.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+4,Standard,,15.4840282902,1.6256,K10,5.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+5,Standard,,Inf,1.1684,SF5,5.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+6,Standard,,5.176489774,3.094252962434,,3.2,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+7,Standard,,Inf,4.424147037566,,1.55315596247765,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+8,Standard,,18.1935391526,0.8382,SF8,5.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+9,Standard,,56.3317808846,10.3842648296604,,5.5,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+10,Standard,,Inf,Inf,,9.82824371142938,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

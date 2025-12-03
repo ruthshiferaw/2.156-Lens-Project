@@ -2,7 +2,7 @@ import os
 
 # Define paths
 base_folder = r"Prime Lenses + Data\CSVExports"
-name = 0
+name = 1
 if name == 0:
     input_folder = os.path.join(base_folder, "FieldCurvature")
     output_combined = os.path.join(base_folder, "FieldCurvature.csv")

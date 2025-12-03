@@ -1,0 +1,6 @@
+#i forgot to make this earlier so it's not accurate
+
+openpyxl
+pandas
+matplotlib
+numpy
