@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,inf,0,,,,,,,,
+0,Standard,,inf,inf,LASF32,inf,0,,,,,,,,
 1,Standard,,79.128,2.61,LASF32,19.365,0,,,,,,,,
 2,Standard,,140.443,0.15,LASF32,18.855,0,,,,,,,,
 3,Standard,,50.901,5.25,FCD505,18.03,0,,,,,,,,

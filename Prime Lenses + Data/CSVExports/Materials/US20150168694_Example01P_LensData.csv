@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,inf,0,,,,,,,,
+0,Standard,,inf,inf,"1.57,53.0",inf,0,,,,,,,,
 1,Standard,,45.47,1.28,"1.57,53.0",13.47,0,,,,,,,,
 2,Standard,,13.366,5.87,"1.57,53.0",10.2,0,,,,,,,,
 3,Extended Odd Asphere,,34.115,2.5,"1.58,59.4",9.16,-1,,,,,,,,

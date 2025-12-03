@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,inf,0,,,,,,,,
+0,Standard,,inf,inf,E-LASF015,inf,0,,,,,,,,
 1,Standard,,81.4768,5.0,E-LASF015,25.9,0,,,,,,,,
 2,Standard,,-2838.8241,0.3,E-LASF015,25.6,0,,,,,,,,
 3,Standard,,33.1597,7.0,E-LASFH15,20.0,0,,,,,,,,

@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,inf,0,,,,,,,,
+0,Standard,,inf,inf,E-PSK03,inf,0,,,,,,,,
 1,Standard,,99.8339,11.0,E-PSK03,42.0,0,,,,,,,,
 2,Standard,,-592.6523,0.2,E-PSK03,42.0,0,,,,,,,,
 3,Standard,,84.1919,13.0,E-FKH1,38.0,0,,,,,,,,

@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,0.0,0,,,,,,,,
+0,Standard,,inf,inf,N-LASF9,0.0,0,,,,,,,,
 1,Standard,,88.7385587509004,2.915792582941,N-LASF9,28.04660467128,0,,,,,,,,
 2,Standard,,43.8406554674549,41.67672418984,N-LASF9,25.3433174745,0,,,,,,,,
 3,Standard,,64.650834664255,4.201802897289,S-LAM7,12.09721020761,0,,,,,,,,

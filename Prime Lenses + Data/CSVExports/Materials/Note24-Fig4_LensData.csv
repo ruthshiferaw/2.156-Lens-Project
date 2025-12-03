@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,0.0,0.0,,,,,,,,
+0,Standard,,inf,inf,S-TIM27,0.0,0.0,,,,,,,,
 1,Standard,,34.0092986,1.418895325292,S-TIM27,15.021775,0.0,,,,,,,,
 2,Standard,,23.433969,6.214447318278,S-TIM27,14.3608169,0.0,,,,,,,,
 3,Standard,,15021.775,0.3415693959884,S-FTL10,14.3608169,0.0,,,,,,,,

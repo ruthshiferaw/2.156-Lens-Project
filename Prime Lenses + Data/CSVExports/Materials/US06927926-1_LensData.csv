@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,3000.3984,,113.504247330374,0,,,,,,,,
+0,Standard,,inf,3000.3984,E-SF8,113.504247330374,0,,,,,,,,
 1,Standard,,239.9233,5.0,E-SF8,46.643456472877,0,,,,,,,,
 2,Standard,,148.0,0.5,E-SF8,45.9203420338485,0,,,,,,,,
 3,Standard,,151.0206,17.0,MC-FCD1-M20,45.9436814940491,0,,,,,,,,

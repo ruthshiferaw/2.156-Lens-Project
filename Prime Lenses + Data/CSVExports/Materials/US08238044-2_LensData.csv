@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,inf,0,,,,,,,,
+0,Standard,,inf,inf,E-LAK12,inf,0,,,,,,,,
 1,Standard,,211.2162,10.5,E-LAK12,46.4615938725615,0,,,,,,,,
 2,Standard,,-384.509,0.9043,E-LAK12,46.1313277980197,0,,,,,,,,
 3,Standard,,74.2569,14.0,E-FKH1,41.0196227600545,0,,,,,,,,

@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,,inf,0.0,,,,,,,,
+0,Standard,,inf,inf,POLYCARB,inf,0.0,,,,,,,,
 1,Even Asphere,,-1.98,0.6,POLYCARB,1.62903696692972,-6.6125,0.0,0.0050058,-0.00022899,0.0,0.0,0.0,0.0,0.0
 2,Even Asphere,,-4.21,0.1,POLYCARB,1.444869388855,-31.662,0.0,0.01168,0.0012381,0.0,0.0,0.0,0.0,0.0
 3,Even Asphere,,1.53,1.16,480R,1.23173466292878,-0.78565,0.0,-0.0081871,0.0051768,0.0,0.0,0.0,0.0,0.0
