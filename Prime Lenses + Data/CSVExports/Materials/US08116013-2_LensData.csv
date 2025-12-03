@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,PMMA,inf,0.0,,,,,,,,
+0,Standard,,inf,inf,,inf,0.0,,,,,,,,
 1,Even Asphere,,19.231,1.0,PMMA,5.12089828274431,-1050.0,0.0,0.000116,1.35e-07,0.0,0.0,0.0,0.0,0.0
 2,Even Asphere,,3.203,3.752,PMMA,2.88217053691768,-1.51,0.0,0.0026,0.000548,6.5e-06,-9.26e-08,0.0,0.0,0.0
 3,Even Asphere,,-161.902,1.0,E48R,1.7,0.0,0.0,-0.0196,-0.000519,0.0,0.0,0.0,0.0,0.0

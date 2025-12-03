@@ -70,7 +70,7 @@ def find_lens_file(directory, base_name):
 # Columns to extract (source -> list of column names)
 # ---------------------------
 # Materials: Thickness, Material, SemiDiameter (first row)
-MATERIALS_COLS = ["Thickness", "Material", "SemiDiameter"]
+MATERIALS_COLS = [] # ["Thickness", "Material", "SemiDiameter"]
 
 # FieldCurvature: Tan Shift, Sag Shift
 FIELD_CURV_COLS = ["Tan Shift", "Sag Shift"]

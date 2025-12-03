@@ -11,50 +11,32 @@ os.makedirs(output_folder, exist_ok=True)
 def fix_material_column(df):
     """
     Fix material propagation, including touching-lens cases.
-    - Treat real NaNs correctly.
-    - If the first surface (i==0) is blank but the next surface has a material,
-      copy the next surface's material into surface 0.
-    - If two consecutive rows both list materials (back-to-back), treat as touching
-      lenses by repeating the previous material on the first of the pair, then update
-      the current material after.
-    - Otherwise blanks inherit the most-recent 'current' material.
     """
-    # Normalize materials to a list of cleaned strings, treating real NaNs as ""
-    raw = df["Material"].tolist()
-    materials = []
-    for x in raw:
-        if pd.isna(x):
-            materials.append("")
-        else:
-            materials.append(str(x).strip())
-
+    materials = df["Material"].tolist()
     fixed = []
     current = ""
 
     for i in range(len(materials)):
-        mat = materials[i]
+        mat = str(materials[i]).strip()
 
-        # Case: empty cell
+        # Normalize empties
+        if mat in ["", "nan", "NaN", "None"]:
+            mat = ""
+
+        # Case 1: No material listed → inherit
         if mat == "":
-            # Lookahead special-case: first surface blank but next has material -> copy next
-            if i == 0 and len(materials) > 1 and materials[1] != "":
-                mat = materials[1]
-                fixed.append(mat)
-                current = mat
-                continue
-
-            # Normal blank: inherit the current material (may be "" if none seen yet)
             fixed.append(current)
             continue
 
-        # Non-empty material listed
+        # Case 2: Material is listed → need to check "back-to-back" conflict
         if i > 0:
-            prev_mat = materials[i - 1]
-            if prev_mat != "":
+            prev_mat = str(materials[i-1]).strip()
+            if prev_mat not in ["", "nan", "NaN", "None"]:
+
                 # Back-to-back material listing → touching lenses
                 # RULE: repeat previous material instead of switching immediately
-                fixed.append(fixed[-1])  # repeat previous material
-                current = mat            # update current after assigning
+                fixed.append(fixed[-1])         # repeat previous material
+                current = mat                  # update current material AFTER assigning
                 continue
 
         # Normal case: materials appear every other surface
@@ -63,6 +45,62 @@ def fix_material_column(df):
 
     df["Material"] = fixed
     return df
+
+
+# def fix_material_column(df):
+    # """
+    # - If the first surface (i==0) is blank but the next surface has a material,
+    #   copy the next surface's material into surface 0.
+    # - If two consecutive rows both list materials (back-to-back), treat as touching
+    #   lenses by repeating the previous material on the first of the pair, then update
+    #   the current material after.
+    # - Otherwise blanks inherit the most-recent 'current' material.
+    # """
+    # # Normalize materials to a list of cleaned strings, treating real NaNs as ""
+    # raw = df["Material"].tolist()
+    # materials = []
+    # for x in raw:
+    #     if pd.isna(x):
+    #         materials.append("")
+    #     else:
+    #         materials.append(str(x).strip())
+
+    # fixed = []
+    # current = ""
+
+    # for i in range(len(materials)):
+    #     mat = materials[i]
+
+    #     # Case: empty cell
+    #     if mat == "":
+    #         # Lookahead special-case: first surface blank but next has material -> copy next
+    #         if i == 0 and len(materials) > 1 and materials[1] != "":
+    #             mat = materials[1]
+    #             fixed.append(mat)
+    #             current = mat
+    #             continue
+
+    #         # Normal blank: inherit the current material (may be "" if none seen yet)
+    #         fixed.append(current)
+    #         continue
+
+    #     # Non-empty material listed
+    #     if i > 0:
+    #         prev_mat = materials[i - 1]
+    #         if prev_mat != "":
+    #             # Back-to-back material listing → touching lenses
+    #             # RULE: repeat previous material instead of switching immediately
+    #             fixed.append(fixed[-1])  # repeat previous material
+    #             current = mat            # update current after assigning
+    #             continue
+
+    #     # Normal case: materials appear every other surface
+    #     current = mat
+    #     fixed.append(mat)
+
+    # df["Material"] = fixed
+    # return df
+
 
 def process_all_csvs():
     csv_files = [f for f in os.listdir(input_folder) if f.endswith(".csv")]

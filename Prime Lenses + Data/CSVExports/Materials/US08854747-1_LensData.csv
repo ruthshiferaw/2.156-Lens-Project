@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,KF6,inf,0,,,,,,,,
+0,Standard,,inf,inf,,inf,0,,,,,,,,
 1,Standard,,-30.023,0.7,KF6,7.7,0,,,,,,,,
 2,Standard,,12.543,0.93,KF6,6.7,0,,,,,,,,
 3,Standard,,14.331,3.26,TAFD5F,6.8,0,,,,,,,,

@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,inf,inf,N-KZFS4,inf,0,,,,,,,,
+0,Standard,,inf,inf,,inf,0,,,,,,,,
 1,Standard,,10.3707333098,1.4351,N-KZFS4,3.3,0,,,,,,,,
 2,Standard,,-26.5940739136,0.47752,N-KZFS4,3.3,0,,,,,,,,
 3,Standard,,7.4269005894,1.6764,N-KZFS4,3.3,0,,,,,,,,
