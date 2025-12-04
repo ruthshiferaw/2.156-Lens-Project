@@ -1,6 +1,6 @@
 '''
-create csv of all lens names from Longitudinal folder
-saves in CSVExports as Lenses.csv
+create csv of all lens names from Vignetting folder
+saves in CSVExports as Vignetting_Lenses.csv
 '''
 
 import os

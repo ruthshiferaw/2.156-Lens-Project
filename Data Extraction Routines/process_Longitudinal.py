@@ -13,8 +13,8 @@ def read_text_auto(filepath):
             return f.readlines()
 
 # ---------------- Paths ----------------
-root_dir = r"Prime Lenses\AnalysisExports"
-output_dir = r"Prime Lenses\CSVExports\Longitudinal"
+root_dir = r"Prime Lenses + Data\AnalysisExports"
+output_dir = r"Prime Lenses + Data\CSVExports\Longitudinal"
 os.makedirs(output_dir, exist_ok=True)
 
 # ---------------- File Matching ----------------
