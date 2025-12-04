@@ -1,7 +1,8 @@
 
 import os
+from collections import Counter
 
-folder_path = r"C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Prime Lenses"
+folder_path = r"C:\Users\User\OneDrive\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data"
 
 # Get all .zmx files and clean them
 zmx_files = [
@@ -17,7 +18,7 @@ zmx_files = [f.replace("_", " ") for f in zmx_files]
 for i in range(len(zmx_files)):
     zmx_files[i] = os.path.splitext(zmx_files[i])[0]
 
-file_path = r"C:\Users\User\OneDrive - Massachusetts Institute of Technology\Documents\MIT\Grad School\Classes\2.156\Lens Project\Data Processing\SpreadsheetRows.txt"
+file_path = r"C:\Users\User\OneDrive\Documents\GitHub\2.156-Lens-Project\Prime Lenses + Data\Fixing Spreadsheet\SpreadsheetRows.txt"
 
 with open(file_path, "r", encoding="utf-8") as f:
     lines = [line.strip().lower() for line in f]
@@ -38,3 +39,6 @@ all_differences.sort()
 print("\n Only in zmx_files:", only_in_zmx_files)
 print("\n Only in lines:", only_in_lines)
 # print("All differences:", all_differences)
+
+duplicates = [item for item, count in Counter(lines).items() if count > 1]
+print(duplicates)
