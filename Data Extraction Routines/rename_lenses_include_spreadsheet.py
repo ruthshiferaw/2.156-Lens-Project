@@ -16,7 +16,7 @@ ILLEGAL_RE = re.compile(r'[<>:"/\\|?*]')
 
 # --- HELPERS ---
 def read_summary():
-    """Try Excel first, fall back to CSV if reading xlsx fails."""
+    """Try Excel first, fall back to CSV with multiple encoding attempts."""
     if os.path.exists(EXCEL_XLSX):
         try:
             df = pd.read_excel(EXCEL_XLSX, sheet_name=0, header=0, dtype=object)
@@ -24,14 +24,33 @@ def read_summary():
             return df
         except Exception as e:
             print(f"Warning reading XLSX: {e}. Trying CSV fallback...")
-    if os.path.exists(EXCEL_CSV_FALLBACK):
-        df = pd.read_csv(EXCEL_CSV_FALLBACK, header=0, dtype=object)
-        print(f"Read CSV fallback: {EXCEL_CSV_FALLBACK} (rows={len(df)})")
+
+    if not os.path.exists(EXCEL_CSV_FALLBACK):
+        raise FileNotFoundError(
+            f"Could not read '{EXCEL_XLSX}'. Either install openpyxl in your venv "
+            f"or export the spreadsheet to CSV at '{EXCEL_CSV_FALLBACK}'."
+        )
+
+    # Try a list of common encodings
+    encodings_to_try = ["utf-8", "cp1252", "latin-1", "utf-16"]
+    last_exc = None
+    for enc in encodings_to_try:
+        try:
+            df = pd.read_csv(EXCEL_CSV_FALLBACK, header=0, dtype=object, encoding=enc)
+            print(f"Read CSV fallback: {EXCEL_CSV_FALLBACK} (rows={len(df)}) using encoding='{enc}'")
+            return df
+        except Exception as e:
+            last_exc = e
+            print(f"Failed to read CSV with encoding='{enc}': {e}")
+
+    # Final fallback: read with replacement of invalid bytes (won't raise UnicodeDecodeError)
+    try:
+        df = pd.read_csv(EXCEL_CSV_FALLBACK, header=0, dtype=object, encoding="utf-8", errors="replace", engine="python")
+        print(f"Read CSV fallback with errors='replace' (rows={len(df)}) — some characters may have been replaced.")
         return df
-    raise FileNotFoundError(
-        f"Could not read '{EXCEL_XLSX}'. Either install openpyxl in your venv "
-        f"or export the spreadsheet to CSV at '{EXCEL_CSV_FALLBACK}'."
-    )
+    except Exception as e:
+        print("Final fallback also failed:", e)
+        raise last_exc or e
 
 def transform_colA_only_two_rules(raw):
     """
@@ -114,9 +133,9 @@ def main():
             if i >= ncols:
                 return "NA"
             return numeric_or_NA(row.iloc[i])
-        d_val = get_col(3)
-        e_val = get_col(4)
-        f_val = get_col(5)
+        d_val = get_col(2)
+        e_val = get_col(3)
+        f_val = get_col(4)
 
         lookup[key] = (d_val, e_val, f_val)
 
