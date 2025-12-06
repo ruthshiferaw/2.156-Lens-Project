@@ -121,11 +121,35 @@ for _, row in summary.iterrows():
 if not os.path.isdir(MATERIALS_CLEANED_FOLDER):
     raise SystemExit(f"Materials cleaned folder not found: {MATERIALS_CLEANED_FOLDER}. Create it with the cleaning script.")
 
-surface_files = glob.glob(os.path.join(MATERIALS_CLEANED_FOLDER, "*.csv"))
+# Collect cleaned material CSVs, but only those present in the cleaned summary
+surface_files = sorted(glob.glob(os.path.join(MATERIALS_CLEANED_FOLDER, "*.csv")))
 if len(surface_files) == 0:
     raise SystemExit(f"No CSV files found in {MATERIALS_CLEANED_FOLDER}")
 
-surface_files_by_name = {os.path.splitext(os.path.basename(p))[0]: p for p in surface_files}
+# map base -> path for all csvs in folder
+all_surface_files_by_base = {os.path.splitext(os.path.basename(p))[0]: p for p in surface_files}
+
+# build set of allowed bases from the cleaned summary 'File Name' column (exact match, no extension)
+allowed_bases = set(str(fn).strip() for fn in summary["File Name"].astype(str).values)
+
+# Filter the available surface files to only those whose base is present in allowed_bases
+surface_files_by_name = {base: path for base, path in all_surface_files_by_base.items() if base in allowed_bases}
+
+# Diagnostics: which summary entries are missing a corresponding per-surface CSV
+missing_from_materials = sorted(list(allowed_bases - set(surface_files_by_name.keys())))
+extra_materials = sorted(list(set(all_surface_files_by_base.keys()) - set(surface_files_by_name.keys())))
+
+print(f"Found {len(surface_files)} CSVs in materials folder; {len(surface_files_by_name)} match entries in cleaned summary.")
+if len(missing_from_materials) > 0:
+    print(f"Warning: {len(missing_from_materials)} summary 'File Name' entries have no matching materials CSV. Example missing (first 10):")
+    print(" ", missing_from_materials[:10])
+else:
+    print("All summary File Name entries have a matching materials CSV (good).")
+
+# # Optionally print some examples of extra materials files that were ignored (present in folder but not in summary)
+# if len(extra_materials) > 0:
+#     print(f"Ignoring {len(extra_materials)} CSVs in materials folder that are not present in the summary. Example ignored (first 8):")
+#     print(" ", extra_materials[:8])
 
 # collect material vocab and numeric pools
 material_set = set()
@@ -403,6 +427,11 @@ def evaluate(model, loader):
 # Train loop (fail-fast checks)
 # ---------------------------
 best_val = float('inf')
+
+# track losses per epoch
+train_losses_per_epoch = []
+val_losses_per_epoch = []
+
 for epoch in range(1, NUM_EPOCHS+1):
     model.train()
     running_loss = 0.0
@@ -437,6 +466,11 @@ for epoch in range(1, NUM_EPOCHS+1):
 
     train_loss = running_loss / n_samples if n_samples>0 else float("nan")
     val_loss = evaluate(model, val_loader)
+
+    # append losses for plotting later
+    train_losses_per_epoch.append(train_loss)
+    val_losses_per_epoch.append(val_loss)
+
     print(f"Epoch {epoch}/{NUM_EPOCHS} TrainLoss={train_loss:.6f} ValLoss={val_loss:.6f}")
 
     if val_loss < best_val:
@@ -465,80 +499,126 @@ joblib.dump(mat_encoder, "artifacts/mat_encoder.joblib")
 print("Saved artifacts to ./artifacts/")
 
 # ---------------------------
-# Unified Matrix Plot of All Metrics
+# Unified Matrix Plot + Loss Plot
 # ---------------------------
-import joblib
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import matplotlib.pyplot as plt
-import numpy as np
-import torch
 import math
 
-# collect preds/targets across val set
-preds_all = []
-targs_all = []
-filenames = []
-with torch.no_grad():
-    for batch in val_loader:
-        preds = model(batch["radius"], batch["thickness"], batch["semi"],
-                      batch["mat_idx"], batch["mask"], batch["globals"])
-        preds_all.append(preds.cpu().numpy())
-        targs_all.append(batch["targets"].cpu().numpy())
-        filenames.extend(batch["fnames"])
+def make_pred_vs_actual_matrix(preds_all, targs_all, title_prefix=""):
+    """
+    preds_all, targs_all: numpy arrays (N x num_targets) in original (inverse-transformed) units.
+    Draws the matrix of scatter plots and returns the figure handle.
+    """
+    num_targets = preds_all.shape[1]
+    cols = math.ceil(math.sqrt(num_targets))
+    rows = math.ceil(num_targets / cols)
 
-if len(preds_all) == 0:
-    print("No validation predictions collected (val_loader empty).")
-else:
-    preds_all = np.vstack(preds_all)
-    targs_all = np.vstack(targs_all)
+    # cols = 6
+    # rows = 2
 
-    # inverse-transform
+    fig, axes = plt.subplots(rows, cols, figsize=(4*cols, 4*rows))
+    axes = np.array(axes).reshape(-1)
+
+    r2s_local = []
+    for i in range(num_targets):
+        try:
+            r2 = r2_score(targs_all[:, i], preds_all[:, i])
+        except Exception:
+            r2 = float("nan")
+        r2s_local.append(r2)
+
+    # for i in range(num_targets):
+    #     ax = axes[i]
+    #     ax.scatter(targs_all[:, i], preds_all[:, i], s=8, alpha=0.5)
+    #     mn = min(targs_all[:, i].min(), preds_all[:, i].min())
+    #     mx = max(targs_all[:, i].max(), preds_all[:, i].max())
+    #     ax.plot([mn, mx], [mn, mx], linestyle="--", linewidth=1)
+    #     ax.set_title(f"{TARGET_COLS[i]}\nR²={r2s_local[i]:.3f}", fontsize=10)
+    #     ax.set_xlabel("Actual")
+    #     ax.set_ylabel("Predicted")
+
+    for i in range(num_targets):
+        ax = axes[i]
+        ax.scatter(targs_all[:, i], preds_all[:, i], s=8, alpha=0.5)
+        mn = min(targs_all[:, i].min(), preds_all[:, i].min())
+        mx = max(targs_all[:, i].max(), preds_all[:, i].max())
+        ax.plot([mn, mx], [mn, mx], linestyle="--", linewidth=1)
+
+        ax.set_title(f"{TARGET_COLS[i]}", fontsize=10)
+        # place plain text showing R^2 (no marker). use axes fraction coords so it sits in the corner
+        ax.text(
+            0.02, 0.95,                 # x,y in axes fraction coordinates (0..1)
+            f"R² = {r2s_local[i]:.3f}", # text
+            transform=ax.transAxes,     # interpret coords as fraction of axes
+            fontsize=9,
+            verticalalignment='top',
+            bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.6, edgecolor='none')
+        )
+
+        ax.set_xlabel("Actual")
+        ax.set_ylabel("Predicted")
+
+    # hide any unused subplots
+    for j in range(num_targets, len(axes)):
+        fig.delaxes(axes[j])
+
+    fig.suptitle(title_prefix, fontsize=14)
+    fig.tight_layout(rect=[0, 0.03, 1, 0.97])
+    return fig
+
+# collect preds/targets across train and val sets
+def collect_preds_targets(loader):
+    preds_list, targs_list = [], []
+    fnames = []
+    model.eval()
+    with torch.no_grad():
+        for batch in loader:
+            preds = model(batch["radius"], batch["thickness"], batch["semi"],
+                          batch["mat_idx"], batch["mask"], batch["globals"])
+            preds_list.append(preds.cpu().numpy())
+            targs_list.append(batch["targets"].cpu().numpy())
+            fnames.extend(batch["fnames"])
+    if len(preds_list) == 0:
+        return np.zeros((0, len(TARGET_COLS))), np.zeros((0, len(TARGET_COLS))), fnames
+    preds_all = np.vstack(preds_list)
+    targs_all = np.vstack(targs_list)
+    # inverse-transform if possible
     try:
         preds_orig = target_scaler.inverse_transform(preds_all)
         targs_orig = target_scaler.inverse_transform(targs_all)
     except Exception:
         preds_orig = preds_all.copy()
         targs_orig = targs_all.copy()
+    return preds_orig, targs_orig, fnames
 
-    # performance metrics
-    maes   = []
-    rmses  = []
-    r2s    = []
-    for i, name in enumerate(TARGET_COLS):
-        mae = mean_absolute_error(targs_orig[:, i], preds_orig[:, i])
-        rmse = np.sqrt(mean_squared_error(targs_orig[:, i], preds_orig[:, i]))
-        r2 = r2_score(targs_orig[:, i], preds_orig[:, i])
-        maes.append(mae)
-        rmses.append(rmse)
-        r2s.append(r2)
-        print(f"{name}: MAE={mae:.6f}, RMSE={rmse:.6f}, R2={r2:.4f}")
+# 1) Loss curve plot (train & val per epoch)
+plt.figure(figsize=(8,5))
+epochs = np.arange(1, len(train_losses_per_epoch)+1)
+plt.plot(epochs, train_losses_per_epoch, marker='o', label='Train Loss')
+plt.plot(epochs, val_losses_per_epoch, marker='o', label='Val Loss')
+plt.xlabel("Epoch")
+plt.ylabel("Loss (MSE mean)")
+plt.title("Train and Validation Loss per Epoch")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
 
-    # ---- MATRIX PLOT ----
-    num_targets = len(TARGET_COLS)
-    cols = math.ceil(math.sqrt(num_targets))
-    rows = math.ceil(num_targets / cols)
+# 2) Pred vs Actual matrix for TRAIN set
+preds_train, targs_train, train_fnames = collect_preds_targets(train_loader)
+if preds_train.shape[0] == 0:
+    print("No training predictions collected (train_loader empty).")
+else:
+    fig_train = make_pred_vs_actual_matrix(preds_train, targs_train, title_prefix="Training set: Pred vs Actual")
+    plt.show()
 
-    fig, axes = plt.subplots(rows, cols, figsize=(4*cols, 4*rows))
-    axes = axes.flatten()
-
-    for i, name in enumerate(TARGET_COLS):
-        ax = axes[i]
-        ax.scatter(targs_orig[:, i], preds_orig[:, i], s=8, alpha=0.5)
-
-        # diagonal
-        mn = min(targs_orig[:, i].min(), preds_orig[:, i].min())
-        mx = max(targs_orig[:, i].max(), preds_orig[:, i].max())
-        ax.plot([mn, mx], [mn, mx], linestyle="--", linewidth=1)
-
-        ax.set_title(f"{name}\nR²={r2s[i]:.3f}", fontsize=10)
-        ax.set_xlabel("Actual")
-        ax.set_ylabel("Predicted")
-
-    # hide any unused subplots
-    for j in range(i+1, len(axes)):
-        fig.delaxes(axes[j])
-
-    plt.tight_layout()
+# 3) Pred vs Actual matrix for VAL set
+preds_val, targs_val, val_fnames = collect_preds_targets(val_loader)
+if preds_val.shape[0] == 0:
+    print("No validation predictions collected (val_loader empty).")
+else:
+    fig_val = make_pred_vs_actual_matrix(preds_val, targs_val, title_prefix="Validation set: Pred vs Actual")
     plt.show()
 
 # ---------------------------
