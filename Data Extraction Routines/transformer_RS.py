@@ -30,9 +30,9 @@ CLEANED_SUMMARY_CSV = r"Prime Lenses + Data/CSVExports/file_lens_summary_normali
 MATERIALS_CLEANED_FOLDER = r"Prime Lenses + Data/CSVExports/Materials_Cleaned"
 
 BATCH_SIZE = 32
-EMBED_DIM = 128
+EMBED_DIM = 256
 NUM_HEADS = 8
-NUM_LAYERS = 4
+NUM_LAYERS = 8
 MLP_HIDDEN = 256
 DROPOUT = 0.1
 LR = 1e-4
@@ -378,6 +378,9 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=LR, weight_decay=WEIGHT_DEC
 criterion = nn.MSELoss(reduction="none")
 target_weights = torch.ones(len(TARGET_COLS), device=DEVICE)
 
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=4)
+# or: scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=NUM_EPOCHS)
+
 def tensor_has_bad(tensor):
     a = tensor.detach().cpu()
     return torch.isnan(a).any().item() or torch.isinf(a).any().item()
@@ -442,6 +445,10 @@ for epoch in range(1, NUM_EPOCHS+1):
         print("Saved best model.")
 
 print("Training complete. Best val loss:", best_val)
+
+val_loss = evaluate(model, val_loader)
+scheduler.step(val_loss)   # for ReduceLROnPlateau
+# or: scheduler.step() for CosineAnnealingLR
 
 # ---------------------------
 # Save artifacts (scalers + encoders + model)
