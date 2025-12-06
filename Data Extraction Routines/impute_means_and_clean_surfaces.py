@@ -164,6 +164,7 @@ for p in surface_files:
     # Material column: fill missing with "None"
     if MAT_COL in df.columns:
         df[MAT_COL] = df[MAT_COL].astype(str).fillna("None")
+        # df[MAT_COL].fillna("None").astype(str)
     else:
         df[MAT_COL] = "None"
 

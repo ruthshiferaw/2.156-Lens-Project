@@ -1,45 +1,97 @@
+#!/usr/bin/env python3
+"""
+robust_normalize_summary.py
+
+Robust min-max normalization:
+ - Attempts to convert every column to numeric (coerce errors -> NaN).
+ - Normalizes columns that have at least one finite numeric value to [0,1].
+ - Leaves non-numeric columns unchanged.
+ - Preserves NaNs (does not impute).
+ - Writes diagnostics to stdout.
+"""
+import os
 import pandas as pd
 import numpy as np
-import os
 
-# ----------------------------------------------------
-# Paths
-# ----------------------------------------------------
 INPUT = r"Prime Lenses + Data/CSVExports/file_lens_summary.csv"
 OUTPUT = r"Prime Lenses + Data/CSVExports/file_lens_summary_normalized.csv"
 
-# ----------------------------------------------------
-# Load file
-# ----------------------------------------------------
 df = pd.read_csv(INPUT)
+print("Loaded:", INPUT, "shape:", df.shape)
 
-# Identify numeric columns only
-num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+df_out = df.copy()   # we'll replace normalized numeric columns here
 
-print("Numeric columns found:", num_cols)
+cols = df.columns.tolist()
+normalized_cols = []
+skipped_cols = []
+constant_cols = []
+problem_cols = []
 
-# ----------------------------------------------------
-# Clean data (handle NaN, inf, -inf)
-# ----------------------------------------------------
-df[num_cols] = df[num_cols].replace([np.inf, -np.inf], np.nan)
+for col in cols:
+    # Try to convert column to numeric (coerce errors -> NaN)
+    converted = pd.to_numeric(df[col], errors='coerce')
 
-# ----------------------------------------------------
-# Min–max normalization per column
-# ----------------------------------------------------
-df_norm = df.copy()
+    finite_mask = np.isfinite(converted.values)
+    n_finite = int(finite_mask.sum())
 
-for col in num_cols:
-    col_min = df_norm[col].min(skipna=True)
-    col_max = df_norm[col].max(skipna=True)
+    if n_finite == 0:
+        # No numeric values at all (or all NaN/inf after conversion) -> skip
+        skipped_cols.append(col)
+        continue
 
-    # If all values are identical or all NaN → make column 0
-    if pd.isna(col_min) or pd.isna(col_max) or col_min == col_max:
-        df_norm[col] = 0
+    # compute min/max on finite values
+    col_min = float(np.nanmin(converted.values))
+    col_max = float(np.nanmax(converted.values))
+
+    if col_min == col_max:
+        # constant column: set finite entries to 0 (preserve NaNs)
+        tmp = converted.copy()
+        tmp[finite_mask] = 0.0
+        df_out[col] = tmp
+        constant_cols.append((col, col_min))
+        normalized_cols.append(col)
     else:
-        df_norm[col] = (df_norm[col] - col_min) / (col_max - col_min)
+        # normal min-max scale; only map finite values
+        denom = (col_max - col_min)
+        tmp = converted.copy()
+        tmp_vals = (tmp[finite_mask] - col_min) / denom
+        # numerical safety: clip to [0,1] (tiny rounding can push outside)
+        tmp_vals = np.clip(tmp_vals, 0.0, 1.0)
+        tmp.loc[finite_mask] = tmp_vals
+        df_out[col] = tmp
+        normalized_cols.append(col)
 
-# ----------------------------------------------------
-# Save output
-# ----------------------------------------------------
-df_norm.to_csv(OUTPUT, index=False)
-print(f"Saved normalized file to: {OUTPUT}")
+# diagnostics
+print(f"\nNormalization complete. Columns normalized: {len(normalized_cols)}")
+if normalized_cols:
+    print("  sample normalized cols:", normalized_cols[:8])
+if constant_cols:
+    print("\nConstant columns (min==max) set to 0 for finite entries:")
+    for c, v in constant_cols[:10]:
+        print(f"  {c}: constant_value={v}")
+if skipped_cols:
+    print("\nSkipped (no numeric values after coercion):", skipped_cols[:10])
+if len(skipped_cols) > 10:
+    print(f"  ... ({len(skipped_cols)} skipped total)")
+
+# final check: any numeric column still outside [0,1]?
+out_of_bounds = []
+for col in normalized_cols:
+    # only check finite entries
+    series = pd.to_numeric(df_out[col], errors='coerce')
+    finite = series[np.isfinite(series)]
+    if finite.size == 0:
+        continue
+    if finite.min() < -1e-9 or finite.max() > 1.0 + 1e-9:
+        out_of_bounds.append((col, float(finite.min()), float(finite.max())))
+if out_of_bounds:
+    print("\nWarning: these normalized columns have values outside [0,1] (due to rounding or unexpected values):")
+    for col, mn, mx in out_of_bounds:
+        print(f"  {col}: min={mn}, max={mx}")
+else:
+    print("\nAll normalized columns are within [0,1] for finite entries.")
+
+# Save
+os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+df_out.to_csv(OUTPUT, index=False)
+print("\nSaved normalized file to:", OUTPUT)
