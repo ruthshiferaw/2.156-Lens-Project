@@ -27,7 +27,7 @@ from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 # CONFIG / HYPERPARAMS
 # ---------------------------
 CLEANED_SUMMARY_CSV = r"Prime Lenses + Data/CSVExports/file_lens_summary_normalized_imputed_mean.csv"
-MATERIALS_CLEANED_FOLDER = r"Prime Lenses + Data/CSVExports/Materials_Cleaned"
+MATERIALS_CLEANED_FOLDER = r"Prime Lenses + Data/LensDataExportsRenamedMaterialsCleaned"
 
 BATCH_SIZE = 32
 EMBED_DIM = 256

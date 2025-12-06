@@ -3,7 +3,7 @@ import pandas as pd
 
 # Folders (relative paths based on your repo structure)
 input_folder = r"Prime Lenses + Data\LensDataExportsRenamed"
-output_folder = r"Prime Lenses + Data\CSVExports\Materials"
+output_folder = r"Prime Lenses + Data\LensDataExportsRenamedMaterials"
 
 # Create output directory if missing
 os.makedirs(output_folder, exist_ok=True)

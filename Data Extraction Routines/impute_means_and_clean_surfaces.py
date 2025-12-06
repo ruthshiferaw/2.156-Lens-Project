@@ -26,8 +26,8 @@ BASE = r"Prime Lenses + Data"
 CSV_EXPORTS = os.path.join(BASE, "CSVExports")
 ROOT_SUMMARY_CSV = os.path.join(CSV_EXPORTS, "file_lens_summary_normalized.csv")
 CLEANED_SUMMARY_CSV = os.path.join(CSV_EXPORTS, "file_lens_summary_normalized_imputed_mean.csv")
-MATERIALS_DIR = os.path.join(CSV_EXPORTS, "Materials")
-MATERIALS_CLEANED_DIR = os.path.join(CSV_EXPORTS, "Materials_cleaned")
+MATERIALS_DIR = os.path.join(BASE, "LensDataExportsRenamedMaterials")
+MATERIALS_CLEANED_DIR = os.path.join(BASE, "LensDataExportsRenamedMaterialsCleaned")
 os.makedirs(MATERIALS_CLEANED_DIR, exist_ok=True)
 
 # ---------------------------
