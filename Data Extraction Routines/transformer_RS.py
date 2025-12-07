@@ -6,7 +6,7 @@ Assumes:
  - Summary CSV already cleaned & imputed: CLEANED_SUMMARY_CSV
  - Per-surface CSVs are in MATERIALS_CLEANED_FOLDER and already cleaned (no NaN/Inf)
 This script WILL NOT impute or modify data; it only validates, fits scalers on finite data,
-trains/validates the transformer, and writes artifacts.
+trains/validates the transformer, and writes artifacts (no plotting).
 """
 import os
 import glob
@@ -121,7 +121,6 @@ for _, row in summary.iterrows():
 if not os.path.isdir(MATERIALS_CLEANED_FOLDER):
     raise SystemExit(f"Materials cleaned folder not found: {MATERIALS_CLEANED_FOLDER}. Create it with the cleaning script.")
 
-# Collect cleaned material CSVs, but only those present in the cleaned summary
 surface_files = sorted(glob.glob(os.path.join(MATERIALS_CLEANED_FOLDER, "*.csv")))
 if len(surface_files) == 0:
     raise SystemExit(f"No CSV files found in {MATERIALS_CLEANED_FOLDER}")
@@ -145,11 +144,6 @@ if len(missing_from_materials) > 0:
     print(" ", missing_from_materials[:10])
 else:
     print("All summary File Name entries have a matching materials CSV (good).")
-
-# # Optionally print some examples of extra materials files that were ignored (present in folder but not in summary)
-# if len(extra_materials) > 0:
-#     print(f"Ignoring {len(extra_materials)} CSVs in materials folder that are not present in the summary. Example ignored (first 8):")
-#     print(" ", extra_materials[:8])
 
 # collect material vocab and numeric pools
 material_set = set()
@@ -480,12 +474,15 @@ for epoch in range(1, NUM_EPOCHS+1):
 
 print("Training complete. Best val loss:", best_val)
 
+# final scheduler step on last validation loss
 val_loss = evaluate(model, val_loader)
-scheduler.step(val_loss)   # for ReduceLROnPlateau
-# or: scheduler.step() for CosineAnnealingLR
+try:
+    scheduler.step(val_loss)   # for ReduceLROnPlateau
+except Exception:
+    pass
 
 # ---------------------------
-# Save artifacts (scalers + encoders + model)
+# Save artifacts (scalers + encoders + model + histories + preds)
 # ---------------------------
 import joblib, os
 os.makedirs("artifacts", exist_ok=True)
@@ -496,78 +493,8 @@ joblib.dump(thickness_scaler, "artifacts/thickness_scaler.joblib")
 joblib.dump(semid_scaler, "artifacts/semid_scaler.joblib")
 joblib.dump(global_scaler, "artifacts/global_scaler.joblib")
 joblib.dump(mat_encoder, "artifacts/mat_encoder.joblib")
-print("Saved artifacts to ./artifacts/")
 
-# ---------------------------
-# Unified Matrix Plot + Loss Plot
-# ---------------------------
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-import matplotlib.pyplot as plt
-import math
-
-def make_pred_vs_actual_matrix(preds_all, targs_all, title_prefix=""):
-    """
-    preds_all, targs_all: numpy arrays (N x num_targets) in original (inverse-transformed) units.
-    Draws the matrix of scatter plots and returns the figure handle.
-    """
-    num_targets = preds_all.shape[1]
-    cols = math.ceil(math.sqrt(num_targets))
-    rows = math.ceil(num_targets / cols)
-
-    # cols = 6
-    # rows = 2
-
-    fig, axes = plt.subplots(rows, cols, figsize=(4*cols, 4*rows))
-    axes = np.array(axes).reshape(-1)
-
-    r2s_local = []
-    for i in range(num_targets):
-        try:
-            r2 = r2_score(targs_all[:, i], preds_all[:, i])
-        except Exception:
-            r2 = float("nan")
-        r2s_local.append(r2)
-
-    # for i in range(num_targets):
-    #     ax = axes[i]
-    #     ax.scatter(targs_all[:, i], preds_all[:, i], s=8, alpha=0.5)
-    #     mn = min(targs_all[:, i].min(), preds_all[:, i].min())
-    #     mx = max(targs_all[:, i].max(), preds_all[:, i].max())
-    #     ax.plot([mn, mx], [mn, mx], linestyle="--", linewidth=1)
-    #     ax.set_title(f"{TARGET_COLS[i]}\nR²={r2s_local[i]:.3f}", fontsize=10)
-    #     ax.set_xlabel("Actual")
-    #     ax.set_ylabel("Predicted")
-
-    for i in range(num_targets):
-        ax = axes[i]
-        ax.scatter(targs_all[:, i], preds_all[:, i], s=8, alpha=0.5)
-        mn = min(targs_all[:, i].min(), preds_all[:, i].min())
-        mx = max(targs_all[:, i].max(), preds_all[:, i].max())
-        ax.plot([mn, mx], [mn, mx], linestyle="--", linewidth=1)
-
-        ax.set_title(f"{TARGET_COLS[i]}", fontsize=10)
-        # place plain text showing R^2 (no marker). use axes fraction coords so it sits in the corner
-        ax.text(
-            0.02, 0.95,                 # x,y in axes fraction coordinates (0..1)
-            f"R² = {r2s_local[i]:.3f}", # text
-            transform=ax.transAxes,     # interpret coords as fraction of axes
-            fontsize=9,
-            verticalalignment='top',
-            bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.6, edgecolor='none')
-        )
-
-        ax.set_xlabel("Actual")
-        ax.set_ylabel("Predicted")
-
-    # hide any unused subplots
-    for j in range(num_targets, len(axes)):
-        fig.delaxes(axes[j])
-
-    fig.suptitle(title_prefix, fontsize=14)
-    fig.tight_layout(rect=[0, 0.03, 1, 0.97])
-    return fig
-
-# collect preds/targets across train and val sets
+# helper to collect preds/targets across a loader and inverse-transform
 def collect_preds_targets(loader):
     preds_list, targs_list = [], []
     fnames = []
@@ -592,103 +519,16 @@ def collect_preds_targets(loader):
         targs_orig = targs_all.copy()
     return preds_orig, targs_orig, fnames
 
-# 1) Loss curve plot (train & val per epoch)
-plt.figure(figsize=(8,5))
-epochs = np.arange(1, len(train_losses_per_epoch)+1)
-plt.plot(epochs, train_losses_per_epoch, marker='o', label='Train Loss')
-plt.plot(epochs, val_losses_per_epoch, marker='o', label='Val Loss')
-plt.xlabel("Epoch")
-plt.ylabel("Loss (MSE mean)")
-plt.title("Train and Validation Loss per Epoch")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.show()
-
-# 2) Pred vs Actual matrix for TRAIN set
+# collect and save training & validation preds/targets
 preds_train, targs_train, train_fnames = collect_preds_targets(train_loader)
-if preds_train.shape[0] == 0:
-    print("No training predictions collected (train_loader empty).")
-else:
-    fig_train = make_pred_vs_actual_matrix(preds_train, targs_train, title_prefix="Training set: Pred vs Actual")
-    plt.show()
-
-# 3) Pred vs Actual matrix for VAL set
 preds_val, targs_val, val_fnames = collect_preds_targets(val_loader)
-if preds_val.shape[0] == 0:
-    print("No validation predictions collected (val_loader empty).")
-else:
-    fig_val = make_pred_vs_actual_matrix(preds_val, targs_val, title_prefix="Validation set: Pred vs Actual")
-    plt.show()
 
-# ---------------------------
-# Simple inference helper using saved artifacts in-memory (predict single surface CSV)
-# ---------------------------
-def predict_lens(surface_csv_path, filename_for_globals=None):
-    # loads artifacts that are already in-memory above; otherwise load joblib files
-    df = read_csv_tolerant(surface_csv_path)
-    for col in ["Radius","Thickness","SemiDiameter","Material"]:
-        if col not in df.columns:
-            raise RuntimeError(f"{surface_csv_path} missing column {col}")
+np.savez(os.path.join("artifacts", "train_history.npz"),
+         train_losses=np.array(train_losses_per_epoch),
+         val_losses=np.array(val_losses_per_epoch))
+np.savez(os.path.join("artifacts", "val_predictions.npz"),
+         preds=preds_val, targs=targs_val, fnames=np.array(val_fnames, dtype=object))
+np.savez(os.path.join("artifacts", "train_predictions.npz"),
+         preds=preds_train, targs=targs_train, fnames=np.array(train_fnames, dtype=object))
 
-    r = pd.to_numeric(df["Radius"], errors="raise").astype(float).values
-    t = pd.to_numeric(df["Thickness"], errors="raise").astype(float).values
-    s = pd.to_numeric(df["SemiDiameter"], errors="raise").astype(float).values
-    mats = df["Material"].astype(str).fillna("None").values
-    mats = np.array([m if m in mat_encoder.classes_ else "None" for m in mats], dtype=object)
-    mats_idx = mat_encoder.transform(mats)
-
-    def _scale(arr, scaler):
-        if scaler is None:
-            return arr.astype(np.float32)
-        arr2 = np.array(arr, dtype=float)
-        try:
-            lo = float(scaler.data_min_[0]); hi = float(scaler.data_max_[0])
-            arr2 = np.clip(arr2, lo, hi)
-        except Exception:
-            pass
-        return scaler.transform(arr2.reshape(-1,1)).reshape(-1).astype(np.float32)
-
-    r_s = _scale(r, radius_scaler)
-    t_s = _scale(t, thickness_scaler)
-    s_s = _scale(s, semid_scaler)
-
-    if filename_for_globals is not None:
-        parts = str(filename_for_globals).split("_")
-        try:
-            g = np.array([float(parts[-3]), float(parts[-2]), float(parts[-1])], dtype=float).reshape(1,-1)
-        except Exception:
-            g = np.zeros((1,3), dtype=float)
-    else:
-        g = np.zeros((1,3), dtype=float)
-
-    g_s = global_scaler.transform(g).reshape(-1).astype(np.float32) if global_scaler is not None else g.reshape(-1).astype(np.float32)
-
-    L = min(len(r_s), MAX_SURFACES)
-    radii = np.zeros((1,L), dtype=np.float32)
-    thicks = np.zeros((1,L), dtype=np.float32)
-    semis = np.zeros((1,L), dtype=np.float32)
-    mats_arr = np.zeros((1,L), dtype=np.int64)
-    mask = np.zeros((1,L), dtype=bool)
-    radii[0,:L] = r_s[:L]; thicks[0,:L] = t_s[:L]; semis[0,:L] = s_s[:L]; mats_arr[0,:L] = mats_idx[:L]; mask[0,:L] = True
-
-    tensors = {
-        "radius": torch.tensor(radii, device=DEVICE),
-        "thickness": torch.tensor(thicks, device=DEVICE),
-        "semi": torch.tensor(semis, device=DEVICE),
-        "mat_idx": torch.tensor(mats_arr, device=DEVICE),
-        "mask": torch.tensor(mask, device=DEVICE),
-        "globals": torch.tensor(g_s.reshape(1,-1), device=DEVICE)
-    }
-
-    model.eval()
-    with torch.no_grad():
-        preds = model(tensors["radius"], tensors["thickness"], tensors["semi"], tensors["mat_idx"], tensors["mask"], tensors["globals"])
-    preds_np = preds.cpu().numpy()
-    preds_orig = target_scaler.inverse_transform(preds_np)
-    return dict(zip(TARGET_COLS, preds_orig.reshape(-1).tolist()))
-
-# example usage (uncomment / change path if you want to test)
-out = predict_lens(os.path.join(MATERIALS_CLEANED_FOLDER, "CH321571_Example01P_LensData_21.6_5.6_60.csv"),
-                   filename_for_globals="CH321571_Example01P_LensData_21.6_5.6_60")
-print(out)
+print("Saved artifacts to ./artifacts/: scalers, encoders, model, histories, and predictions.")
