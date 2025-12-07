@@ -51,7 +51,7 @@ TARGET_COLS = [
     "Long_0.4861", "Long_0.5876", "Long_0.6563",
     "Poly",
     "RMS_0.4861", "RMS_0.5876", "RMS_0.6563",
-    "Rel. Ill", "Effective F/#"
+    "Effective F/#" #"Rel. Ill", 
 ]
 
 # ---------------------------

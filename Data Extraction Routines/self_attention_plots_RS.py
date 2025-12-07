@@ -32,7 +32,7 @@ TARGET_COLS = [
     "Long_0.4861", "Long_0.5876", "Long_0.6563",
     "Poly",
     "RMS_0.4861", "RMS_0.5876", "RMS_0.6563",
-    "Rel. Ill", "Effective F/#"
+    "Effective F/#" #"Rel. Ill", 
 ]
 
 # ---- 1) Loss curve (train + val on same plot) ----
@@ -51,11 +51,11 @@ plt.show()
 # ---- helper to draw matrix of pred vs actuals (2x6 layout if <=12 targets) ----
 def plot_pred_vs_actual_matrix(preds_all, targs_all, title_prefix=""):
     num_targets = preds_all.shape[1]
-    # if num_targets <= 12:
-    #     rows, cols = 2, 6
-    # else:
-    cols = math.ceil(math.sqrt(num_targets))
-    rows = math.ceil(num_targets / cols)
+    if num_targets <= 12:
+        rows, cols = 2, 5
+    else:
+        cols = math.ceil(math.sqrt(num_targets))
+        rows = math.ceil(num_targets / cols)
 
     fig, axes = plt.subplots(rows, cols, figsize=(4*cols, 4*rows))
     axes = np.array(axes).reshape(-1)
@@ -87,7 +87,7 @@ def plot_pred_vs_actual_matrix(preds_all, targs_all, title_prefix=""):
 
     fig.suptitle(title_prefix, fontsize=14)
     fig.tight_layout(rect=[0, 0.03, 1, 0.97])
-    fig.subplots_adjust(hspace=0.6, wspace=0.3)
+    fig.subplots_adjust(hspace=0.4, wspace=0.3) # extra spacing
     plt.show()
     return fig
 
