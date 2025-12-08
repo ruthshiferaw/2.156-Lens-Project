@@ -36,7 +36,7 @@ TARGET_COLS = [
     "Long_0.4861", "Long_0.5876", "Long_0.6563",
     "Poly",
     "RMS_0.4861", "RMS_0.5876", "RMS_0.6563",
-    "Rel. Ill", "Effective F/#"
+    "Effective F/#" #"Rel. Ill", 
 ]
 
 # ---------- helper: save+show utility ----------
@@ -49,7 +49,7 @@ def save_and_show(fig, out_path, dpi=150):
     plt.show()
 
 # ---- 1) Loss curve (train + val on same plot) ----
-fig1 = plt.figure(figsize=(8,5))
+fig1 = plt.figure(figsize=(4, 8))
 epochs = np.arange(1, len(train_losses)+1)
 plt.plot(epochs, train_losses, marker='o', label='Train Loss')
 plt.plot(epochs, val_losses, marker='o', label='Val Loss')
@@ -92,7 +92,7 @@ def plot_pred_vs_actual_matrix(preds_all, targs_all, title_prefix="", out_png=No
         if mn == mx:
             # avoid degenerate line
             mx = mn + 1.0
-        ax.plot([mn, mx], [mn, mx], linestyle="--", linewidth=1)
+        ax.plot([0, 1], [0, 1], linestyle="--", linewidth=1)
         ax.set_title(f"{TARGET_COLS[i]}", fontsize=10)
         # text-only R^2 in corner:
         ax.text(0.02, 0.95, f"R² = {r2s_local[i]:.3f}", transform=ax.transAxes,
@@ -100,6 +100,8 @@ def plot_pred_vs_actual_matrix(preds_all, targs_all, title_prefix="", out_png=No
                 bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.6, edgecolor='none'))
         ax.set_xlabel("Actual")
         ax.set_ylabel("Predicted")
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
 
     for j in range(num_targets, len(axes)):
         fig.delaxes(axes[j])

@@ -12,7 +12,7 @@ ROOT_DIR = r"Prime Lenses + Data\LensDataExports"
 
 # Folder where summary CSVs and plots will be written
 OUTPUT_DIR = os.path.join(
-    r"Prime Lenses + Data\CSVExports",
+    r"Prime Lenses + Data",
     "LensDataAnalysis"
 )
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -257,10 +257,11 @@ print(f"\nSaved surfaces-per-lens table to:\n  {surface_csv_path}")
 # Plot histogram
 plt.figure()
 surfaces_per_lens["n_surfaces"].hist(bins=30)
-plt.xlabel("Number of Surfaces per Lens (row_count - 1)")
+plt.xlabel("Number of Surfaces per Lens")
 plt.ylabel("Count of Lens Designs")
 plt.title("Distribution of Surface Counts Across All Lenses")
 plt.tight_layout()
+plt.grid(False) 
 
 hist_path = os.path.join(PLOTS_DIR, "surfaces_per_lens_histogram.png")
 plt.savefig(hist_path, dpi=200)

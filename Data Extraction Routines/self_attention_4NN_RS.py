@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-transformer_no_impute_final.py
+transformer_multiheads.py
 
-Assumes:
- - Summary CSV already cleaned & imputed: CLEANED_SUMMARY_CSV
- - Per-surface CSVs are in MATERIALS_CLEANED_FOLDER and already cleaned (no NaN/Inf)
-This script WILL NOT impute or modify data; it only validates, fits scalers on finite data,
-trains/validates the transformer, and writes artifacts (no plotting).
+Trains FOUR separate transformer models, one per metric group:
+  1) Field curvature -> ["Tan Shift","Sag Shift"]
+  2) Longitudinal   -> ["Long_0.4861","Long_0.5876","Long_0.6563"]
+  3) RMSvField      -> ["Poly","RMS_0.4861","RMS_0.5876","RMS_0.6563"]
+  4) Vignetting     -> ["Effective F/#"]
+
+Each model is trained sequentially and artifacts are saved under ./artifacts/
+(no plotting).
 """
 import os
 import glob
@@ -22,6 +25,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
+import joblib
 
 # ---------------------------
 # CONFIG / HYPERPARAMS
@@ -30,13 +34,13 @@ CLEANED_SUMMARY_CSV = r"Prime Lenses + Data/CSVExports/file_lens_summary_normali
 MATERIALS_CLEANED_FOLDER = r"Prime Lenses + Data/LensDataExportsRenamedMaterialsCleaned"
 
 BATCH_SIZE = 32
-EMBED_DIM = 256 #256
-NUM_HEADS = 16
-NUM_LAYERS = 8 #8
+EMBED_DIM = 256
+NUM_HEADS = 8
+NUM_LAYERS = 8
 MLP_HIDDEN = 256
-DROPOUT = 0.1 ##0.35 how many neurons to drop out (set to zero) during training to prevent overfitting
-LR = 1e-4 ##3e-5
-WEIGHT_DECAY = 1e-5 #1e-5 penalty to loss function that discourages large weights/overfitting
+DROPOUT = 0.1
+LR = 1e-4
+WEIGHT_DECAY = 1e-5
 NUM_EPOCHS = 60
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MAX_SURFACES = 60
@@ -46,13 +50,25 @@ torch.manual_seed(RANDOM_SEED)
 np.random.seed(RANDOM_SEED)
 random.seed(RANDOM_SEED)
 
+# master list of all targets present in your summary CSV (subset earlier)
 TARGET_COLS = [
     "Tan Shift", "Sag Shift",
     "Long_0.4861", "Long_0.5876", "Long_0.6563",
     "Poly",
     "RMS_0.4861", "RMS_0.5876", "RMS_0.6563",
-    "Effective F/#" #"Rel. Ill", 
+    "Effective F/#"
 ]
+
+# define groups (names used in filenames); each value is a list of TARGET_COLS names
+GROUPS = {
+    "field_curvature":            ["Tan Shift", "Sag Shift"],
+    "longitudinal":               ["Long_0.4861", "Long_0.5876", "Long_0.6563"],
+    "rms_v_field":                ["Poly", "RMS_0.4861", "RMS_0.5876", "RMS_0.6563"],
+    "vignetting":                 ["Effective F/#"]
+}
+
+ART_DIR = "artifacts"
+os.makedirs(ART_DIR, exist_ok=True)
 
 # ---------------------------
 # Helpers: robust CSV read (tries several encodings)
@@ -84,10 +100,16 @@ if not os.path.isfile(CLEANED_SUMMARY_CSV):
 summary = read_csv_tolerant(CLEANED_SUMMARY_CSV)
 print("Loaded summary shape:", summary.shape)
 
-# Validate target columns exist
+# Validate master target columns exist
 missing_targets = [c for c in TARGET_COLS if c not in summary.columns]
 if missing_targets:
     raise SystemExit(f"Missing target columns in cleaned summary CSV: {missing_targets}")
+
+# ensure each group columns exist
+for gname, cols in GROUPS.items():
+    miss = [c for c in cols if c not in summary.columns]
+    if miss:
+        raise SystemExit(f"Group '{gname}' missing columns in summary CSV: {miss}")
 
 # coerce and validate numeric finiteness for target columns
 summary[TARGET_COLS] = summary[TARGET_COLS].apply(pd.to_numeric, errors="raise")
@@ -203,12 +225,11 @@ if len(global_list) > 0:
 else:
     global_scaler = None
 
-# # targets scaler (summary targets are clean)
-# target_vals = np.vstack([info["targets"] for info in lens_info.values()])
-# target_scaler = MinMaxScaler().fit(target_vals)
-target_scaler = None
+# targets scaler for FULL set (kept for compatibility) - but we'll also fit per-group scalers
+target_vals = np.vstack([info["targets"] for info in lens_info.values()])
+target_scaler_full = MinMaxScaler().fit(target_vals)
 
-# print("Fitted scalers.")
+print("Fitted scalers.")
 
 # ---------------------------
 # 4) Dataset (NO imputation here)
@@ -280,11 +301,7 @@ class LensDataset(Dataset):
         globals_scaled = (self.global_scaler.transform(globals_raw).reshape(-1).astype(np.float32)
                           if self.global_scaler is not None else globals_raw.reshape(-1).astype(np.float32))
         targets = self.lens_info[fname]["targets"].reshape(1,-1)
-        if self.target_scaler is None:
-            # return raw targets (float32) — will be scaled later after we fit scaler on train set
-            targets_scaled = targets.reshape(-1).astype(np.float32)
-        else:
-            targets_scaled = self.target_scaler.transform(targets).reshape(-1).astype(np.float32)
+        targets_scaled = self.target_scaler.transform(targets).reshape(-1).astype(np.float32)
 
         return tokens, globals_scaled, targets_scaled, fname
 
@@ -328,7 +345,7 @@ def collate_fn(batch):
 # Model definition (same architecture)
 # ---------------------------
 class SurfaceTransformerModel(nn.Module):
-    def __init__(self, n_materials, embed_dim=EMBED_DIM, num_heads=NUM_HEADS, num_layers=NUM_LAYERS, mlp_hidden=MLP_HIDDEN, dropout=DROPOUT, num_targets=len(TARGET_COLS)):
+    def __init__(self, n_materials, embed_dim=EMBED_DIM, num_heads=NUM_HEADS, num_layers=NUM_LAYERS, mlp_hidden=MLP_HIDDEN, dropout=DROPOUT, num_targets=1):
         super().__init__()
         self.embed_dim = embed_dim
         self.num_proj = nn.Linear(3, embed_dim//2)
@@ -374,7 +391,7 @@ class SurfaceTransformerModel(nn.Module):
         return preds
 
 # ---------------------------
-# Prepare data / dataloaders
+# Prepare data / dataloaders (shared across groups)
 # ---------------------------
 all_keys = list(lens_info.keys())
 all_keys = [k for k in all_keys if os.path.splitext(k)[0] in surface_files_by_name]
@@ -385,179 +402,183 @@ train_keys, val_keys = train_test_split(all_keys, test_size=0.15, random_state=R
 train_info = {k: lens_info[k] for k in train_keys}
 val_info = {k: lens_info[k] for k in val_keys}
 
-# Fit target_scaler on TRAIN targets only (no data-leak)
-train_target_vals = np.vstack([train_info[k]["targets"] for k in train_keys]) if len(train_keys)>0 else np.zeros((0, len(TARGET_COLS)))
-if train_target_vals.size == 0:
-    target_scaler = None
-else:
-    target_scaler = MinMaxScaler().fit(train_target_vals)
-
-# Create datasets without scaler (they will be created below), then assign fitted scaler into them.
-train_dataset = LensDataset(train_info, surface_files_by_name, mat_encoder, radius_scaler,
-                            thickness_scaler, semid_scaler, global_scaler, target_scaler)
-val_dataset = LensDataset(val_info, surface_files_by_name, mat_encoder, radius_scaler,
-                          thickness_scaler, semid_scaler, global_scaler, target_scaler)
-
-# Save the scaler for reproducibility
-import joblib
-os.makedirs("artifacts", exist_ok=True)
-if target_scaler is not None:
-    joblib.dump(target_scaler, os.path.join("artifacts","target_scaler.joblib"))
-    print("Saved target_scaler fitted on TRAIN to artifacts/target_scaler.joblib")
-else:
-    print("No train targets found; target_scaler is None.")
-
-
-# train_dataset = LensDataset(train_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler)
-# val_dataset = LensDataset(val_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler)
+train_dataset = LensDataset(train_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler_full)
+val_dataset = LensDataset(val_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler_full)
 
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=collate_fn)
 val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn)
 
-
 # ---------------------------
-# Model init / optimizer / loss
+# Utility functions for group training/evaluation
 # ---------------------------
-n_materials = len(material_set) if len(material_set) > 0 else 1
-model = SurfaceTransformerModel(n_materials=n_materials).to(DEVICE)
+def idxs_for_cols(cols):
+    """Return list of indices into TARGET_COLS for the given col names (order preserved)."""
+    return [TARGET_COLS.index(c) for c in cols]
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
-criterion = nn.MSELoss(reduction="none")
-target_weights = torch.ones(len(TARGET_COLS), device=DEVICE)
+def tensor_select_targets(full_targets_tensor, idxs):
+    """full_targets_tensor: torch tensor (B, full_T). returns (B, len(idxs))"""
+    return full_targets_tensor[:, idxs]
 
-scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=4)
-# or: scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=NUM_EPOCHS)
-
-def tensor_has_bad(tensor):
-    a = tensor.detach().cpu()
-    return torch.isnan(a).any().item() or torch.isinf(a).any().item()
-
-def evaluate(model, loader):
+def evaluate_group(model, loader, target_idxs, criterion, device=DEVICE):
     model.eval()
     total_loss = 0.0
     total_n = 0
     with torch.no_grad():
         for batch in loader:
             preds = model(batch["radius"], batch["thickness"], batch["semi"], batch["mat_idx"], batch["mask"], batch["globals"])
-            loss_mat = criterion(preds, batch["targets"])
-            weighted = loss_mat * target_weights.unsqueeze(0)
-            loss = weighted.mean()
+            # preds shape: (B, group_T)
+            targ_full = batch["targets"]
+            targ = tensor_select_targets(targ_full, target_idxs).to(preds.device)
+            loss_mat = criterion(preds, targ)
+            loss = loss_mat.mean()
             total_loss += float(loss.item()) * preds.size(0)
             total_n += preds.size(0)
     return total_loss / total_n if total_n>0 else float("nan")
 
-# ---------------------------
-# Train loop (fail-fast checks)
-# ---------------------------
-best_val = float('inf')
-
-# track losses per epoch
-train_losses_per_epoch = []
-val_losses_per_epoch = []
-
-for epoch in range(1, NUM_EPOCHS+1):
-    model.train()
-    running_loss = 0.0
-    n_samples = 0
-    for batch in train_loader:
-        # data checks
-        bad_slots = [k for k in ["radius","thickness","semi","globals","targets"] if tensor_has_bad(batch[k])]
-        if bad_slots:
-            print("Found NaN/Inf in data batch slots:", bad_slots)
-            for i,fname in enumerate(batch["fnames"]):
-                print(" Problem sample:", fname)
-            raise RuntimeError("NaN/Inf detected in batch - inputs are not clean.")
-
-        preds = model(batch["radius"], batch["thickness"], batch["semi"], batch["mat_idx"], batch["mask"], batch["globals"])
-        if tensor_has_bad(preds):
-            raise RuntimeError("Model produced non-finite predictions; aborting.")
-
-        loss_mat = criterion(preds, batch["targets"])
-        weighted = loss_mat * target_weights.unsqueeze(0)
-        loss = weighted.mean()
-
-        if not torch.isfinite(loss):
-            raise RuntimeError("Non-finite loss detected; aborting.")
-
-        optimizer.zero_grad()
-        loss.backward()
-        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-        optimizer.step()
-
-        running_loss += float(loss.item()) * preds.size(0)
-        n_samples += preds.size(0)
-
-    train_loss = running_loss / n_samples if n_samples>0 else float("nan")
-    val_loss = evaluate(model, val_loader)
-
-    # append losses for plotting later
-    train_losses_per_epoch.append(train_loss)
-    val_losses_per_epoch.append(val_loss)
-
-    print(f"Epoch {epoch}/{NUM_EPOCHS} TrainLoss={train_loss:.6f} ValLoss={val_loss:.6f}")
-
-    if val_loss < best_val:
-        best_val = val_loss
-        torch.save(model.state_dict(), "best_surface_transformer_no_impute.pth")
-        print("Saved best model.")
-
-print("Training complete. Best val loss:", best_val)
-
-# final scheduler step on last validation loss
-val_loss = evaluate(model, val_loader)
-try:
-    scheduler.step(val_loss)   # for ReduceLROnPlateau
-except Exception:
-    pass
-
-# ---------------------------
-# Save artifacts (scalers + encoders + model + histories + preds)
-# ---------------------------
-import joblib, os
-os.makedirs("artifacts", exist_ok=True)
-torch.save(model.state_dict(), "artifacts/best_surface_transformer.pth")
-joblib.dump(target_scaler, "artifacts/target_scaler.joblib")
-joblib.dump(radius_scaler, "artifacts/radius_scaler.joblib")
-joblib.dump(thickness_scaler, "artifacts/thickness_scaler.joblib")
-joblib.dump(semid_scaler, "artifacts/semid_scaler.joblib")
-joblib.dump(global_scaler, "artifacts/global_scaler.joblib")
-joblib.dump(mat_encoder, "artifacts/mat_encoder.joblib")
-
-# helper to collect preds/targets across a loader and inverse-transform
-def collect_preds_targets(loader):
-    preds_list, targs_list = [], []
-    fnames = []
+def collect_preds_targets_group(model, loader, target_idxs):
+    preds_list, targs_list, fnames = [], [], []
     model.eval()
     with torch.no_grad():
         for batch in loader:
-            preds = model(batch["radius"], batch["thickness"], batch["semi"],
-                          batch["mat_idx"], batch["mask"], batch["globals"])
+            preds = model(batch["radius"], batch["thickness"], batch["semi"], batch["mat_idx"], batch["mask"], batch["globals"])
+            targ_full = batch["targets"]
+            targ = tensor_select_targets(targ_full, target_idxs)
             preds_list.append(preds.cpu().numpy())
-            targs_list.append(batch["targets"].cpu().numpy())
+            targs_list.append(targ.cpu().numpy())
             fnames.extend(batch["fnames"])
     if len(preds_list) == 0:
-        return np.zeros((0, len(TARGET_COLS))), np.zeros((0, len(TARGET_COLS))), fnames
+        return np.zeros((0, len(target_idxs))), np.zeros((0, len(target_idxs))), fnames
     preds_all = np.vstack(preds_list)
     targs_all = np.vstack(targs_list)
-    # inverse-transform if possible
+    return preds_all, targs_all, fnames
+
+# ---------------------------
+# Train one model per group sequentially
+# ---------------------------
+for gname, cols in GROUPS.items():
+    print("\n" + "="*60)
+    print(f"Training group '{gname}' -> columns: {cols}")
+    idxs = idxs_for_cols(cols)
+    group_T = len(idxs)
+
+    # per-group target scaler (fit on train targets only for this group's columns)
+    train_target_vals = np.vstack([train_info[k]["summary_row"][cols].values.astype(float) for k in train_keys]) if len(train_keys)>0 else np.zeros((0, group_T))
+    group_target_scaler = MinMaxScaler().fit(train_target_vals) if train_target_vals.shape[0]>0 else None
+    # save per-group target scaler
+    joblib.dump(group_target_scaler, os.path.join(ART_DIR, f"target_scaler__{gname}.joblib"))
+
+    # instantiate model for this group's output size
+    n_materials = len(material_set) if len(material_set) > 0 else 1
+    model = SurfaceTransformerModel(n_materials=n_materials, num_targets=group_T).to(DEVICE)
+
+    optimizer = torch.optim.AdamW(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
+    criterion = nn.MSELoss(reduction="none")
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=4)
+
+    best_val = float('inf')
+    train_losses_per_epoch = []
+    val_losses_per_epoch = []
+
+    # TRAIN LOOP
+    for epoch in range(1, NUM_EPOCHS+1):
+        model.train()
+        running_loss = 0.0
+        n_samples = 0
+        for batch in train_loader:
+            # basic data checks
+            bad_slots = [k for k in ["radius","thickness","semi","globals","targets"] if (k in batch and (torch.isnan(batch[k]).any().item() or torch.isinf(batch[k]).any().item()) if torch.is_tensor(batch[k]) else False)]
+            if bad_slots:
+                print("Found NaN/Inf in data batch slots:", bad_slots)
+                for i,fname in enumerate(batch["fnames"]):
+                    print(" Problem sample:", fname)
+                raise RuntimeError("NaN/Inf detected in batch - inputs are not clean.")
+
+            preds = model(batch["radius"], batch["thickness"], batch["semi"], batch["mat_idx"], batch["mask"], batch["globals"])
+            targ_full = batch["targets"]
+            targ = tensor_select_targets(targ_full, idxs).to(preds.device)
+
+            # optionally scale targets with group scaler (we trained group scaler on original units)
+            # Note: LensDataset already returned targets_scaled wrt target_scaler_full (full scaler).
+            # To keep behavior close to original, we'll assume dataset's returned 'targets' are already scaled by full scaler.
+            # We therefore compute loss directly on those scaled targets but we must ensure consistency across groups.
+            # (Simpler: compute loss on dataset's returned scaled targets subset.)
+            loss_mat = criterion(preds, targ)
+            loss = loss_mat.mean()
+
+            if not torch.isfinite(loss):
+                raise RuntimeError("Non-finite loss detected; aborting.")
+
+            optimizer.zero_grad()
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+            optimizer.step()
+
+            running_loss += float(loss.item()) * preds.size(0)
+            n_samples += preds.size(0)
+
+        train_loss = running_loss / n_samples if n_samples>0 else float("nan")
+        val_loss = evaluate_group(model, val_loader, idxs, criterion)
+
+        train_losses_per_epoch.append(train_loss)
+        val_losses_per_epoch.append(val_loss)
+
+        print(f"[{gname}] Epoch {epoch}/{NUM_EPOCHS} TrainLoss={train_loss:.6f} ValLoss={val_loss:.6f}")
+
+        if val_loss < best_val:
+            best_val = val_loss
+            model_path = os.path.join(ART_DIR, f"best_surface_transformer__{gname}.pth")
+            torch.save(model.state_dict(), model_path)
+            print(f"[{gname}] Saved best model -> {model_path}")
+
+    print(f"[{gname}] Training complete. Best val loss: {best_val:.6f}")
+
+    # final scheduler step
     try:
-        preds_orig = target_scaler.inverse_transform(preds_all)
-        targs_orig = target_scaler.inverse_transform(targs_all)
+        scheduler.step(best_val)
     except Exception:
-        preds_orig = preds_all.copy()
-        targs_orig = targs_all.copy()
-    return preds_orig, targs_orig, fnames
+        pass
 
-# collect and save training & validation preds/targets
-preds_train, targs_train, train_fnames = collect_preds_targets(train_loader)
-preds_val, targs_val, val_fnames = collect_preds_targets(val_loader)
+    # Save model & per-group artifacts
+    torch.save(model.state_dict(), os.path.join(ART_DIR, f"surface_transformer_final__{gname}.pth"))
+    joblib.dump(group_target_scaler, os.path.join(ART_DIR, f"target_scaler__{gname}.joblib"))
 
-np.savez(os.path.join("artifacts", "train_history.npz"),
-         train_losses=np.array(train_losses_per_epoch),
-         val_losses=np.array(val_losses_per_epoch))
-np.savez(os.path.join("artifacts", "val_predictions.npz"),
-         preds=preds_val, targs=targs_val, fnames=np.array(val_fnames, dtype=object))
-np.savez(os.path.join("artifacts", "train_predictions.npz"),
-         preds=preds_train, targs=targs_train, fnames=np.array(train_fnames, dtype=object))
+    # Collect preds/targets for train & val (these are in the dataset's scaled space)
+    preds_train, targs_train, train_fnames = collect_preds_targets_group(model, train_loader, idxs)
+    preds_val, targs_val, val_fnames = collect_preds_targets_group(model, val_loader, idxs)
 
-print("Saved artifacts to ./artifacts/: scalers, encoders, model, histories, and predictions.")
+    # Attempt to inverse-transform with group_target_scaler if present (for saved predictions in original units)
+    try:
+        if group_target_scaler is not None and preds_train.size>0:
+            preds_train_orig = group_target_scaler.inverse_transform(preds_train)
+            targs_train_orig = group_target_scaler.inverse_transform(targs_train)
+            preds_val_orig = group_target_scaler.inverse_transform(preds_val)
+            targs_val_orig = group_target_scaler.inverse_transform(targs_val)
+        else:
+            preds_train_orig = preds_train.copy(); targs_train_orig = targs_train.copy()
+            preds_val_orig = preds_val.copy(); targs_val_orig = targs_val.copy()
+    except Exception:
+        preds_train_orig = preds_train.copy(); targs_train_orig = targs_train.copy()
+        preds_val_orig = preds_val.copy(); targs_val_orig = targs_val.copy()
+
+    # Save histories & predictions for this group
+    np.savez(os.path.join(ART_DIR, f"train_history__{gname}.npz"),
+             train_losses=np.array(train_losses_per_epoch),
+             val_losses=np.array(val_losses_per_epoch))
+    np.savez(os.path.join(ART_DIR, f"val_predictions__{gname}.npz"),
+             preds=preds_val_orig, targs=targs_val_orig, fnames=np.array(val_fnames, dtype=object), cols=np.array(cols, dtype=object))
+    np.savez(os.path.join(ART_DIR, f"train_predictions__{gname}.npz"),
+             preds=preds_train_orig, targs=targs_train_orig, fnames=np.array(train_fnames, dtype=object), cols=np.array(cols, dtype=object))
+
+    print(f"[{gname}] Saved artifacts: model, scalers, histories, predictions.")
+
+# ---------------------------
+# Save shared artifacts (scalers, encoders)
+# ---------------------------
+joblib.dump(target_scaler_full, os.path.join(ART_DIR, "target_scaler_full.joblib"))
+joblib.dump(radius_scaler, os.path.join(ART_DIR, "radius_scaler.joblib"))
+joblib.dump(thickness_scaler, os.path.join(ART_DIR, "thickness_scaler.joblib"))
+joblib.dump(semid_scaler, os.path.join(ART_DIR, "semid_scaler.joblib"))
+joblib.dump(global_scaler, os.path.join(ART_DIR, "global_scaler.joblib"))
+joblib.dump(mat_encoder, os.path.join(ART_DIR, "mat_encoder.joblib"))
+
+print("Saved shared artifacts to ./artifacts/ (scalers, encoders).")

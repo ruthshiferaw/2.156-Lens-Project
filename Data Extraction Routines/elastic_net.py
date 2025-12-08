@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """
-transformer_no_impute_final.py
+transformer_no_impute_final_with_elasticnet.py
 
-Assumes:
- - Summary CSV already cleaned & imputed: CLEANED_SUMMARY_CSV
- - Per-surface CSVs are in MATERIALS_CLEANED_FOLDER and already cleaned (no NaN/Inf)
-This script WILL NOT impute or modify data; it only validates, fits scalers on finite data,
-trains/validates the transformer, and writes artifacts (no plotting).
+Same as your transformer_no_impute_final.py but uses Elastic Net (L1 + L2) regularization
+instead of Dropout in the MLP head. The Elastic Net penalty is added to the training loss only.
 """
 import os
 import glob
@@ -30,17 +27,22 @@ CLEANED_SUMMARY_CSV = r"Prime Lenses + Data/CSVExports/file_lens_summary_normali
 MATERIALS_CLEANED_FOLDER = r"Prime Lenses + Data/LensDataExportsRenamedMaterialsCleaned"
 
 BATCH_SIZE = 32
-EMBED_DIM = 256 #256
-NUM_HEADS = 16
-NUM_LAYERS = 8 #8
+EMBED_DIM = 256
+NUM_HEADS = 8
+NUM_LAYERS = 8
 MLP_HIDDEN = 256
-DROPOUT = 0.1 ##0.35 how many neurons to drop out (set to zero) during training to prevent overfitting
-LR = 1e-4 ##3e-5
-WEIGHT_DECAY = 1e-5 #1e-5 penalty to loss function that discourages large weights/overfitting
+# DROPOUT no longer used for regularization; keep param for compatibility but not applied
+DROPOUT = 0.0
+LR = 1e-4
+WEIGHT_DECAY = 0.0  # set to 0 because we compute L2 manually (avoid double-counting)
 NUM_EPOCHS = 60
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MAX_SURFACES = 60
 RANDOM_SEED = 42
+
+# Elastic Net hyperparams (new)
+ELASTIC_LAMBDA = 1e-4  # overall regularization strength — tune this
+L1_RATIO = 0.5         # fraction of L1 in elastic net (0 = pure L2, 1 = pure L1)
 
 torch.manual_seed(RANDOM_SEED)
 np.random.seed(RANDOM_SEED)
@@ -51,7 +53,7 @@ TARGET_COLS = [
     "Long_0.4861", "Long_0.5876", "Long_0.6563",
     "Poly",
     "RMS_0.4861", "RMS_0.5876", "RMS_0.6563",
-    "Effective F/#" #"Rel. Ill", 
+    "Effective F/#"
 ]
 
 # ---------------------------
@@ -188,7 +190,6 @@ print("Collected numeric counts -> radius:", len(num_radius),
 
 # ---------------------------
 # 3) Fit scalers on finite data (no imputation)
-# ---------------------------
 radius_scaler = MinMaxScaler().fit(np.array(num_radius).reshape(-1,1)) if len(num_radius)>0 else None
 thickness_scaler = MinMaxScaler().fit(np.array(num_thickness).reshape(-1,1)) if len(num_thickness)>0 else None
 semid_scaler = MinMaxScaler().fit(np.array(num_semid).reshape(-1,1)) if len(num_semid)>0 else None
@@ -203,16 +204,13 @@ if len(global_list) > 0:
 else:
     global_scaler = None
 
-# # targets scaler (summary targets are clean)
-# target_vals = np.vstack([info["targets"] for info in lens_info.values()])
-# target_scaler = MinMaxScaler().fit(target_vals)
+# NOTE: do NOT fit target_scaler here to avoid leakage. We'll fit it on TRAIN only after the split.
 target_scaler = None
 
-# print("Fitted scalers.")
+print("Fitted token & global scalers (target scaler will be fit on TRAIN only later).")
 
 # ---------------------------
 # 4) Dataset (NO imputation here)
-# ---------------------------
 class LensDataset(Dataset):
     def __init__(self, lens_info, surface_files_by_name, mat_encoder,
                  radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler,
@@ -280,8 +278,8 @@ class LensDataset(Dataset):
         globals_scaled = (self.global_scaler.transform(globals_raw).reshape(-1).astype(np.float32)
                           if self.global_scaler is not None else globals_raw.reshape(-1).astype(np.float32))
         targets = self.lens_info[fname]["targets"].reshape(1,-1)
+        # if target_scaler was provided, transform; otherwise return raw targets
         if self.target_scaler is None:
-            # return raw targets (float32) — will be scaled later after we fit scaler on train set
             targets_scaled = targets.reshape(-1).astype(np.float32)
         else:
             targets_scaled = self.target_scaler.transform(targets).reshape(-1).astype(np.float32)
@@ -325,8 +323,7 @@ def collate_fn(batch):
     }
 
 # ---------------------------
-# Model definition (same architecture)
-# ---------------------------
+# Model definition (same architecture but Dropout replaced/removed from head)
 class SurfaceTransformerModel(nn.Module):
     def __init__(self, n_materials, embed_dim=EMBED_DIM, num_heads=NUM_HEADS, num_layers=NUM_LAYERS, mlp_hidden=MLP_HIDDEN, dropout=DROPOUT, num_targets=len(TARGET_COLS)):
         super().__init__()
@@ -339,14 +336,15 @@ class SurfaceTransformerModel(nn.Module):
         encoder_layer = nn.TransformerEncoderLayer(d_model=embed_dim, nhead=num_heads, dim_feedforward=embed_dim*4, dropout=dropout, activation='gelu')
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
         self.global_proj = nn.Linear(3, embed_dim//2)
+        # Dropout layers removed — replaced with Identity so head shape remains the same
         self.head = nn.Sequential(
             nn.LayerNorm(embed_dim + embed_dim//2),
             nn.Linear(embed_dim + embed_dim//2, mlp_hidden),
             nn.GELU(),
-            nn.Dropout(dropout),
+            nn.Identity(),
             nn.Linear(mlp_hidden, mlp_hidden//2),
             nn.GELU(),
-            nn.Dropout(dropout),
+            nn.Identity(),
             nn.Linear(mlp_hidden//2, num_targets)
         )
 
@@ -375,7 +373,6 @@ class SurfaceTransformerModel(nn.Module):
 
 # ---------------------------
 # Prepare data / dataloaders
-# ---------------------------
 all_keys = list(lens_info.keys())
 all_keys = [k for k in all_keys if os.path.splitext(k)[0] in surface_files_by_name]
 if len(all_keys) == 0:
@@ -385,20 +382,13 @@ train_keys, val_keys = train_test_split(all_keys, test_size=0.15, random_state=R
 train_info = {k: lens_info[k] for k in train_keys}
 val_info = {k: lens_info[k] for k in val_keys}
 
-# Fit target_scaler on TRAIN targets only (no data-leak)
+# Fit target_scaler on TRAIN targets only (no leakage)
 train_target_vals = np.vstack([train_info[k]["targets"] for k in train_keys]) if len(train_keys)>0 else np.zeros((0, len(TARGET_COLS)))
 if train_target_vals.size == 0:
     target_scaler = None
 else:
     target_scaler = MinMaxScaler().fit(train_target_vals)
-
-# Create datasets without scaler (they will be created below), then assign fitted scaler into them.
-train_dataset = LensDataset(train_info, surface_files_by_name, mat_encoder, radius_scaler,
-                            thickness_scaler, semid_scaler, global_scaler, target_scaler)
-val_dataset = LensDataset(val_info, surface_files_by_name, mat_encoder, radius_scaler,
-                          thickness_scaler, semid_scaler, global_scaler, target_scaler)
-
-# Save the scaler for reproducibility
+# Save that scaler
 import joblib
 os.makedirs("artifacts", exist_ok=True)
 if target_scaler is not None:
@@ -407,17 +397,14 @@ if target_scaler is not None:
 else:
     print("No train targets found; target_scaler is None.")
 
-
-# train_dataset = LensDataset(train_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler)
-# val_dataset = LensDataset(val_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler)
+train_dataset = LensDataset(train_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler)
+val_dataset = LensDataset(val_info, surface_files_by_name, mat_encoder, radius_scaler, thickness_scaler, semid_scaler, global_scaler, target_scaler)
 
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=collate_fn)
 val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn)
 
-
 # ---------------------------
 # Model init / optimizer / loss
-# ---------------------------
 n_materials = len(material_set) if len(material_set) > 0 else 1
 model = SurfaceTransformerModel(n_materials=n_materials).to(DEVICE)
 
@@ -426,11 +413,25 @@ criterion = nn.MSELoss(reduction="none")
 target_weights = torch.ones(len(TARGET_COLS), device=DEVICE)
 
 scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=4)
-# or: scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=NUM_EPOCHS)
 
 def tensor_has_bad(tensor):
     a = tensor.detach().cpu()
     return torch.isnan(a).any().item() or torch.isinf(a).any().item()
+
+def compute_elastic_net_penalty(model, lmbda=ELASTIC_LAMBDA, l1_ratio=L1_RATIO):
+    """Compute L1 and L2 (squared) sums over model parameters (excluding biases / scalars)."""
+    l1 = torch.tensor(0.0, device=DEVICE)
+    l2 = torch.tensor(0.0, device=DEVICE)
+    for p in model.parameters():
+        if not p.requires_grad:
+            continue
+        # exclude biases / 0-dim params from regularization
+        if p.dim() <= 1:
+            continue
+        l1 = l1 + p.abs().sum()
+        l2 = l2 + (p * p).sum()
+    # Elastic net: lmbda * ( l1_ratio * L1 + (1-l1_ratio) * 0.5 * L2 )
+    return lmbda * (l1_ratio * l1 + (1.0 - l1_ratio) * 0.5 * l2)
 
 def evaluate(model, loader):
     model.eval()
@@ -447,8 +448,7 @@ def evaluate(model, loader):
     return total_loss / total_n if total_n>0 else float("nan")
 
 # ---------------------------
-# Train loop (fail-fast checks)
-# ---------------------------
+# Train loop (add elastic net penalty to training loss only)
 best_val = float('inf')
 
 # track losses per epoch
@@ -474,7 +474,11 @@ for epoch in range(1, NUM_EPOCHS+1):
 
         loss_mat = criterion(preds, batch["targets"])
         weighted = loss_mat * target_weights.unsqueeze(0)
-        loss = weighted.mean()
+        base_loss = weighted.mean()
+
+        # compute elastic net penalty (training only)
+        reg = compute_elastic_net_penalty(model, lmbda=ELASTIC_LAMBDA, l1_ratio=L1_RATIO)
+        loss = base_loss + reg
 
         if not torch.isfinite(loss):
             raise RuntimeError("Non-finite loss detected; aborting.")
@@ -484,7 +488,7 @@ for epoch in range(1, NUM_EPOCHS+1):
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
 
-        running_loss += float(loss.item()) * preds.size(0)
+        running_loss += float(base_loss.item()) * preds.size(0)  # record base loss (without reg) for logging comparability
         n_samples += preds.size(0)
 
     train_loss = running_loss / n_samples if n_samples>0 else float("nan")
@@ -494,11 +498,11 @@ for epoch in range(1, NUM_EPOCHS+1):
     train_losses_per_epoch.append(train_loss)
     val_losses_per_epoch.append(val_loss)
 
-    print(f"Epoch {epoch}/{NUM_EPOCHS} TrainLoss={train_loss:.6f} ValLoss={val_loss:.6f}")
+    print(f"Epoch {epoch}/{NUM_EPOCHS} TrainLoss={train_loss:.6f} ValLoss={val_loss:.6f} (reg={float(reg.item()):.6g})")
 
     if val_loss < best_val:
         best_val = val_loss
-        torch.save(model.state_dict(), "best_surface_transformer_no_impute.pth")
+        torch.save(model.state_dict(), "best_surface_transformer_no_impute_elasticnet.pth")
         print("Saved best model.")
 
 print("Training complete. Best val loss:", best_val)
@@ -506,16 +510,15 @@ print("Training complete. Best val loss:", best_val)
 # final scheduler step on last validation loss
 val_loss = evaluate(model, val_loader)
 try:
-    scheduler.step(val_loss)   # for ReduceLROnPlateau
+    scheduler.step(val_loss)
 except Exception:
     pass
 
 # ---------------------------
 # Save artifacts (scalers + encoders + model + histories + preds)
-# ---------------------------
 import joblib, os
 os.makedirs("artifacts", exist_ok=True)
-torch.save(model.state_dict(), "artifacts/best_surface_transformer.pth")
+torch.save(model.state_dict(), "artifacts/best_surface_transformer_elasticnet.pth")
 joblib.dump(target_scaler, "artifacts/target_scaler.joblib")
 joblib.dump(radius_scaler, "artifacts/radius_scaler.joblib")
 joblib.dump(thickness_scaler, "artifacts/thickness_scaler.joblib")
