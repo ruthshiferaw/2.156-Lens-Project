@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,7239458.233416611,130819.68004041509,nan,12861.682062363132,0.0,,,,,,,,
+0,Standard,,7239458.233416612,130819.68004041509,nan,12861.682062363132,0.0,,,,,,,,
 1,Standard,,45.969,2.07,NBFD15-W,26.7,0.0,,,,,,,,
 2,Standard,,23.964,5.22,NBFD15-W,21.62,0.0,,,,,,,,
 3,Standard,,31.781,2.5,M-TAF1,21.51,0.0,,,,,,,,
@@ -16,7 +16,7 @@ Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A
 14,Standard,,-32.99,0.01,LBC3N,16.64,0.0,,,,,,,,
 15,Standard,,-32.99,1.1,LBC3N,16.64,0.0,,,,,,,,
 16,Standard,,69.897,4.126,E-FD5,16.64,0.0,,,,,,,,
-17,Standard,,7239458.233416611,6.229,E-FD5,13.6735,0.0,,,,,,,,
+17,Standard,,7239458.233416612,6.229,E-FD5,13.6735,0.0,,,,,,,,
 18,Standard,,-22.523,1.2,S-TIH1,14.14,0.0,,,,,,,,
 19,Standard,,46.3619999999999,0.01,S-TIH1,15.95,0.0,,,,,,,,
 20,Standard,,46.3619999999999,5.093,S-TIH1,15.95,0.0,,,,,,,,
@@ -25,4 +25,4 @@ Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A
 23,Standard,,-30.894,0.15,J-PSKH1,16.83,0.0,,,,,,,,
 24,Standard,,-49.4840000000001,3.845,LAL14,16.95,0.0,,,,,,,,
 25,Standard,,-30.653,37.79603709953,LAL14,16.95,0.0,,,,,,,,
-26,Standard,,7239458.233416611,130819.68004041509,LAL14,21.6,0.0,,,,,,,,
+26,Standard,,7239458.233416612,130819.68004041509,LAL14,21.6,0.0,,,,,,,,

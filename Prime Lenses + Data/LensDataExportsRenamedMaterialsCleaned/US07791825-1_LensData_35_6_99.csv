@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,7239458.233416611,277.72586,nan,69.9349943428319,0,,,,,,,,
+0,Standard,,7239458.233416612,277.72586,nan,69.9349943428319,0,,,,,,,,
 1,Standard,,40.2957,3.361,TAFD30,15.0,0,,,,,,,,
 2,Standard,,103.3874,0.2,TAFD30,15.0,0,,,,,,,,
 3,Standard,,40.0797,3.8298,E-ADF10,14.0,0,,,,,,,,
@@ -7,7 +7,7 @@ Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A
 5,Standard,,22.33,4.3541,MP-PCD51-70,12.0,0,,,,,,,,
 6,Standard,,-532.7755,1.379,MP-PCD51-70,12.0,0,,,,,,,,
 7,Standard,,25.5872,7.375532,N-KZFS11,11.0,0,,,,,,,,
-8,Standard,,7239458.233416611,6.161454,N-KZFS11,9.0,0,,,,,,,,
+8,Standard,,7239458.233416612,6.161454,N-KZFS11,9.0,0,,,,,,,,
 9,Standard,,-25.5872,1.379,N-KZFS11,11.0,0,,,,,,,,
 10,Standard,,532.7755,4.3541,N-KZFS11,12.0,0,,,,,,,,
 11,Standard,,-22.33,1.642433,MP-PCD51-70,12.0,0,,,,,,,,
@@ -15,4 +15,4 @@ Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A
 13,Standard,,-40.0797,0.2,E-ADF10,14.0,0,,,,,,,,
 14,Standard,,-103.3874,3.361,TAFD30,15.0,0,,,,,,,,
 15,Standard,,-40.2957,126.90085,TAFD30,15.0,0,,,,,,,,
-16,Standard,,7239458.233416611,130819.68004041509,TAFD30,35.1127984139742,0,,,,,,,,
+16,Standard,,7239458.233416612,130819.68004041509,TAFD30,35.1127984139742,0,,,,,,,,

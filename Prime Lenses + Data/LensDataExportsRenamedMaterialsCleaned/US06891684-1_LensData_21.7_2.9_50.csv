@@ -1,5 +1,5 @@
 Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A8,A10,A12,A14,A16
-0,Standard,,7239458.233416611,43.0576775461,nan,20.9085204621332,0,,,,,,,,
+0,Standard,,7239458.233416612,43.0576775461,nan,20.9085204621332,0,,,,,,,,
 1,Standard,,115.00772,1.99677,E-SK4,16.0,0,,,,,,,,
 2,Standard,,21.78411,9.751,E-SK4,13.9,0,,,,,,,,
 3,Standard,,85.78794,4.0,E-LASF013,13.9,0,,,,,,,,
@@ -12,7 +12,7 @@ Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A
 10,Standard,,-33.54624,2.0,E-LAK01,11.1,0,,,,,,,,
 11,Standard,,31.03576,6.53694,E-LAK01,12.0,0,,,,,,,,
 12,Standard,,-28.18164,4.212328,TAFD5F,12.3,0,,,,,,,,
-13,Standard,,7239458.233416611,0.4918,TAFD5F,11.0,0,,,,,,,,
+13,Standard,,7239458.233416612,0.4918,TAFD5F,11.0,0,,,,,,,,
 14,Standard,,213.35815,3.16748,E-SK14,13.6,0,,,,,,,,
 15,Standard,,-47.37145,0.3955,E-SK14,13.6,0,,,,,,,,
 16,Standard,,40.25073,5.5967,E-SK11,13.8,0,,,,,,,,
@@ -22,4 +22,4 @@ Surface,TypeName,Comment,Radius,Thickness,Material,SemiDiameter,Conic,A2,A4,A6,A
 20,Standard,,24.51316,0.63789,LASFN7,13.4,0,,,,,,,,
 21,Standard,,24.58988,3.36048,SF14,13.9,0,,,,,,,,
 22,Standard,,35.80335,37.91209,SF14,13.9,0,,,,,,,,
-23,Standard,,7239458.233416611,130819.68004041509,SF14,21.1272553433974,0,,,,,,,,
+23,Standard,,7239458.233416612,130819.68004041509,SF14,21.1272553433974,0,,,,,,,,
